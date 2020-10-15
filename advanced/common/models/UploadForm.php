@@ -31,16 +31,11 @@ class UploadForm extends Model
             {
                 if ($o == ((int)$dirnumb))
                 {
-                    var_dump("smtn");
                     $pieurl = $i;
                 }
                 $o = $o + 1;
             }
-            //var_dump($dirnumb);
-            //var_dump($dirnames);
-            //exit;
-            //FileHelper::createDirectory($path);
-            $this->pdfFile->saveAs($pieurl . date('YMD') . $this->pdfFile->baseName . '.' . $this->pdfFile->extension);
+            $this->pdfFile->saveAs($pieurl . '/' . date('YMD') . $this->pdfFile->baseName . '.' . $this->pdfFile->extension);
             return true;
         } else {
             return false;

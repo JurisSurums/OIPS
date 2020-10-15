@@ -15,6 +15,10 @@
   <component name="ChangeListManager">
     <list default="true" id="77e549de-f6ad-4a4c-aaf2-c67442ce7595" name="Default Changelist" comment="jeas">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/advanced/backend/views/site/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/advanced/backend/views/site/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/advanced/backend/web/uploads/dunno2020OctWeddummy.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/advanced/backend/web/uploads/visi22020OctWeddummy.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/advanced/common/models/UploadForm.php" beforeDir="false" afterPath="$PROJECT_DIR$/advanced/common/models/UploadForm.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -135,7 +139,7 @@
     <property name="DatabaseDriversLRU" value="mysql" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/advanced/common/models" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/advanced/backend/mail" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -149,11 +153,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/advanced/backend/mail" />
+      <recent name="$PROJECT_DIR$/advanced/common/mail" />
       <recent name="$PROJECT_DIR$/advanced/common/models" />
       <recent name="$PROJECT_DIR$/advanced/backend/views" />
       <recent name="$PROJECT_DIR$/advanced/backend/controllers" />
-      <recent name="$PROJECT_DIR$/advanced/backend/web/admin" />
-      <recent name="$PROJECT_DIR$/advanced/backend/views/layouts" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -170,7 +174,8 @@
       <workItem from="1602561723588" duration="7019000" />
       <workItem from="1602572783613" duration="12464000" />
       <workItem from="1602651335601" duration="24712000" />
-      <workItem from="1602676788646" duration="2139000" />
+      <workItem from="1602676788646" duration="2649000" />
+      <workItem from="1602736111250" duration="20317000" />
     </task>
     <task id="LOCAL-00001" summary="jeas">
       <created>1602678611808</created>
@@ -210,19 +215,23 @@
       <screen x="72" y="27" width="1848" height="1053" />
     </state>
     <state x="591" y="215" width="800" height="684" key="#com.intellij.execution.impl.EditConfigurationsDialog/72.27.1848.1053@72.27.1848.1053" timestamp="1601502231833" />
+    <state x="693" y="298" width="524" height="491" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1602751579122">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state x="693" y="298" width="524" height="491" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/1920.0.1920.1080/0.27.1920.1053@0.27.1920.1053" timestamp="1602751579122" />
     <state x="735" y="311" width="424" height="491" key="FileChooserDialogImpl" timestamp="1602584072902">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
     <state x="735" y="311" width="424" height="491" key="FileChooserDialogImpl/1920.0.1920.1080/0.27.1920.1053@0.27.1920.1053" timestamp="1602584072902" />
     <state x="779" y="311" width="424" height="491" key="FileChooserDialogImpl/72.27.1848.1053@72.27.1848.1053" timestamp="1601718602766" />
-    <state x="1326" y="372" width="521" height="575" key="NewPhpClassDialog" timestamp="1602654993397">
+    <state x="1326" y="372" width="521" height="575" key="NewPhpClassDialog" timestamp="1602750322275">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state x="1326" y="372" width="521" height="575" key="NewPhpClassDialog/1920.0.1920.1080/0.27.1920.1053@0.27.1920.1053" timestamp="1602654993397" />
-    <state x="755" y="465" width="399" height="156" key="NewPhpFileDialog" timestamp="1602586617529">
+    <state x="1326" y="372" width="521" height="575" key="NewPhpClassDialog/1920.0.1920.1080/0.27.1920.1053@0.27.1920.1053" timestamp="1602750322275" />
+    <state x="755" y="465" width="399" height="156" key="NewPhpFileDialog" timestamp="1602756062438">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state x="755" y="465" width="399" height="156" key="NewPhpFileDialog/1920.0.1920.1080/0.27.1920.1053@0.27.1920.1053" timestamp="1602586617529" />
+    <state x="755" y="465" width="399" height="156" key="NewPhpFileDialog/1920.0.1920.1080/0.27.1920.1053@0.27.1920.1053" timestamp="1602756062438" />
     <state x="586" y="125" width="1022" height="737" key="SettingsEditor" timestamp="1602483534391">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
@@ -231,10 +240,10 @@
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
     <state x="1189" y="313" width="731" height="522" key="find.popup/1920.0.1920.1080/0.27.1920.1053@0.27.1920.1053" timestamp="1602583992448" />
-    <state x="626" y="462" width="540" height="179" key="vcs.readOnlyHandler.ReadOnlyStatusDialog" timestamp="1602676576395">
+    <state x="626" y="462" width="540" height="179" key="vcs.readOnlyHandler.ReadOnlyStatusDialog" timestamp="1602746775321">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state x="626" y="462" width="540" height="179" key="vcs.readOnlyHandler.ReadOnlyStatusDialog/1920.0.1920.1080/0.27.1920.1053@0.27.1920.1053" timestamp="1602676576395" />
+    <state x="626" y="462" width="540" height="179" key="vcs.readOnlyHandler.ReadOnlyStatusDialog/1920.0.1920.1080/0.27.1920.1053@0.27.1920.1053" timestamp="1602746775321" />
     <state x="675" y="462" width="540" height="179" key="vcs.readOnlyHandler.ReadOnlyStatusDialog/72.27.1848.1053@72.27.1848.1053" timestamp="1601501739590" />
   </component>
 </project>
