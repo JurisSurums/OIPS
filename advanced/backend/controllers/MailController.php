@@ -6,6 +6,7 @@ use yii\console\Controller;
 use Yii;
 use yii\helpers\FileHelper;
 use common\models\Mailo;
+use common\models\User;
 
 /**
  * Sanding mail
@@ -27,15 +28,26 @@ Yii::$app->mailer->compose($type, ['data' => $data])
     public function actionUpload()
     {
         $model = new Mailo();
+        $emailo = new User();
         if (Yii::$app->request->isPost) { // pressed the button
             $post = Yii::$app->request->post();
 /*            var_dump("heyyyo");
             exit;*/
-            Yii::$app->mailer->compose('@common/mail/reminder')
-                ->setFrom($this->from)
-                ->setTo($this->to)
-                ->setSubject($post['Mailo']['temats'])
-                ->send();
+            $recepiants = $emailo::find()->all();
+            var_dump($recepiants[0]);
+            /*foreach ($recepiants as $r)
+            {
+                var_dump($r);
+            }*/
+            exit;
+            foreach ($recepiants as $r)
+            {
+                Yii::$app->mailer->compose('@common/mail/reminder')
+                    ->setFrom($this->from)
+                    ->setTo($this->to)
+                    ->setSubject($post['Mailo']['temats'])
+                    ->send();
+            }
         }
         return $this->render('upload', ['model' => $model]);
     }
