@@ -1,10 +1,4 @@
 <?php
-/**
- * Created by PhpStorm.
- * User: georgy
- * Date: 09.07.14
- * Time: 9:26
- */
 use common\models\TagPost; // TagPost model
 use yii\helpers\Html;
 
@@ -15,13 +9,16 @@ use yii\helpers\Html;
 <h1><?= $model->title ?></h1>
 
 <div class="meta">
-    <p><?= Yii::t('frontend', 'Author') ?>: <?= $model->author->username ?> <?= Yii::t('frontend', 'Publish date') ?>: <?= $model->publish_date ?> <?= Yii::t('frontend', 'Category') ?>: <?= Html::a($model->category->title, ['category/view', 'id' => $model->category->id]) ?></p>
+    <p><?= Yii::t('frontend', 'Author') ?>: <?= $model->author->username ?>
+        <?= Yii::t('frontend', 'Publish date') ?>:
+        <?= $model->publish_date ?>
+        <br>
+        <?= Yii::t('frontend', 'Category') ?>:
+        <?= Html::a($model->category->title, ['category/view', 'id' => $model->category->id]) ?></p>
 </div>
-
 <div class="content">
     <?= $model->anons ?>
 </div>
-
 <div class="tags">
     <?php
     $tags = [];
@@ -32,4 +29,4 @@ use yii\helpers\Html;
     <?= Yii::t('frontend', 'Tags') ?>: <?= implode($tags, ', ') ?>
 </div>
 
-<?= Html::a('Add a new comment', ['post/view', 'id' => $model->id], ['class' => 'btn btn-success']) ?>
+<?= Html::a('Apskatīt postu', ['post/view', 'id' => $model->id], ['class' => 'btn btn-success']) ?>

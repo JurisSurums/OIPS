@@ -16,7 +16,7 @@ return [
         'request' => [
             'baseUrl' => '',
             'enableCookieValidation' => true,
-            'enableCsrfValidation' => true,
+            'enableCsrfValidation' => false,
             'cookieValidationKey' => '45ed697dtg8uhrg9eheg00j09',
         ],
         'urlManager' => [

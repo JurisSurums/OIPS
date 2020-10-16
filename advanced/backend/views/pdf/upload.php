@@ -16,17 +16,6 @@ use yii\base\model;
 
 <?= $form->field($model, 'pdfFile')->fileInput(['multiple'=>'multiple']); ?>
 
-<?php
-    $prefix = 'uploads/';
-    $dirnum = 0;
-    foreach ($allFiles as $filo)
-    {
-        if (substr($filo, 0, strlen($prefix)) == $prefix) {
-            $allFiles[$dirnum] = substr($filo, strlen($prefix));
-        }
-        $dirnum = $dirnum + 1;
-    }
-?>
 
 <?= Html::DropDownList('namo', 'formo', $allFiles) ?>
 

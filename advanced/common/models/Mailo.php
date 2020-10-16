@@ -16,8 +16,21 @@ class Mailo extends Model
     public $temats;
     public $saturs;
 
-    public function upload($dirname, $posto) // vajag parbaudīt vai jau neeksistē
+    public function createEmail($fileName, $fileContent) // vajag parbaudīt vai jau neeksistē
     {
-        // iegut datus no db velak
+        $stringStart = "<?php
+        use yii\helpers\Html;
+        ?> ";
+
+        $dir = $fileName;
+        FileHelper::createDirectory(('emails/'));
+        $my_file = ('emails/'. $dir . '.php');
+        $handle = fopen($my_file, 'w') or die('Cannot open file:  '.$my_file); //implicitly creates file
+        file_put_contents('emails/'. $dir . '.php', $stringStart . '<div class="verify-email">' . $fileContent ."</div>");
+
+
+/*        $my_file = ($fileName . '.html');
+        $handle = fopen($fileName, 'w') or die('Cannot open file:  '.$my_file); //implicitly creates file
+        file_put_contents($my_file, "randomshit");*/
     }
 }

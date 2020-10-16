@@ -39,7 +39,6 @@ class User extends ActiveRecord implements IdentityInterface
     {
         return '{{%user}}';
     }
-
     /**
      * {@inheritdoc}
      */
@@ -133,10 +132,7 @@ class User extends ActiveRecord implements IdentityInterface
      * @return static|null
      */
     public static function findByVerificationToken($token) {
-        return static::findOne([
-            'verification_token' => $token,
-            'status' => self::STATUS_INACTIVE
-        ]);
+        return true;
     }
 
     /**
@@ -220,10 +216,6 @@ class User extends ActiveRecord implements IdentityInterface
     /**
      * Generates new token for email verification
      */
-    public function generateEmailVerificationToken()
-    {
-        $this->verification_token = Yii::$app->security->generateRandomString() . '_' . time();
-    }
 
     /**
      * Removes password reset token

@@ -16,7 +16,18 @@
     <list default="true" id="77e549de-f6ad-4a4c-aaf2-c67442ce7595" name="Default Changelist" comment="jeas">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/advanced/backend/controllers/MailController.php" beforeDir="false" afterPath="$PROJECT_DIR$/advanced/backend/controllers/MailController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/advanced/backend/views/category/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/advanced/backend/views/category/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/advanced/backend/views/category/view.php" beforeDir="false" afterPath="$PROJECT_DIR$/advanced/backend/views/category/view.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/advanced/common/models/Mailo.php" beforeDir="false" afterPath="$PROJECT_DIR$/advanced/common/models/Mailo.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/advanced/common/models/Skand.php" beforeDir="false" afterPath="$PROJECT_DIR$/advanced/common/models/Skand.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/advanced/common/models/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/advanced/common/models/User.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/advanced/frontend/config/main.php" beforeDir="false" afterPath="$PROJECT_DIR$/advanced/frontend/config/main.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/advanced/frontend/controllers/SiteController.php" beforeDir="false" afterPath="$PROJECT_DIR$/advanced/frontend/controllers/SiteController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/advanced/frontend/models/SignupForm.php" beforeDir="false" afterPath="$PROJECT_DIR$/advanced/frontend/models/SignupForm.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/advanced/frontend/models/VerifyEmailForm.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/advanced/frontend/tests/functional/SignupCest.php" beforeDir="false" afterPath="$PROJECT_DIR$/advanced/frontend/tests/functional/SignupCest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/advanced/frontend/views/post/shortView.php" beforeDir="false" afterPath="$PROJECT_DIR$/advanced/frontend/views/post/shortView.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/advanced/frontend/views/site/login.php" beforeDir="false" afterPath="$PROJECT_DIR$/advanced/frontend/views/site/login.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -137,7 +148,7 @@
     <property name="DatabaseDriversLRU" value="mysql" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/advanced/backend/mail" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/advanced/backend" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -151,11 +162,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/advanced/backend" />
+      <recent name="$PROJECT_DIR$/advanced/backend/web/emails" />
       <recent name="$PROJECT_DIR$/advanced/backend/mail" />
       <recent name="$PROJECT_DIR$/advanced/common/mail" />
       <recent name="$PROJECT_DIR$/advanced/common/models" />
-      <recent name="$PROJECT_DIR$/advanced/backend/views" />
-      <recent name="$PROJECT_DIR$/advanced/backend/controllers" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -173,7 +184,8 @@
       <workItem from="1602572783613" duration="12464000" />
       <workItem from="1602651335601" duration="24712000" />
       <workItem from="1602676788646" duration="2649000" />
-      <workItem from="1602736111250" duration="23348000" />
+      <workItem from="1602736111250" duration="23636000" />
+      <workItem from="1602820768341" duration="16494000" />
     </task>
     <task id="LOCAL-00001" summary="jeas">
       <created>1602678611808</created>
@@ -234,14 +246,14 @@
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
     <state x="586" y="125" width="1022" height="737" key="SettingsEditor/1920.0.1920.1080/0.27.1920.1053@0.27.1920.1053" timestamp="1602483534391" />
-    <state x="1189" y="313" width="731" height="522" key="find.popup" timestamp="1602583992448">
+    <state x="1027" y="409" width="731" height="522" key="find.popup" timestamp="1602835091866">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state x="1189" y="313" width="731" height="522" key="find.popup/1920.0.1920.1080/0.27.1920.1053@0.27.1920.1053" timestamp="1602583992448" />
-    <state x="626" y="462" width="540" height="179" key="vcs.readOnlyHandler.ReadOnlyStatusDialog" timestamp="1602746775321">
+    <state x="1027" y="409" width="731" height="522" key="find.popup/1920.0.1920.1080/0.27.1920.1053@0.27.1920.1053" timestamp="1602835091866" />
+    <state x="626" y="462" width="540" height="179" key="vcs.readOnlyHandler.ReadOnlyStatusDialog" timestamp="1602831648838">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state x="626" y="462" width="540" height="179" key="vcs.readOnlyHandler.ReadOnlyStatusDialog/1920.0.1920.1080/0.27.1920.1053@0.27.1920.1053" timestamp="1602746775321" />
+    <state x="626" y="462" width="540" height="179" key="vcs.readOnlyHandler.ReadOnlyStatusDialog/1920.0.1920.1080/0.27.1920.1053@0.27.1920.1053" timestamp="1602831648838" />
     <state x="675" y="462" width="540" height="179" key="vcs.readOnlyHandler.ReadOnlyStatusDialog/72.27.1848.1053@72.27.1848.1053" timestamp="1601501739590" />
   </component>
 </project>

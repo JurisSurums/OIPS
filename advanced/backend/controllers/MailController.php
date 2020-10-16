@@ -27,24 +27,26 @@ Yii::$app->mailer->compose($type, ['data' => $data])
 
     public function actionUpload()
     {
-        $model = new Mailo();
+        $model = new Mailo(); //dont need
         $emailo = new User();
         if (Yii::$app->request->isPost) { // pressed the button
             $post = Yii::$app->request->post();
-/*            var_dump("heyyyo");
-            exit;*/
-            $recepiants = $emailo::find()->all();
-            var_dump($recepiants[0]);
-            /*foreach ($recepiants as $r)
+            $recepiants = $emailo::find()->from('user')->all();
+            $model->createEmail($post['Mailo']['temats'], $post['Mailo']['saturs']);
+/*
+            if ( !is_dir( '@backend/web/emails/' ) ) {
+                var_dump("pastāv");
+            }
+            else
             {
-                var_dump($r);
-            }*/
-            exit;
+                var_dump("nepastāv");
+            }
+            exit;*/
             foreach ($recepiants as $r)
             {
-                Yii::$app->mailer->compose('@common/mail/reminder')
+                Yii::$app->mailer->compose('@backend/web/emails/'.$post['Mailo']['temats'])
                     ->setFrom($this->from)
-                    ->setTo($this->to)
+                    ->setTo($r["email"])
                     ->setSubject($post['Mailo']['temats'])
                     ->send();
             }

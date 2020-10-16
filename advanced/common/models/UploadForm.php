@@ -22,6 +22,20 @@ class UploadForm extends Model
             [['pdfFile'], 'file', 'skipOnEmpty' => false, 'extensions' => 'pdf'],
         ];
     }
+    public function dir($num, $dirnames)
+    {
+        $o = 0;
+        $pieurl = '';
+        foreach ($dirnames as $i)
+        {
+            if ($o == ((int)$num))
+            {
+                $pieurl = $i;
+            }
+            $o = $o + 1;
+        }
+        return $pieurl;
+    }
     public function upload($dirnumb, $dirnames) // vajag mainigo no view input, kur norāda skaņdarbu
     {
         if ($this->validate()) {
