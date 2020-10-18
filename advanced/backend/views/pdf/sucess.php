@@ -8,6 +8,8 @@ use yii\bootstrap\ActiveForm;
 use yii\helpers\ArrayHelper;
 use yii\helpers\Html;
 use yii\base\model;
+use yii\helpers\Url;
+
 ?>
 <h1>Uploaded pdf file succesfully</h1>
 
@@ -22,10 +24,13 @@ foreach ($allFiles as $filo)
     $dirnum = $dirnum + 1;
 }
 ?>
-
 <?php $form = ActiveForm::begin(['options' => ['enctype' => 'multipart/form-data']]) ?>
-
 <?= Html::DropDownList('namo', 'formo', $allFiles) ?>
-<button>Submit</button>
+<?= Html::a(Yii::t('backend', 'Delete'), ['upload'], [
+    'class' => 'btn btn-danger',
+    'data' => [
+        'method' => 'post',
+    ],
+]) ?>
 
 <?php ActiveForm::end() ?>

@@ -12,13 +12,30 @@ use yii\helpers\Html;
 use yii\base\model;
 ?>
 
+<?php
+$dirnum = 0;
+$prefix = $prefix . '/';
+foreach ($allFiles as $filo)
+{
+    if (substr($filo, 0, strlen($prefix)) == $prefix) {
+        $allFiles[$dirnum] = substr($filo, strlen($prefix));
+    }
+    $dirnum = $dirnum + 1;
+}
+?>
+
 <?php $form = ActiveForm::begin(['options' => ['enctype' => 'multipart/form-data']]) ?>
 
 <?= $form->field($model, 'pdfFile')->fileInput(['multiple'=>'multiple']); ?>
 
-
 <?= Html::DropDownList('namo', 'formo', $allFiles) ?>
+<?= Html::hiddenInput('dire', $prefix) ?>
 
-<button>Submit</button>
+<?= Html::a(Yii::t('backend', 'Delete'), ['final'], [
+    'class' => 'btn btn-danger',
+    'data' => [
+        'method' => 'post',
+    ],
+]) ?>
 
 <?php ActiveForm::end() ?>

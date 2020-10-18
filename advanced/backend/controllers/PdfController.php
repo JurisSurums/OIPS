@@ -3,6 +3,7 @@ namespace backend\controllers;
 
 use Yii;
 use yii\helpers\FileHelper;
+use yii\helpers\Url;
 use yii\web\Controller;
 use common\models\UploadForm;
 use yii\web\UploadedFile;
@@ -13,27 +14,38 @@ class PdfController extends Controller
     public function actionSucess()
     {
         $allFiles = FileHelper::findDirectories('uploads/', ['recursive' => false]);
-        if(Yii::$app->request->isPost) { // pressed the button
-            $y = Yii::$app->request->post();
-            $this->actionUpload($y["namo"]);
-        }
         return $this->render('sucess', ['allFiles' => $allFiles]);
     }
 
-    public function actionUpload($namo)
+    public function actionUpload()
     {
         $model = new UploadForm();
-        $allFiles = FileHelper::findDirectories('uploads/', ['recursive' => false]);
-        $dirname = $model->dir($namo, $allFiles); //returns selected - svetku uvertire
-        $allFiles = FileHelper::findDirectories($dirname, ['recursive' => false]);
-/*        var_dump($allFiles);
-        exit;*/
-        return $this->render('/pdf/upload', ['model' => $model, 'allFiles' => $allFiles]);
-/*        $post = Yii::$app->request->post();
+        $diro = null;
+        if(Yii::$app->request->isPost) {
+            $y = Yii::$app->request->post();
+            $allFiles = FileHelper::findDirectories('uploads/', ['recursive' => false]);
+            $selectedValue = $y["namo"];
+            $diro = $model->dirfind($selectedValue, $allFiles);
+        }
+        $allFiles2 = FileHelper::findDirectories($diro.'/', ['recursive' => false]);
+        return $this->render('/pdf/upload', ['model' => $model, 'allFiles' => $allFiles2, 'prefix' => $diro]);
+    }
+
+    public function actionFinal()
+    {
+        $model = new UploadForm();
+        if(Yii::$app->request->isPost) {
+            $y = Yii::$app->request->post();
+        }
+        $dir = $y['namo'];
+        $fullDir = $y['dire'];
+        $allFiles = FileHelper::findDirectories($fullDir, ['recursive' => false]);
+        $diro = $model->dirfind($dir, $allFiles);
         $model->pdfFile = UploadedFile::getInstance($model, 'pdfFile');
-        if ($model->upload($namo, $allFiles)) {
+        if ($model->upload($diro)) {
             // file is uploaded successfully
-            return $this->render('sucess');
-        }*/
+            return $this->render('/site/index');
+        }
+        //$this->actionUpload($fullDir.);
     }
 }
