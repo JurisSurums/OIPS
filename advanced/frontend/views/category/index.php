@@ -1,10 +1,5 @@
 <?php
-/**
- * Created by PhpStorm.
- * User: georgy
- * Date: 18.10.14
- * Time: 2:14
- */
+
 use yii\helpers\Html;
 use yii\widgets\LinkPager;
 

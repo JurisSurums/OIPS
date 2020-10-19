@@ -46,6 +46,5 @@ class PdfController extends Controller
             // file is uploaded successfully
             return $this->render('/site/index');
         }
-        //$this->actionUpload($fullDir.);
     }
 }

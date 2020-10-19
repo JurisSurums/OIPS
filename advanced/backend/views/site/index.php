@@ -8,7 +8,7 @@ use yii\helpers\Url;
 
     <div class="body-content">
         <div class="backendVirsraksts">
-        <h3><?= Yii::t('backend', 'OIPS backend') ?></h3>
+        <h3><?= Yii::t('backend', 'OIPS admin') ?></h3>
         </div>
         <ul class="list-group">
             <li class="list-group-item"><a href="<?= Url::toRoute('post/index'); ?>"><?= 'Posti' ?></a></li>
@@ -18,8 +18,7 @@ use yii\helpers\Url;
             <li class="list-group-item"><a href="<?= Url::toRoute('user/index'); ?>"><?= 'Lietotāji' ?></a></li>
             <li class="list-group-item"><a href="<?= Url::toRoute('pdf/sucess'); ?>"><?= 'Ielādēt notis' ?></a></li>
             <li class="list-group-item"><a href="<?= Url::toRoute('skand/upload'); ?>"><?= 'Pievieno skaņdarbu' ?></a></li>
-            <li class="list-group-item"><a href="<?= Url::toRoute('mail/upload'); ?>"><?= 'Nosūtīt epastu' ?></a></li>
+            <li class="list-group-item"><a href="<?= Url::toRoute('mail/upload'); ?>"><?= 'Nosūtīt epastu visiem lietotājiem' ?></a></li>
         </ul>
-
     </div>
 </div>

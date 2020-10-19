@@ -8,8 +8,8 @@ use yii\widgets\LinkPager;
 /* @var $categories yii\data\ActiveDataProvider */
 /* @var $post common\models\Post */
 
-//OPENING PAGE
-$this->title = Yii::t('frontend', 'Blog');
+//LANDING
+$this->title = Yii::t('frontend', 'Foruma sadaļa');
 ?>
 
 <div class="col-sm-8 post-index">
@@ -32,7 +32,7 @@ $this->title = Yii::t('frontend', 'Blog');
 </div>
 
 <div class="col-sm-3 col-sm-offset-1 blog-sidebar">
-    <h1><?= Yii::t('frontend', 'Categories') ?></h1>
+    <h1><?= Yii::t('frontend', 'Kategorijas') ?></h1>
     <ul>
     <?php
     foreach ($categories->models as $category) {

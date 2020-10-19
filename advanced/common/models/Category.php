@@ -42,7 +42,7 @@ class Category extends ActiveRecord
     {
         return [
             'id' => Yii::t('backend', 'ID'),
-            'title' => Yii::t('backend', 'Title'),
+            'title' => Yii::t('backend', 'Nosaukums'),
         ];
     }
 

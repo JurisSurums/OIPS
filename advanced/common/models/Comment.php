@@ -11,12 +11,12 @@ use yii\web\NotFoundHttpException;
  * Comment model
  *
  * @property int $id
- * @property int $pid идентификатор родительского комментария
- * @property string $title заголовок
- * @property string $content комментарий
- * @property string $publish_status статус публикации
- * @property int $post_id идентификатор поста, к которому относится комментарий
- * @property int $author_id идентификатор автора комментария
+ * @property int $pid
+ * @property string $title
+ * @property string $content
+ * @property string $publish_status
+ * @property int $post_id
+ * @property int $author_id
  *
  * @property Post $post
  * @property User $author

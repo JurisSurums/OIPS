@@ -32,22 +32,17 @@ AppAsset::register($this);
                     'class' => 'navbar-inverse navbar-fixed-top',
                 ],
             ]);
-            $menuItems = [
-                ['label' => Yii::t('frontend', 'Blog'), 'url' => ['/post/index']],
-                ['label' => Yii::t('frontend', 'About'), 'url' => ['/site/about']],
-            ];
             if (Yii::$app->user->isGuest) {
+                $menuItems[] = ['label' => Yii::t('frontend', 'par OIPS'), 'url' => ['/site/about']];
                 $menuItems[] = ['label' => Yii::t('frontend', 'Sign up'), 'url' => ['/site/signup']];
                 $menuItems[] = ['label' => Yii::t('frontend', 'Login'), 'url' => ['/site/login']];
             } else {
+                $menuItems[] = ['label' => Yii::t('frontend', 'par OIPS'), 'url' => ['/site/about']];
+                $menuItems[] = ['label' => Yii::t('frontend', 'Notis'), 'url' => ['/skand/index']];
                 $menuItems[] = [
                     'label' => Yii::t('frontend', 'Logout ({username})', ['username' => Yii::$app->user->identity->username]),
                     'url' => ['/site/logout'],
                     'linkOptions' => ['data-method' => 'post']
-                ];
-                $menuItems[] = [
-                    'label' => Yii::t('frontend', 'Administration'),
-                    'url' => ['/admin/site']
                 ];
             }
             echo Nav::widget([
@@ -68,7 +63,7 @@ AppAsset::register($this);
 
     <footer class="footer">
         <div class="container">
-            <p class="pull-left">&copy; <a href="https://sllite.ru" target="_blank">sllite.ru</a> <?= date('Y') ?></p>
+            <p class="pull-left">OIPS <?= date('Y') ?></p>
             <p class="pull-right"><?= Yii::powered() ?></p>
         </div>
     </footer>

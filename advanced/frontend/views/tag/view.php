@@ -1,10 +1,4 @@
 <?php
-/**
- * Created by PhpStorm.
- * User: georg
- * Date: 24.06.15
- * Time: 18:01
- */
 
 /** @var $tag common\models\Tag */
 /** @var $posts \yii\data\ActiveDataProvider */

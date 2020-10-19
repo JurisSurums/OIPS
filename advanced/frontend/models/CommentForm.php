@@ -1,10 +1,4 @@
 <?php
-/**
- * Created by PhpStorm.
- * User: georgy
- * Date: 14.12.14
- * Time: 0:20
- */
 
 namespace frontend\models;
 
@@ -14,19 +8,19 @@ use yii\base\Model;
 class CommentForm extends Model
 {
     /**
-     * @var null|string action формы
+     * @var null|string action form
      */
     public $action = null;
     /**
-     * @var int|null идентификатор родительского комментария
+     * @var int|null
      */
     public $pid = null;
     /**
-     * @var string заголовок комментария
+     * @var string
      */
     public $title;
     /**
-     * @var string контент комментария
+     * @var string
      */
     public $content;
 
@@ -52,8 +46,8 @@ class CommentForm extends Model
     public function attributeLabels(): array
     {
         return [
-            'title' => 'Заголовок',
-            'content' => 'Комментарий'
+            'title' => 'Nosaukums',
+            'content' => 'Komentārs'
         ];
     }
 

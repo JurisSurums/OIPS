@@ -26,7 +26,6 @@ AppAsset::register($this);
 </head>
 <body>
 <?php $this->beginBody() ?>
-<h1 class="heers">Hello world</h1>
 <div class="wrap">
     <?php
     NavBar::begin([

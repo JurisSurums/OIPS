@@ -11,10 +11,10 @@ use yii\base\model;
 use yii\helpers\Url;
 
 ?>
-<h1>Izvēlies, kuram skaņdarbarm pievienot notis</h1>
+<h1>Izvēlies skaņdarbu</h1>
 
 <?php
-$prefix = 'uploads/';
+$prefix = './uploads/';
 $dirnum = 0;
 foreach ($allFiles as $filo)
 {
@@ -27,7 +27,7 @@ foreach ($allFiles as $filo)
 <?php $form = ActiveForm::begin(['options' => ['enctype' => 'multipart/form-data']]) ?>
 <?= Html::DropDownList('namo', 'formo', $allFiles) ?>
 <?= Html::tag('p', "", ['class' => 'username']) ?>
-<?= Html::a(Yii::t('backend', 'Izvēlēties skaņdarbu'), ['upload'], [
+<?= Html::a(Yii::t('backend', 'Izvēlēties skaņdarbu'), ['select'], [
     'class' => 'btn btn-success',
     'data' => [
         'method' => 'post',
@@ -35,3 +35,4 @@ foreach ($allFiles as $filo)
 ]) ?>
 
 <?php ActiveForm::end() ?>
+

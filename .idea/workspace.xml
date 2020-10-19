@@ -14,283 +14,47 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="77e549de-f6ad-4a4c-aaf2-c67442ce7595" name="Default Changelist" comment="jeas">
-      <change beforePath="$PROJECT_DIR$/.idea/OIPS.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/OIPS.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/2ac52efa-0d94-431a-8fe6-771c5df18f48.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/2ac52efa-0d94-431a-8fe6-771c5df18f48.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/2ac52efa-0d94-431a-8fe6-771c5df18f48/storage_v2/_src_/schema/information_schema.FNRwLQ.meta" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/2ac52efa-0d94-431a-8fe6-771c5df18f48/storage_v2/_src_/schema/information_schema.FNRwLQ.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/jsLinters/jshint.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jsLinters/jshint.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/php-test-framework.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php-test-framework.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/advanced/backend/views/pdf/beigas.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/advanced/frontend/views/skand/data.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/advanced/frontend/views/skand/download.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/advanced/frontend/views/skand/view.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/advanced/.bowerrc" beforeDir="false" afterPath="$PROJECT_DIR$/advanced/.bowerrc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/advanced/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/advanced/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/advanced/LICENSE.md" beforeDir="false" afterPath="$PROJECT_DIR$/advanced/LICENSE.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/advanced/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/advanced/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/advanced/Vagrantfile" beforeDir="false" afterPath="$PROJECT_DIR$/advanced/Vagrantfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/advanced/backend/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/advanced/backend/Dockerfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/advanced/backend/assets/AppAsset.php" beforeDir="false" afterPath="$PROJECT_DIR$/advanced/backend/assets/AppAsset.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/advanced/backend/codeception.yml" beforeDir="false" afterPath="$PROJECT_DIR$/advanced/backend/codeception.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/advanced/backend/config/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/advanced/backend/config/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/advanced/backend/config/bootstrap.php" beforeDir="false" afterPath="$PROJECT_DIR$/advanced/backend/config/bootstrap.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/advanced/backend/config/main.php" beforeDir="false" afterPath="$PROJECT_DIR$/advanced/backend/config/main.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/advanced/backend/config/params.php" beforeDir="false" afterPath="$PROJECT_DIR$/advanced/backend/config/params.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/advanced/backend/config/test.php" beforeDir="false" afterPath="$PROJECT_DIR$/advanced/backend/config/test.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/advanced/backend/controllers/CategoryController.php" beforeDir="false" afterPath="$PROJECT_DIR$/advanced/backend/controllers/CategoryController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/advanced/backend/controllers/CommentController.php" beforeDir="false" afterPath="$PROJECT_DIR$/advanced/backend/controllers/CommentController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/advanced/backend/controllers/MailController.php" beforeDir="false" afterPath="$PROJECT_DIR$/advanced/backend/controllers/MailController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/advanced/backend/controllers/PdfController.php" beforeDir="false" afterPath="$PROJECT_DIR$/advanced/backend/controllers/PdfController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/advanced/backend/controllers/PostController.php" beforeDir="false" afterPath="$PROJECT_DIR$/advanced/backend/controllers/PostController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/advanced/backend/controllers/SiteController.php" beforeDir="false" afterPath="$PROJECT_DIR$/advanced/backend/controllers/SiteController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/advanced/backend/controllers/SkandController.php" beforeDir="false" afterPath="$PROJECT_DIR$/advanced/backend/controllers/SkandController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/advanced/backend/controllers/TagsController.php" beforeDir="false" afterPath="$PROJECT_DIR$/advanced/backend/controllers/TagsController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/advanced/backend/controllers/UserController.php" beforeDir="false" afterPath="$PROJECT_DIR$/advanced/backend/controllers/UserController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/advanced/backend/mail/emailVerify-html.php" beforeDir="false" afterPath="$PROJECT_DIR$/advanced/backend/mail/emailVerify-html.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/advanced/backend/mail/emailVerify-text.php" beforeDir="false" afterPath="$PROJECT_DIR$/advanced/backend/mail/emailVerify-text.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/advanced/backend/mail/layouts/html.php" beforeDir="false" afterPath="$PROJECT_DIR$/advanced/backend/mail/layouts/html.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/advanced/backend/mail/layouts/text.php" beforeDir="false" afterPath="$PROJECT_DIR$/advanced/backend/mail/layouts/text.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/advanced/backend/mail/passwordResetToken-html.php" beforeDir="false" afterPath="$PROJECT_DIR$/advanced/backend/mail/passwordResetToken-html.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/advanced/backend/mail/passwordResetToken-text.php" beforeDir="false" afterPath="$PROJECT_DIR$/advanced/backend/mail/passwordResetToken-text.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/advanced/backend/mail/reminder.php" beforeDir="false" afterPath="$PROJECT_DIR$/advanced/backend/mail/reminder.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/advanced/backend/models/.gitkeep" beforeDir="false" afterPath="$PROJECT_DIR$/advanced/backend/models/.gitkeep" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/advanced/backend/runtime/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/advanced/backend/runtime/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/advanced/backend/tests/_bootstrap.php" beforeDir="false" afterPath="$PROJECT_DIR$/advanced/backend/tests/_bootstrap.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/advanced/backend/tests/_data/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/advanced/backend/tests/_data/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/advanced/backend/tests/_data/login_data.php" beforeDir="false" afterPath="$PROJECT_DIR$/advanced/backend/tests/_data/login_data.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/advanced/backend/tests/_output/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/advanced/backend/tests/_output/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/advanced/backend/tests/_support/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/advanced/backend/tests/_support/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/advanced/backend/tests/_support/FunctionalTester.php" beforeDir="false" afterPath="$PROJECT_DIR$/advanced/backend/tests/_support/FunctionalTester.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/advanced/backend/tests/_support/UnitTester.php" beforeDir="false" afterPath="$PROJECT_DIR$/advanced/backend/tests/_support/UnitTester.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/advanced/backend/tests/functional.suite.yml" beforeDir="false" afterPath="$PROJECT_DIR$/advanced/backend/tests/functional.suite.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/advanced/backend/tests/functional/LoginCest.php" beforeDir="false" afterPath="$PROJECT_DIR$/advanced/backend/tests/functional/LoginCest.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/advanced/backend/tests/functional/_bootstrap.php" beforeDir="false" afterPath="$PROJECT_DIR$/advanced/backend/tests/functional/_bootstrap.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/advanced/backend/tests/unit.suite.yml" beforeDir="false" afterPath="$PROJECT_DIR$/advanced/backend/tests/unit.suite.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/advanced/backend/tests/unit/_bootstrap.php" beforeDir="false" afterPath="$PROJECT_DIR$/advanced/backend/tests/unit/_bootstrap.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/advanced/backend/views/category/_form.php" beforeDir="false" afterPath="$PROJECT_DIR$/advanced/backend/views/category/_form.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/advanced/backend/views/category/create.php" beforeDir="false" afterPath="$PROJECT_DIR$/advanced/backend/views/category/create.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/advanced/backend/views/category/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/advanced/backend/views/category/index.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/advanced/backend/views/category/update.php" beforeDir="false" afterPath="$PROJECT_DIR$/advanced/backend/views/category/update.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/advanced/backend/views/category/view.php" beforeDir="false" afterPath="$PROJECT_DIR$/advanced/backend/views/category/view.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/advanced/backend/views/comment/_form.php" beforeDir="false" afterPath="$PROJECT_DIR$/advanced/backend/views/comment/_form.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/advanced/backend/views/comment/create.php" beforeDir="false" afterPath="$PROJECT_DIR$/advanced/backend/views/comment/create.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/advanced/backend/views/comment/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/advanced/backend/views/comment/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/advanced/backend/views/comment/update.php" beforeDir="false" afterPath="$PROJECT_DIR$/advanced/backend/views/comment/update.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/advanced/backend/views/comment/view.php" beforeDir="false" afterPath="$PROJECT_DIR$/advanced/backend/views/comment/view.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/advanced/backend/views/layouts/main.php" beforeDir="false" afterPath="$PROJECT_DIR$/advanced/backend/views/layouts/main.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/advanced/backend/views/mail/sucess.php" beforeDir="false" afterPath="$PROJECT_DIR$/advanced/backend/views/mail/sucess.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/advanced/backend/views/mail/upload.php" beforeDir="false" afterPath="$PROJECT_DIR$/advanced/backend/views/mail/upload.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/advanced/backend/views/pdf/sucess.php" beforeDir="false" afterPath="$PROJECT_DIR$/advanced/backend/views/pdf/sucess.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/advanced/backend/views/pdf/upload.php" beforeDir="false" afterPath="$PROJECT_DIR$/advanced/backend/views/pdf/upload.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/advanced/backend/views/post/_form.php" beforeDir="false" afterPath="$PROJECT_DIR$/advanced/backend/views/post/_form.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/advanced/backend/views/post/create.php" beforeDir="false" afterPath="$PROJECT_DIR$/advanced/backend/views/post/create.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/advanced/backend/views/post/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/advanced/backend/views/post/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/advanced/backend/views/post/update.php" beforeDir="false" afterPath="$PROJECT_DIR$/advanced/backend/views/post/update.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/advanced/backend/views/post/view.php" beforeDir="false" afterPath="$PROJECT_DIR$/advanced/backend/views/post/view.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/advanced/backend/views/site/error.php" beforeDir="false" afterPath="$PROJECT_DIR$/advanced/backend/views/site/error.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/advanced/backend/views/site/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/advanced/backend/views/site/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/advanced/backend/views/site/login.php" beforeDir="false" afterPath="$PROJECT_DIR$/advanced/backend/views/site/login.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/advanced/backend/views/skand/sucess.php" beforeDir="false" afterPath="$PROJECT_DIR$/advanced/backend/views/skand/sucess.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/advanced/backend/views/skand/upload.php" beforeDir="false" afterPath="$PROJECT_DIR$/advanced/backend/views/skand/upload.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/advanced/backend/views/tags/_form.php" beforeDir="false" afterPath="$PROJECT_DIR$/advanced/backend/views/tags/_form.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/advanced/backend/views/tags/create.php" beforeDir="false" afterPath="$PROJECT_DIR$/advanced/backend/views/tags/create.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/advanced/backend/views/tags/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/advanced/backend/views/tags/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/advanced/backend/views/tags/update.php" beforeDir="false" afterPath="$PROJECT_DIR$/advanced/backend/views/tags/update.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/advanced/backend/views/tags/view.php" beforeDir="false" afterPath="$PROJECT_DIR$/advanced/backend/views/tags/view.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/advanced/backend/views/user/_form.php" beforeDir="false" afterPath="$PROJECT_DIR$/advanced/backend/views/user/_form.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/advanced/backend/views/user/create.php" beforeDir="false" afterPath="$PROJECT_DIR$/advanced/backend/views/user/create.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/advanced/backend/views/user/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/advanced/backend/views/user/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/advanced/backend/views/user/update.php" beforeDir="false" afterPath="$PROJECT_DIR$/advanced/backend/views/user/update.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/advanced/backend/views/user/view.php" beforeDir="false" afterPath="$PROJECT_DIR$/advanced/backend/views/user/view.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/advanced/backend/web/assets/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/advanced/backend/web/assets/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/advanced/backend/web/css/site.css" beforeDir="false" afterPath="$PROJECT_DIR$/advanced/backend/web/css/site.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/advanced/backend/web/emails/JureisMan saņēmi?.php" beforeDir="false" afterPath="$PROJECT_DIR$/advanced/backend/web/emails/JureisMan saņēmi?.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/advanced/backend/web/emails/Mēģinājums.php" beforeDir="false" afterPath="$PROJECT_DIR$/advanced/backend/web/emails/Mēģinājums.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/advanced/backend/web/emails/Pirmais epasts.php" beforeDir="false" afterPath="$PROJECT_DIR$/advanced/backend/web/emails/Pirmais epasts.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/advanced/backend/web/emails/daf.php" beforeDir="false" afterPath="$PROJECT_DIR$/advanced/backend/web/emails/daf.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/advanced/backend/web/emails/layouts/html.php" beforeDir="false" afterPath="$PROJECT_DIR$/advanced/backend/web/emails/layouts/html.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/advanced/backend/web/emails/layouts/text.php" beforeDir="false" afterPath="$PROJECT_DIR$/advanced/backend/web/emails/layouts/text.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/advanced/backend/web/favicon.ico" beforeDir="false" afterPath="$PROJECT_DIR$/advanced/backend/web/favicon.ico" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/advanced/backend/web/uploads/Svētku uvertīre/Svētku uvertīre info.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/advanced/codeception.yml" beforeDir="false" afterPath="$PROJECT_DIR$/advanced/codeception.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/advanced/common/codeception.yml" beforeDir="false" afterPath="$PROJECT_DIR$/advanced/common/codeception.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/advanced/common/config/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/advanced/common/config/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/advanced/common/config/aliases.php" beforeDir="false" afterPath="$PROJECT_DIR$/advanced/common/config/aliases.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/advanced/common/config/bootstrap.php" beforeDir="false" afterPath="$PROJECT_DIR$/advanced/common/config/bootstrap.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/advanced/common/config/i18n.php" beforeDir="false" afterPath="$PROJECT_DIR$/advanced/common/config/i18n.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/advanced/common/config/main.php" beforeDir="false" afterPath="$PROJECT_DIR$/advanced/common/config/main.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/advanced/common/config/params.php" beforeDir="false" afterPath="$PROJECT_DIR$/advanced/common/config/params.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/advanced/common/config/rbac/.gitkeep" beforeDir="false" afterPath="$PROJECT_DIR$/advanced/common/config/rbac/.gitkeep" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/advanced/common/config/rbac/assignments.php" beforeDir="false" afterPath="$PROJECT_DIR$/advanced/common/config/rbac/assignments.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/advanced/common/config/rbac/items.php" beforeDir="false" afterPath="$PROJECT_DIR$/advanced/common/config/rbac/items.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/advanced/common/config/rbac/rules.php" beforeDir="false" afterPath="$PROJECT_DIR$/advanced/common/config/rbac/rules.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/advanced/common/config/test.php" beforeDir="false" afterPath="$PROJECT_DIR$/advanced/common/config/test.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/advanced/common/fixtures/UserFixture.php" beforeDir="false" afterPath="$PROJECT_DIR$/advanced/common/fixtures/UserFixture.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/advanced/common/mail/emailVerify-html.php" beforeDir="false" afterPath="$PROJECT_DIR$/advanced/common/mail/emailVerify-html.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/advanced/common/mail/emailVerify-text.php" beforeDir="false" afterPath="$PROJECT_DIR$/advanced/common/mail/emailVerify-text.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/advanced/common/mail/layouts/html.php" beforeDir="false" afterPath="$PROJECT_DIR$/advanced/common/mail/layouts/html.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/advanced/common/mail/layouts/text.php" beforeDir="false" afterPath="$PROJECT_DIR$/advanced/common/mail/layouts/text.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/advanced/common/mail/passwordResetToken-html.php" beforeDir="false" afterPath="$PROJECT_DIR$/advanced/common/mail/passwordResetToken-html.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/advanced/common/mail/passwordResetToken-text.php" beforeDir="false" afterPath="$PROJECT_DIR$/advanced/common/mail/passwordResetToken-text.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/advanced/common/mail/reminder.php" beforeDir="false" afterPath="$PROJECT_DIR$/advanced/common/mail/reminder.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/advanced/backend/web/uploads/Svetku ballle/Svetku ballle info.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/advanced/backend/web/uploads/Svetku uvertire/Svetku uvertire info.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/advanced/backend/web/uploads/Svetku uvertire/kornetes/2020OctSun_dummy.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/advanced/backend/web/uploads/Svetku uvertire/kornetes/2020OctSundummy.pdf" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/advanced/common/models/Category.php" beforeDir="false" afterPath="$PROJECT_DIR$/advanced/common/models/Category.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/advanced/common/models/Comment.php" beforeDir="false" afterPath="$PROJECT_DIR$/advanced/common/models/Comment.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/advanced/common/models/LoginForm.php" beforeDir="false" afterPath="$PROJECT_DIR$/advanced/common/models/LoginForm.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/advanced/common/models/Mailo.php" beforeDir="false" afterPath="$PROJECT_DIR$/advanced/common/models/Mailo.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/advanced/common/models/Post.php" beforeDir="false" afterPath="$PROJECT_DIR$/advanced/common/models/Post.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/advanced/common/models/Skand.php" beforeDir="false" afterPath="$PROJECT_DIR$/advanced/common/models/Skand.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/advanced/common/models/Tag.php" beforeDir="false" afterPath="$PROJECT_DIR$/advanced/common/models/Tag.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/advanced/common/models/TagPost.php" beforeDir="false" afterPath="$PROJECT_DIR$/advanced/common/models/TagPost.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/advanced/common/models/UploadForm.php" beforeDir="false" afterPath="$PROJECT_DIR$/advanced/common/models/UploadForm.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/advanced/common/models/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/advanced/common/models/User.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/advanced/common/tests/_bootstrap.php" beforeDir="false" afterPath="$PROJECT_DIR$/advanced/common/tests/_bootstrap.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/advanced/common/tests/_data/user.php" beforeDir="false" afterPath="$PROJECT_DIR$/advanced/common/tests/_data/user.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/advanced/common/tests/_output/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/advanced/common/tests/_output/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/advanced/common/tests/_support/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/advanced/common/tests/_support/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/advanced/common/tests/_support/UnitTester.php" beforeDir="false" afterPath="$PROJECT_DIR$/advanced/common/tests/_support/UnitTester.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/advanced/common/tests/unit.suite.yml" beforeDir="false" afterPath="$PROJECT_DIR$/advanced/common/tests/unit.suite.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/advanced/common/tests/unit/models/LoginFormTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/advanced/common/tests/unit/models/LoginFormTest.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/advanced/common/widgets/Alert.php" beforeDir="false" afterPath="$PROJECT_DIR$/advanced/common/widgets/Alert.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/advanced/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/advanced/composer.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/advanced/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/advanced/composer.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/advanced/console/config/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/advanced/console/config/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/advanced/console/config/bootstrap.php" beforeDir="false" afterPath="$PROJECT_DIR$/advanced/console/config/bootstrap.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/advanced/console/config/main.php" beforeDir="false" afterPath="$PROJECT_DIR$/advanced/console/config/main.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/advanced/console/config/params.php" beforeDir="false" afterPath="$PROJECT_DIR$/advanced/console/config/params.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/advanced/console/config/test.php" beforeDir="false" afterPath="$PROJECT_DIR$/advanced/console/config/test.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/advanced/console/controllers/.gitkeep" beforeDir="false" afterPath="$PROJECT_DIR$/advanced/console/controllers/.gitkeep" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/advanced/console/controllers/RbacController.php" beforeDir="false" afterPath="$PROJECT_DIR$/advanced/console/controllers/RbacController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/advanced/console/files/m1_2020_init.php" beforeDir="false" afterPath="$PROJECT_DIR$/advanced/console/files/m1_2020_init.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/advanced/console/files/m2_2020_Categories.php" beforeDir="false" afterPath="$PROJECT_DIR$/advanced/console/files/m2_2020_Categories.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/advanced/console/files/m3_2020_tags.php" beforeDir="false" afterPath="$PROJECT_DIR$/advanced/console/files/m3_2020_tags.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/advanced/console/files/m4_2020_comments.php" beforeDir="false" afterPath="$PROJECT_DIR$/advanced/console/files/m4_2020_comments.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/advanced/console/files/m5_2020_admin_user.php" beforeDir="false" afterPath="$PROJECT_DIR$/advanced/console/files/m5_2020_admin_user.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/advanced/console/files/m6_2020_tag_post_pk.php" beforeDir="false" afterPath="$PROJECT_DIR$/advanced/console/files/m6_2020_tag_post_pk.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/advanced/console/migrations/m130524_201442_init.php" beforeDir="false" afterPath="$PROJECT_DIR$/advanced/console/migrations/m130524_201442_init.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/advanced/console/migrations/m141018_161427_categories.php" beforeDir="false" afterPath="$PROJECT_DIR$/advanced/console/migrations/m141018_161427_categories.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/advanced/console/migrations/m141116_104920_tags.php" beforeDir="false" afterPath="$PROJECT_DIR$/advanced/console/migrations/m141116_104920_tags.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/advanced/console/migrations/m141213_134307_comments.php" beforeDir="false" afterPath="$PROJECT_DIR$/advanced/console/migrations/m141213_134307_comments.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/advanced/console/migrations/m160307_190534_default_user.php" beforeDir="false" afterPath="$PROJECT_DIR$/advanced/console/migrations/m160307_190534_default_user.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/advanced/console/migrations/m170203_192824_tag_post_pk.php" beforeDir="false" afterPath="$PROJECT_DIR$/advanced/console/migrations/m170203_192824_tag_post_pk.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/advanced/console/models/.gitkeep" beforeDir="false" afterPath="$PROJECT_DIR$/advanced/console/models/.gitkeep" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/advanced/console/models/UserRoleRule.php" beforeDir="false" afterPath="$PROJECT_DIR$/advanced/console/models/UserRoleRule.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/advanced/console/runtime/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/advanced/console/runtime/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/advanced/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/advanced/docker-compose.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/advanced/environments/dev/backend/config/codeception-local.php" beforeDir="false" afterPath="$PROJECT_DIR$/advanced/environments/dev/backend/config/codeception-local.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/advanced/environments/dev/backend/config/main-local.php" beforeDir="false" afterPath="$PROJECT_DIR$/advanced/environments/dev/backend/config/main-local.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/advanced/environments/dev/backend/config/params-local.php" beforeDir="false" afterPath="$PROJECT_DIR$/advanced/environments/dev/backend/config/params-local.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/advanced/environments/dev/backend/config/test-local.php" beforeDir="false" afterPath="$PROJECT_DIR$/advanced/environments/dev/backend/config/test-local.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/advanced/environments/dev/backend/web/index-test.php" beforeDir="false" afterPath="$PROJECT_DIR$/advanced/environments/dev/backend/web/index-test.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/advanced/environments/dev/backend/web/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/advanced/environments/dev/backend/web/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/advanced/environments/dev/backend/web/robots.txt" beforeDir="false" afterPath="$PROJECT_DIR$/advanced/environments/dev/backend/web/robots.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/advanced/environments/dev/common/config/codeception-local.php" beforeDir="false" afterPath="$PROJECT_DIR$/advanced/environments/dev/common/config/codeception-local.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/advanced/environments/dev/common/config/main-local.php" beforeDir="false" afterPath="$PROJECT_DIR$/advanced/environments/dev/common/config/main-local.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/advanced/environments/dev/common/config/params-local.php" beforeDir="false" afterPath="$PROJECT_DIR$/advanced/environments/dev/common/config/params-local.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/advanced/environments/dev/common/config/test-local.php" beforeDir="false" afterPath="$PROJECT_DIR$/advanced/environments/dev/common/config/test-local.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/advanced/environments/dev/console/config/main-local.php" beforeDir="false" afterPath="$PROJECT_DIR$/advanced/environments/dev/console/config/main-local.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/advanced/environments/dev/console/config/params-local.php" beforeDir="false" afterPath="$PROJECT_DIR$/advanced/environments/dev/console/config/params-local.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/advanced/environments/dev/console/config/test-local.php" beforeDir="false" afterPath="$PROJECT_DIR$/advanced/environments/dev/console/config/test-local.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/advanced/environments/dev/frontend/config/codeception-local.php" beforeDir="false" afterPath="$PROJECT_DIR$/advanced/environments/dev/frontend/config/codeception-local.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/advanced/environments/dev/frontend/config/main-local.php" beforeDir="false" afterPath="$PROJECT_DIR$/advanced/environments/dev/frontend/config/main-local.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/advanced/environments/dev/frontend/config/params-local.php" beforeDir="false" afterPath="$PROJECT_DIR$/advanced/environments/dev/frontend/config/params-local.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/advanced/environments/dev/frontend/config/test-local.php" beforeDir="false" afterPath="$PROJECT_DIR$/advanced/environments/dev/frontend/config/test-local.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/advanced/environments/dev/frontend/web/index-test.php" beforeDir="false" afterPath="$PROJECT_DIR$/advanced/environments/dev/frontend/web/index-test.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/advanced/environments/dev/frontend/web/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/advanced/environments/dev/frontend/web/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/advanced/environments/dev/frontend/web/robots.txt" beforeDir="false" afterPath="$PROJECT_DIR$/advanced/environments/dev/frontend/web/robots.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/advanced/environments/dev/yii_test.bat" beforeDir="false" afterPath="$PROJECT_DIR$/advanced/environments/dev/yii_test.bat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/advanced/environments/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/advanced/environments/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/advanced/environments/prod/backend/config/main-local.php" beforeDir="false" afterPath="$PROJECT_DIR$/advanced/environments/prod/backend/config/main-local.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/advanced/environments/prod/backend/config/params-local.php" beforeDir="false" afterPath="$PROJECT_DIR$/advanced/environments/prod/backend/config/params-local.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/advanced/environments/prod/backend/web/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/advanced/environments/prod/backend/web/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/advanced/environments/prod/backend/web/robots.txt" beforeDir="false" afterPath="$PROJECT_DIR$/advanced/environments/prod/backend/web/robots.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/advanced/environments/prod/common/config/main-local.php" beforeDir="false" afterPath="$PROJECT_DIR$/advanced/environments/prod/common/config/main-local.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/advanced/environments/prod/common/config/params-local.php" beforeDir="false" afterPath="$PROJECT_DIR$/advanced/environments/prod/common/config/params-local.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/advanced/environments/prod/console/config/main-local.php" beforeDir="false" afterPath="$PROJECT_DIR$/advanced/environments/prod/console/config/main-local.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/advanced/environments/prod/console/config/params-local.php" beforeDir="false" afterPath="$PROJECT_DIR$/advanced/environments/prod/console/config/params-local.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/advanced/environments/prod/frontend/config/main-local.php" beforeDir="false" afterPath="$PROJECT_DIR$/advanced/environments/prod/frontend/config/main-local.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/advanced/environments/prod/frontend/config/params-local.php" beforeDir="false" afterPath="$PROJECT_DIR$/advanced/environments/prod/frontend/config/params-local.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/advanced/environments/prod/frontend/web/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/advanced/environments/prod/frontend/web/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/advanced/environments/prod/frontend/web/robots.txt" beforeDir="false" afterPath="$PROJECT_DIR$/advanced/environments/prod/frontend/web/robots.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/advanced/frontend/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/advanced/frontend/Dockerfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/advanced/frontend/assets/AppAsset.php" beforeDir="false" afterPath="$PROJECT_DIR$/advanced/frontend/assets/AppAsset.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/advanced/frontend/codeception.yml" beforeDir="false" afterPath="$PROJECT_DIR$/advanced/frontend/codeception.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/advanced/frontend/config/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/advanced/frontend/config/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/advanced/frontend/config/bootstrap.php" beforeDir="false" afterPath="$PROJECT_DIR$/advanced/frontend/config/bootstrap.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/advanced/frontend/config/main.php" beforeDir="false" afterPath="$PROJECT_DIR$/advanced/frontend/config/main.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/advanced/frontend/config/params.php" beforeDir="false" afterPath="$PROJECT_DIR$/advanced/frontend/config/params.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/advanced/frontend/config/test.php" beforeDir="false" afterPath="$PROJECT_DIR$/advanced/frontend/config/test.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/advanced/frontend/controllers/CategoryController.php" beforeDir="false" afterPath="$PROJECT_DIR$/advanced/frontend/controllers/CategoryController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/advanced/frontend/controllers/CommentController.php" beforeDir="false" afterPath="$PROJECT_DIR$/advanced/frontend/controllers/CommentController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/advanced/frontend/controllers/PostController.php" beforeDir="false" afterPath="$PROJECT_DIR$/advanced/frontend/controllers/PostController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/advanced/frontend/controllers/SiteController.php" beforeDir="false" afterPath="$PROJECT_DIR$/advanced/frontend/controllers/SiteController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/advanced/frontend/controllers/SkandController.php" beforeDir="false" afterPath="$PROJECT_DIR$/advanced/frontend/controllers/SkandController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/advanced/frontend/controllers/TagController.php" beforeDir="false" afterPath="$PROJECT_DIR$/advanced/frontend/controllers/TagController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/advanced/frontend/models/CommentForm.php" beforeDir="false" afterPath="$PROJECT_DIR$/advanced/frontend/models/CommentForm.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/advanced/frontend/models/ContactForm.php" beforeDir="false" afterPath="$PROJECT_DIR$/advanced/frontend/models/ContactForm.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/advanced/frontend/models/PasswordResetRequestForm.php" beforeDir="false" afterPath="$PROJECT_DIR$/advanced/frontend/models/PasswordResetRequestForm.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/advanced/frontend/models/ResendVerificationEmailForm.php" beforeDir="false" afterPath="$PROJECT_DIR$/advanced/frontend/models/ResendVerificationEmailForm.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/advanced/frontend/models/ResetPasswordForm.php" beforeDir="false" afterPath="$PROJECT_DIR$/advanced/frontend/models/ResetPasswordForm.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/advanced/frontend/models/SignupForm.php" beforeDir="false" afterPath="$PROJECT_DIR$/advanced/frontend/models/SignupForm.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/advanced/frontend/runtime/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/advanced/frontend/runtime/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/advanced/frontend/tests/_bootstrap.php" beforeDir="false" afterPath="$PROJECT_DIR$/advanced/frontend/tests/_bootstrap.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/advanced/frontend/tests/_data/login_data.php" beforeDir="false" afterPath="$PROJECT_DIR$/advanced/frontend/tests/_data/login_data.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/advanced/frontend/tests/_data/user.php" beforeDir="false" afterPath="$PROJECT_DIR$/advanced/frontend/tests/_data/user.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/advanced/frontend/tests/_output/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/advanced/frontend/tests/_output/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/advanced/frontend/tests/_support/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/advanced/frontend/tests/_support/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/advanced/frontend/tests/_support/FunctionalTester.php" beforeDir="false" afterPath="$PROJECT_DIR$/advanced/frontend/tests/_support/FunctionalTester.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/advanced/frontend/tests/_support/UnitTester.php" beforeDir="false" afterPath="$PROJECT_DIR$/advanced/frontend/tests/_support/UnitTester.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/advanced/frontend/tests/acceptance.suite.yml.example" beforeDir="false" afterPath="$PROJECT_DIR$/advanced/frontend/tests/acceptance.suite.yml.example" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/advanced/frontend/tests/acceptance/HomeCest.php" beforeDir="false" afterPath="$PROJECT_DIR$/advanced/frontend/tests/acceptance/HomeCest.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/advanced/frontend/tests/acceptance/_bootstrap.php" beforeDir="false" afterPath="$PROJECT_DIR$/advanced/frontend/tests/acceptance/_bootstrap.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/advanced/frontend/tests/functional.suite.yml" beforeDir="false" afterPath="$PROJECT_DIR$/advanced/frontend/tests/functional.suite.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/advanced/frontend/tests/functional/AboutCest.php" beforeDir="false" afterPath="$PROJECT_DIR$/advanced/frontend/tests/functional/AboutCest.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/advanced/frontend/tests/functional/ContactCest.php" beforeDir="false" afterPath="$PROJECT_DIR$/advanced/frontend/tests/functional/ContactCest.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/advanced/frontend/tests/functional/HomeCest.php" beforeDir="false" afterPath="$PROJECT_DIR$/advanced/frontend/tests/functional/HomeCest.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/advanced/frontend/tests/functional/LoginCest.php" beforeDir="false" afterPath="$PROJECT_DIR$/advanced/frontend/tests/functional/LoginCest.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/advanced/frontend/tests/functional/ResendVerificationEmailCest.php" beforeDir="false" afterPath="$PROJECT_DIR$/advanced/frontend/tests/functional/ResendVerificationEmailCest.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/advanced/frontend/tests/functional/SignupCest.php" beforeDir="false" afterPath="$PROJECT_DIR$/advanced/frontend/tests/functional/SignupCest.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/advanced/frontend/tests/functional/VerifyEmailCest.php" beforeDir="false" afterPath="$PROJECT_DIR$/advanced/frontend/tests/functional/VerifyEmailCest.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/advanced/frontend/tests/functional/_bootstrap.php" beforeDir="false" afterPath="$PROJECT_DIR$/advanced/frontend/tests/functional/_bootstrap.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/advanced/frontend/tests/unit.suite.yml" beforeDir="false" afterPath="$PROJECT_DIR$/advanced/frontend/tests/unit.suite.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/advanced/frontend/tests/unit/_bootstrap.php" beforeDir="false" afterPath="$PROJECT_DIR$/advanced/frontend/tests/unit/_bootstrap.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/advanced/frontend/tests/unit/models/ContactFormTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/advanced/frontend/tests/unit/models/ContactFormTest.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/advanced/frontend/tests/unit/models/PasswordResetRequestFormTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/advanced/frontend/tests/unit/models/PasswordResetRequestFormTest.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/advanced/frontend/tests/unit/models/ResendVerificationEmailFormTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/advanced/frontend/tests/unit/models/ResendVerificationEmailFormTest.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/advanced/frontend/tests/unit/models/ResetPasswordFormTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/advanced/frontend/tests/unit/models/ResetPasswordFormTest.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/advanced/frontend/tests/unit/models/SignupFormTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/advanced/frontend/tests/unit/models/SignupFormTest.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/advanced/frontend/tests/unit/models/VerifyEmailFormTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/advanced/frontend/tests/unit/models/VerifyEmailFormTest.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/advanced/frontend/views/category/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/advanced/frontend/views/category/index.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/advanced/frontend/views/category/shortViewCategory.php" beforeDir="false" afterPath="$PROJECT_DIR$/advanced/frontend/views/category/shortViewCategory.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/advanced/frontend/views/comment/_form.php" beforeDir="false" afterPath="$PROJECT_DIR$/advanced/frontend/views/comment/_form.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/advanced/frontend/views/comment/create.php" beforeDir="false" afterPath="$PROJECT_DIR$/advanced/frontend/views/comment/create.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/advanced/frontend/views/layouts/main.php" beforeDir="false" afterPath="$PROJECT_DIR$/advanced/frontend/views/layouts/main.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/advanced/frontend/views/post/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/advanced/frontend/views/post/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/advanced/frontend/views/post/shortView.php" beforeDir="false" afterPath="$PROJECT_DIR$/advanced/frontend/views/post/shortView.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/advanced/frontend/views/post/view.php" beforeDir="false" afterPath="$PROJECT_DIR$/advanced/frontend/views/post/view.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/advanced/frontend/views/site/about.php" beforeDir="false" afterPath="$PROJECT_DIR$/advanced/frontend/views/site/about.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/advanced/frontend/views/site/error.php" beforeDir="false" afterPath="$PROJECT_DIR$/advanced/frontend/views/site/error.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/advanced/frontend/views/site/login.php" beforeDir="false" afterPath="$PROJECT_DIR$/advanced/frontend/views/site/login.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/advanced/frontend/views/site/requestPasswordResetToken.php" beforeDir="false" afterPath="$PROJECT_DIR$/advanced/frontend/views/site/requestPasswordResetToken.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/advanced/frontend/views/site/resetPassword.php" beforeDir="false" afterPath="$PROJECT_DIR$/advanced/frontend/views/site/resetPassword.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/advanced/frontend/views/site/signup.php" beforeDir="false" afterPath="$PROJECT_DIR$/advanced/frontend/views/site/signup.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/advanced/frontend/views/skand/skand.php" beforeDir="false" afterPath="$PROJECT_DIR$/advanced/frontend/views/skand/skand.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/advanced/frontend/views/skand/skandview.php" beforeDir="false" afterPath="$PROJECT_DIR$/advanced/frontend/views/skand/skandview.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/advanced/frontend/views/site/requestPasswordResetToken.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/advanced/frontend/views/site/resetPassword.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/advanced/frontend/views/skand/skand.php" beforeDir="false" afterPath="$PROJECT_DIR$/advanced/frontend/views/skand/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/advanced/frontend/views/skand/skandview.php" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/advanced/frontend/views/tag/view.php" beforeDir="false" afterPath="$PROJECT_DIR$/advanced/frontend/views/tag/view.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/advanced/frontend/web/assets/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/advanced/frontend/web/assets/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/advanced/frontend/web/css/site.css" beforeDir="false" afterPath="$PROJECT_DIR$/advanced/frontend/web/css/site.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/advanced/frontend/web/favicon.ico" beforeDir="false" afterPath="$PROJECT_DIR$/advanced/frontend/web/favicon.ico" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/advanced/frontend/widgets/Alert.php" beforeDir="false" afterPath="$PROJECT_DIR$/advanced/frontend/widgets/Alert.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/advanced/init.bat" beforeDir="false" afterPath="$PROJECT_DIR$/advanced/init.bat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/advanced/requirements.php" beforeDir="false" afterPath="$PROJECT_DIR$/advanced/requirements.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/advanced/vagrant/config/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/advanced/vagrant/config/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/advanced/vagrant/config/vagrant-local.example.yml" beforeDir="false" afterPath="$PROJECT_DIR$/advanced/vagrant/config/vagrant-local.example.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/advanced/vagrant/nginx/app.conf" beforeDir="false" afterPath="$PROJECT_DIR$/advanced/vagrant/nginx/app.conf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/advanced/vagrant/nginx/log/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/advanced/vagrant/nginx/log/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/advanced/vagrant/provision/provision.awk" beforeDir="false" afterPath="$PROJECT_DIR$/advanced/vagrant/provision/provision.awk" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/advanced/yii.bat" beforeDir="false" afterPath="$PROJECT_DIR$/advanced/yii.bat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/advanced/frontend/web/uploads/uploads" beforeDir="false" afterPath="$PROJECT_DIR$/advanced/frontend/web/uploads" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -411,7 +175,7 @@
     <property name="DatabaseDriversLRU" value="mysql" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/advanced/frontend/views/skand" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -424,12 +188,16 @@
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/advanced/frontend/web" />
+      <recent name="$PROJECT_DIR$/advanced/frontend/web/asd" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/advanced/frontend/views/skand" />
+      <recent name="$PROJECT_DIR$/advanced/backend/views/pdf" />
       <recent name="$PROJECT_DIR$/advanced/backend" />
       <recent name="$PROJECT_DIR$/advanced/backend/web/emails" />
       <recent name="$PROJECT_DIR$/advanced/backend/mail" />
-      <recent name="$PROJECT_DIR$/advanced/common/mail" />
-      <recent name="$PROJECT_DIR$/advanced/common/models" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -512,14 +280,18 @@
     </state>
     <state x="586" y="125" width="1022" height="737" key="SettingsEditor/1920.0.1920.1080/0.27.1920.1053@0.27.1920.1053" timestamp="1602483534391" />
     <state x="636" y="125" key="SettingsEditor/72.27.1848.1053@72.27.1848.1053" timestamp="1602853089205" />
-    <state x="1027" y="409" width="731" height="522" key="find.popup" timestamp="1602835091866">
+    <state x="1027" y="409" width="731" height="522" key="find.popup" timestamp="1603087026965">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state x="1027" y="409" width="731" height="522" key="find.popup/1920.0.1920.1080/0.27.1920.1053@0.27.1920.1053" timestamp="1602835091866" />
-    <state x="675" y="462" width="540" height="179" key="vcs.readOnlyHandler.ReadOnlyStatusDialog" timestamp="1602853097308">
-      <screen x="72" y="27" width="1848" height="1053" />
+    <state x="1027" y="409" width="731" height="522" key="find.popup/1920.0.1920.1080/0.27.1920.1053@0.27.1920.1053" timestamp="1603087026965" />
+    <state x="623" y="239" width="672" height="678" key="search.everywhere.popup" timestamp="1603092297708">
+      <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state x="626" y="462" width="540" height="179" key="vcs.readOnlyHandler.ReadOnlyStatusDialog/1920.0.1920.1080/0.27.1920.1053@0.27.1920.1053" timestamp="1602831648838" />
+    <state x="623" y="239" width="672" height="678" key="search.everywhere.popup/1920.0.1920.1080/0.27.1920.1053@0.27.1920.1053" timestamp="1603092297708" />
+    <state x="626" y="462" width="540" height="179" key="vcs.readOnlyHandler.ReadOnlyStatusDialog" timestamp="1603079605970">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state x="626" y="462" width="540" height="179" key="vcs.readOnlyHandler.ReadOnlyStatusDialog/1920.0.1920.1080/0.27.1920.1053@0.27.1920.1053" timestamp="1603079605970" />
     <state x="675" y="462" width="540" height="179" key="vcs.readOnlyHandler.ReadOnlyStatusDialog/72.27.1848.1053@72.27.1848.1053" timestamp="1602853097308" />
   </component>
 </project>

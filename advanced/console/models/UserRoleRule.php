@@ -1,10 +1,4 @@
 <?php
-/**
- * Created by PhpStorm.
- * User: georg
- * Date: 07.03.16
- * Time: 15:44
- */
 
 namespace console\models;
 

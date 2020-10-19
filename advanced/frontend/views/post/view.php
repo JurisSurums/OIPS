@@ -1,10 +1,5 @@
 <?php
-/**
- * Created by PhpStorm.
- * User: georgy
- * Date: 09.07.14
- * Time: 9:26
- */
+
 use common\models\Comment;
 use yii\helpers\Html;
 

@@ -31,8 +31,8 @@ foreach ($allFiles as $filo)
 <?= Html::DropDownList('namo', 'formo', $allFiles) ?>
 <?= Html::hiddenInput('dire', $prefix) ?>
 
-<?= Html::a(Yii::t('backend', 'Delete'), ['final'], [
-    'class' => 'btn btn-danger',
+<?= Html::a(Yii::t('backend', 'Pievienot notis'), ['final'], [
+    'class' => 'btn btn-success',
     'data' => [
         'method' => 'post',
     ],
