@@ -30,13 +30,20 @@ class PostController extends Controller
         $posts->setPagination([
             'pageSize' => Yii::$app->params['pageSize']
         ]);
-
-        return $this->render('index', [
-            'posts' => $posts,
-            'categories' => Category::findCategories()
-        ]);
+        if (Yii::$app->user->isGuest)
+        {
+            return $this->render('guestindex', [
+                'posts' => $posts
+            ]);
+        }
+        else
+        {
+            return $this->render('index', [
+                'posts' => $posts,
+                'categories' => Category::findCategories()
+            ]);
+        }
     }
-
     public function actionView(int $id): string
     {
         return $this->render('view', [

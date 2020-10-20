@@ -14,20 +14,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="77e549de-f6ad-4a4c-aaf2-c67442ce7595" name="Default Changelist" comment="jeas">
-      <change afterPath="$PROJECT_DIR$/advanced/backend/controllers/DelskandController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/advanced/backend/views/delskand/delete.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/advanced/backend/views/delskand/sucess.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/advanced/frontend/views/post/guestindex.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/advanced/backend/controllers/CategoryController.php" beforeDir="false" afterPath="$PROJECT_DIR$/advanced/backend/controllers/CategoryController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/advanced/backend/controllers/PdfController.php" beforeDir="false" afterPath="$PROJECT_DIR$/advanced/backend/controllers/PdfController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/advanced/backend/controllers/SkandController.php" beforeDir="false" afterPath="$PROJECT_DIR$/advanced/backend/controllers/SkandController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/advanced/backend/views/pdf/upload.php" beforeDir="false" afterPath="$PROJECT_DIR$/advanced/backend/views/pdf/upload.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/advanced/backend/views/site/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/advanced/backend/views/site/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/advanced/common/models/Category.php" beforeDir="false" afterPath="$PROJECT_DIR$/advanced/common/models/Category.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/advanced/common/models/Post.php" beforeDir="false" afterPath="$PROJECT_DIR$/advanced/common/models/Post.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/advanced/common/models/Skand.php" beforeDir="false" afterPath="$PROJECT_DIR$/advanced/common/models/Skand.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/advanced/common/models/UploadForm.php" beforeDir="false" afterPath="$PROJECT_DIR$/advanced/common/models/UploadForm.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/advanced/frontend/controllers/PostController.php" beforeDir="false" afterPath="$PROJECT_DIR$/advanced/frontend/controllers/PostController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/advanced/frontend/controllers/SiteController.php" beforeDir="false" afterPath="$PROJECT_DIR$/advanced/frontend/controllers/SiteController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/advanced/frontend/views/layouts/main.php" beforeDir="false" afterPath="$PROJECT_DIR$/advanced/frontend/views/layouts/main.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/advanced/frontend/web/css/site.css" beforeDir="false" afterPath="$PROJECT_DIR$/advanced/frontend/web/css/site.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -148,7 +140,7 @@
     <property name="DatabaseDriversLRU" value="mysql" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/advanced/backend/controllers" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/advanced/frontend/views/post" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -162,11 +154,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/advanced/frontend/views/post" />
       <recent name="$PROJECT_DIR$/advanced/backend/controllers" />
       <recent name="$PROJECT_DIR$/advanced/backend/views" />
       <recent name="$PROJECT_DIR$/advanced/backend/views/DelSkand" />
       <recent name="$PROJECT_DIR$/advanced/backend/views/pdf" />
-      <recent name="$PROJECT_DIR$/advanced/frontend/views/skand" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/advanced/frontend/web" />
@@ -192,7 +184,7 @@
       <workItem from="1602820768341" duration="16494000" />
       <workItem from="1602853016560" duration="11741000" />
       <workItem from="1603015406596" duration="16996000" />
-      <workItem from="1603167979423" duration="18291000" />
+      <workItem from="1603167979423" duration="22592000" />
     </task>
     <task id="LOCAL-00001" summary="jeas">
       <created>1602678611808</created>
@@ -254,10 +246,10 @@
     </state>
     <state x="586" y="125" width="1022" height="737" key="SettingsEditor/1920.0.1920.1080/0.27.1920.1053@0.27.1920.1053" timestamp="1603180515971" />
     <state x="636" y="125" key="SettingsEditor/72.27.1848.1053@72.27.1848.1053" timestamp="1602853089205" />
-    <state x="1027" y="409" width="731" height="522" key="find.popup" timestamp="1603087026965">
+    <state x="740" y="422" width="731" height="522" key="find.popup" timestamp="1603194748501">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state x="1027" y="409" width="731" height="522" key="find.popup/1920.0.1920.1080/0.27.1920.1053@0.27.1920.1053" timestamp="1603087026965" />
+    <state x="740" y="422" width="731" height="522" key="find.popup/1920.0.1920.1080/0.27.1920.1053@0.27.1920.1053" timestamp="1603194748501" />
     <state x="623" y="239" width="672" height="678" key="search.everywhere.popup" timestamp="1603183229870">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
