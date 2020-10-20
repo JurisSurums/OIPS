@@ -147,10 +147,14 @@ class Post extends ActiveRecord
                 return $model;
             }
         }
-
         throw new NotFoundHttpException('The requested post does not exist.');
     }
 
+    public static function findByCategoryId(int $id)
+    {
+        $model = Post::find()->where(['category_id'=>$id])->all();
+        return $model;
+    }
     /**
      * @inheritdoc
      */

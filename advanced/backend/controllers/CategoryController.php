@@ -4,6 +4,7 @@ namespace backend\controllers;
 
 use Yii;
 use common\models\Category;
+use common\models\Post;
 use yii\data\ActiveDataProvider;
 use yii\filters\AccessControl;
 use yii\web\Controller;
@@ -87,8 +88,14 @@ class CategoryController extends Controller
 
     public function actionDelete(int $id): Response
     {
+        $y = Category::findById($id);
+        $deleting = $y->id;
+        $allPosts = Post::findByCategoryId($deleting);
+        foreach ($allPosts as $o)
+        {
+            $o->delete();
+        }
         Category::findById($id)->delete();
-
         return $this->redirect(['index']);
     }
 }

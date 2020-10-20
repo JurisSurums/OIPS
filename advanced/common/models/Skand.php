@@ -21,6 +21,13 @@ class Skand extends Model
         /*var_dump($allFiles);
         exit;*/
         $dir = $posto["Skand"]["name_field"];
+        foreach ($allFiles as $a)
+        {
+            if($a=='uploads/'.$dir)
+            {
+                return false;
+            }
+        }
         FileHelper::createDirectory(('uploads/'.$dir.'/trompetes'));
         FileHelper::createDirectory(('uploads/'.$dir.'/mežragi'));
         FileHelper::createDirectory(('uploads/'.$dir.'/tromboni'));

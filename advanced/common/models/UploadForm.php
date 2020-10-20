@@ -19,13 +19,16 @@ class UploadForm extends Model
     public function rules()
     {
         return [
-            [['pdfFile'], 'file', 'skipOnEmpty' => false, 'extensions' => 'pdf'],
+            [['pdfFile'], 'file', 'skipOnEmpty' => false, 'extensions' => 'pdf', 'maxFiles' => 4],
         ];
     }
     public function upload($dirname) // vajag mainigo no view input, kur norāda skaņdarbu
     {
+
         if ($this->validate()) {
-            $this->pdfFile->saveAs($dirname . '/' . date('YMD') . "_" . $this->pdfFile->baseName . '.' . $this->pdfFile->extension);
+            foreach ($this->pdfFile as $file) {
+                $file->saveAs($dirname . '/' . date('YMD') . "_" . $file->baseName . '.' . $file->extension);
+            }
             return true;
         } else {
             return false;

@@ -6,27 +6,23 @@ use yii\helpers\FileHelper;
 use yii\web\Controller;
 use common\models\Skand;
 use common\models\UploadForm;
+use yii\web\UploadedFile;
 use yii\widgets\ActiveForm;
 
-class SkandController extends Controller
+class DelskandController extends Controller
 {
-    public function actionUpload()
+    public function actionDelete()
     {
 /*        var_dump($model);
         exit;*/
-        $model = new Skand();
+        $model = new UploadForm();
         $allFiles = FileHelper::findDirectories('uploads/', ['recursive' => false]);
         if (Yii::$app->request->isPost) { // pressed the button
             $post = Yii::$app->request->post();
-            if ($model->upload($allFiles, $post)) {
-                // file is uploaded successfully
-                return $this->render('sucess');
-            }
-            else
-            {
-                return $this->render('upload', ['model' => $model]);
-            }
+            $diro = $model->dirfind($post["namo"], $allFiles);
+            FileHelper::removeDirectory($diro, ['recursive' => true]);
+            return $this->render('sucess');
         }
-        return $this->render('upload', ['model' => $model]);
+        return $this->render('delete', ['model' => $model, "allFiles" => $allFiles]);
     }
 }

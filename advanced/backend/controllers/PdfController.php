@@ -41,7 +41,7 @@ class PdfController extends Controller
         $fullDir = $y['dire'];
         $allFiles = FileHelper::findDirectories($fullDir, ['recursive' => false]);
         $diro = $model->dirfind($dir, $allFiles);
-        $model->pdfFile = UploadedFile::getInstance($model, 'pdfFile');
+        $model->pdfFile = UploadedFile::getInstances($model, 'pdfFile');
         if ($model->upload($diro)) {
             // file is uploaded successfully
             return $this->render('/site/index');
