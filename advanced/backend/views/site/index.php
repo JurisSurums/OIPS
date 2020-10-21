@@ -20,6 +20,7 @@ use yii\helpers\Url;
             <li class="list-group-item"><a href="<?= Url::toRoute('skand/upload'); ?>"><?= 'Pievieno skaņdarbu' ?></a></li>
             <li class="list-group-item"><a href="<?= Url::toRoute('delskand/delete'); ?>"><?= 'Dzēst skaņdarbu' ?></a></li>
             <li class="list-group-item"><a href="<?= Url::toRoute('mail/upload'); ?>"><?= 'Nosūtīt epastu visiem lietotājiem' ?></a></li>
+            <li class="list-group-item"><a href="<?= Url::toRoute('orkdata/index'); ?>"><?= 'Nosūtīt epastu visiem lietotājiem' ?></a></li>
         </ul>
     </div>
 </div>

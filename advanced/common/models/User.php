@@ -135,6 +135,17 @@ class User extends ActiveRecord implements IdentityInterface
         return true;
     }
 
+    public function findAllUsernames()
+    {
+        $r = User::find()->select('username')->all();
+        $usernames = array();
+        foreach ($r as $d)
+        {
+            $usernames[] = $d['username'];
+        }
+        return $usernames;
+    }
+
     /**
      * Finds out if password reset token is valid
      *

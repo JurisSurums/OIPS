@@ -14,12 +14,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="77e549de-f6ad-4a4c-aaf2-c67442ce7595" name="Default Changelist" comment="jeas">
-      <change afterPath="$PROJECT_DIR$/advanced/frontend/views/post/guestindex.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/advanced/common/models/Orkdata.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/advanced/console/migrations/m201021_053225_orkdata.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/advanced/frontend/controllers/PostController.php" beforeDir="false" afterPath="$PROJECT_DIR$/advanced/frontend/controllers/PostController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/advanced/frontend/controllers/SiteController.php" beforeDir="false" afterPath="$PROJECT_DIR$/advanced/frontend/controllers/SiteController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/advanced/frontend/views/layouts/main.php" beforeDir="false" afterPath="$PROJECT_DIR$/advanced/frontend/views/layouts/main.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/advanced/frontend/web/css/site.css" beforeDir="false" afterPath="$PROJECT_DIR$/advanced/frontend/web/css/site.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/advanced/backend/views/site/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/advanced/backend/views/site/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/advanced/common/models/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/advanced/common/models/User.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -140,7 +140,7 @@
     <property name="DatabaseDriversLRU" value="mysql" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/advanced/frontend/views/post" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/advanced/console/migrations" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -153,16 +153,16 @@
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/advanced/frontend/web" />
+      <recent name="$PROJECT_DIR$/advanced/frontend/web/asd" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/advanced/console/migrations" />
       <recent name="$PROJECT_DIR$/advanced/frontend/views/post" />
       <recent name="$PROJECT_DIR$/advanced/backend/controllers" />
       <recent name="$PROJECT_DIR$/advanced/backend/views" />
       <recent name="$PROJECT_DIR$/advanced/backend/views/DelSkand" />
-      <recent name="$PROJECT_DIR$/advanced/backend/views/pdf" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/advanced/frontend/web" />
-      <recent name="$PROJECT_DIR$/advanced/frontend/web/asd" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -184,7 +184,8 @@
       <workItem from="1602820768341" duration="16494000" />
       <workItem from="1602853016560" duration="11741000" />
       <workItem from="1603015406596" duration="16996000" />
-      <workItem from="1603167979423" duration="22592000" />
+      <workItem from="1603167979423" duration="22753000" />
+      <workItem from="1603254496293" duration="25808000" />
     </task>
     <task id="LOCAL-00001" summary="jeas">
       <created>1602678611808</created>
@@ -233,23 +234,23 @@
     </state>
     <state x="735" y="311" width="424" height="491" key="FileChooserDialogImpl/1920.0.1920.1080/0.27.1920.1053@0.27.1920.1053" timestamp="1602584072902" />
     <state x="779" y="311" width="424" height="491" key="FileChooserDialogImpl/72.27.1848.1053@72.27.1848.1053" timestamp="1601718602766" />
-    <state x="1326" y="372" width="521" height="575" key="NewPhpClassDialog" timestamp="1602760945800">
+    <state x="1326" y="372" width="521" height="575" key="NewPhpClassDialog" timestamp="1603264749367">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state x="1326" y="372" width="521" height="575" key="NewPhpClassDialog/1920.0.1920.1080/0.27.1920.1053@0.27.1920.1053" timestamp="1602760945800" />
-    <state x="755" y="465" width="399" height="156" key="NewPhpFileDialog" timestamp="1602756062438">
+    <state x="1326" y="372" width="521" height="575" key="NewPhpClassDialog/1920.0.1920.1080/0.27.1920.1053@0.27.1920.1053" timestamp="1603264749367" />
+    <state x="755" y="465" width="399" height="156" key="NewPhpFileDialog" timestamp="1603262742096">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state x="755" y="465" width="399" height="156" key="NewPhpFileDialog/1920.0.1920.1080/0.27.1920.1053@0.27.1920.1053" timestamp="1602756062438" />
+    <state x="755" y="465" width="399" height="156" key="NewPhpFileDialog/1920.0.1920.1080/0.27.1920.1053@0.27.1920.1053" timestamp="1603262742096" />
     <state x="586" y="125" width="1022" height="737" key="SettingsEditor" timestamp="1603180515971">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
     <state x="586" y="125" width="1022" height="737" key="SettingsEditor/1920.0.1920.1080/0.27.1920.1053@0.27.1920.1053" timestamp="1603180515971" />
     <state x="636" y="125" key="SettingsEditor/72.27.1848.1053@72.27.1848.1053" timestamp="1602853089205" />
-    <state x="740" y="422" width="731" height="522" key="find.popup" timestamp="1603194748501">
+    <state x="740" y="422" width="731" height="522" key="find.popup" timestamp="1603263874122">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state x="740" y="422" width="731" height="522" key="find.popup/1920.0.1920.1080/0.27.1920.1053@0.27.1920.1053" timestamp="1603194748501" />
+    <state x="740" y="422" width="731" height="522" key="find.popup/1920.0.1920.1080/0.27.1920.1053@0.27.1920.1053" timestamp="1603263874122" />
     <state x="623" y="239" width="672" height="678" key="search.everywhere.popup" timestamp="1603183229870">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
