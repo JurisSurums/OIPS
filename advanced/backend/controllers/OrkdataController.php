@@ -5,6 +5,7 @@ namespace backend\controllers;
 use Yii;
 use common\models\Orkdata;
 use common\models\User;
+use yii\base\Model;
 use yii\data\ActiveDataProvider;
 use yii\web\Controller;
 use yii\web\NotFoundHttpException;
@@ -70,10 +71,10 @@ class OrkdataController extends Controller
         if(Yii::$app->request->post())
         {
             $back = Yii::$app->request->post();
-            var_dump($back['namo']);
+            //var_dump($back['namo']);
             $val = (int)$back['namo'];
-            $val = $val +1;
-            $back["Orkdata"]["user_id"] = (string)$val;
+            $UserId = $users->findById($val);
+            $back["Orkdata"]["user_id"] = (string)$UserId;
             if ($model->load($back) && $model->save()) {
                 return $this->redirect(['view', 'id' => $model->id]);
             }
@@ -94,14 +95,25 @@ class OrkdataController extends Controller
      */
     public function actionUpdate($id)
     {
+        $users = new User();
         $model = $this->findModel($id);
+        $d = $users->findAllUsernames();
+        if(Yii::$app->request->post())
+        {
+            $back = Yii::$app->request->post();
+            //var_dump($back['namo']);
+            $val = (int)$back['namo'];
+            $UserId = $users->findById($val);
+            $back["Orkdata"]["user_id"] = (string)$UserId;
 
-        if ($model->load(Yii::$app->request->post()) && $model->save()) {
-            return $this->redirect(['view', 'id' => $model->id]);
+            if ($model->load($back) && $model->save(false)) {
+
+                return $this->redirect(['view', 'id' => $model->id]);
+            }
         }
-
         return $this->render('update', [
             'model' => $model,
+            'names' => $d
         ]);
     }
 

@@ -6,10 +6,11 @@ use yii\helpers\Html;
 /* @var TagPost $postTag */
 ?>
 
-<h1><?= $model->title ?></h1>
+<h1><b><?= $model->title ?></b></h1>
 
 <div class="meta">
     <p><?= Yii::t('frontend', 'Author') ?>: <?= $model->author->username ?>
+        <br>
         <?= Yii::t('frontend', 'Publish date') ?>:
         <?= $model->publish_date ?>
         <br>
@@ -17,7 +18,7 @@ use yii\helpers\Html;
         <?= Html::a($model->category->title, ['category/view', 'id' => $model->category->id]) ?></p>
 </div>
 <div class="content">
-    <?= $model->anons ?>
+    <i><?= $model->anons ?></i>
 </div>
 <div class="tags">
     <?php
@@ -29,4 +30,4 @@ use yii\helpers\Html;
     <?= Yii::t('frontend', 'Tags') ?>: <?= implode($tags, ', ') ?>
 </div>
 
-<?= Html::a('Apskatīt postu', ['post/view', 'id' => $model->id], ['class' => 'btn btn-success']) ?>
+<?= Html::a('Apskatīt postu', ['post/view', 'id' => $model->id], ['class' => 'btn btn-success pull-right']) ?>

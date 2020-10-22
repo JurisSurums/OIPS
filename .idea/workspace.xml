@@ -14,12 +14,27 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="77e549de-f6ad-4a4c-aaf2-c67442ce7595" name="Default Changelist" comment="jeas">
-      <change afterPath="$PROJECT_DIR$/advanced/common/models/Orkdata.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/advanced/console/migrations/m201021_053225_orkdata.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/advanced/console/migrations/m160307_190535_default_user.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/advanced/frontend/web/images/home.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/advanced/backend/controllers/OrkdataController.php" beforeDir="false" afterPath="$PROJECT_DIR$/advanced/backend/controllers/OrkdataController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/advanced/backend/controllers/UserController.php" beforeDir="false" afterPath="$PROJECT_DIR$/advanced/backend/controllers/UserController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/advanced/backend/views/orkdata/update.php" beforeDir="false" afterPath="$PROJECT_DIR$/advanced/backend/views/orkdata/update.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/advanced/backend/views/post/create.php" beforeDir="false" afterPath="$PROJECT_DIR$/advanced/backend/views/post/create.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/advanced/backend/views/site/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/advanced/backend/views/site/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/advanced/backend/views/tags/view.php" beforeDir="false" afterPath="$PROJECT_DIR$/advanced/backend/views/tags/view.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/advanced/backend/views/user/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/advanced/backend/views/user/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/advanced/backend/views/user/view.php" beforeDir="false" afterPath="$PROJECT_DIR$/advanced/backend/views/user/view.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/advanced/backend/web/emails/JureisMan saņēmi?.php" beforeDir="false" afterPath="$PROJECT_DIR$/advanced/backend/web/emails/JureisMan saņēmi?.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/advanced/backend/web/emails/Mēģinājums.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/advanced/backend/web/emails/Pirmais epasts.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/advanced/backend/web/emails/daf.php" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/advanced/common/models/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/advanced/common/models/User.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/advanced/console/migrations/m201021_053225_orkdata.php" beforeDir="false" afterPath="$PROJECT_DIR$/advanced/console/migrations/m201021_053225_orkdata.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/advanced/frontend/views/post/guestindex.php" beforeDir="false" afterPath="$PROJECT_DIR$/advanced/frontend/views/post/guestindex.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/advanced/frontend/views/post/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/advanced/frontend/views/post/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/advanced/frontend/views/post/shortView.php" beforeDir="false" afterPath="$PROJECT_DIR$/advanced/frontend/views/post/shortView.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/advanced/frontend/web/css/site.css" beforeDir="false" afterPath="$PROJECT_DIR$/advanced/frontend/web/css/site.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -140,7 +155,7 @@
     <property name="DatabaseDriversLRU" value="mysql" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/advanced/console/migrations" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/advanced/frontend/views/post" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -153,16 +168,17 @@
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/advanced/frontend/web" />
-      <recent name="$PROJECT_DIR$/advanced/frontend/web/asd" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/advanced/console/migrations" />
       <recent name="$PROJECT_DIR$/advanced/frontend/views/post" />
+      <recent name="$PROJECT_DIR$/advanced/console/migrations" />
       <recent name="$PROJECT_DIR$/advanced/backend/controllers" />
       <recent name="$PROJECT_DIR$/advanced/backend/views" />
       <recent name="$PROJECT_DIR$/advanced/backend/views/DelSkand" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/advanced/frontend/web/images" />
+      <recent name="$PROJECT_DIR$/advanced/frontend/web" />
+      <recent name="$PROJECT_DIR$/advanced/frontend/web/asd" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -185,7 +201,8 @@
       <workItem from="1602853016560" duration="11741000" />
       <workItem from="1603015406596" duration="16996000" />
       <workItem from="1603167979423" duration="22753000" />
-      <workItem from="1603254496293" duration="25808000" />
+      <workItem from="1603254496293" duration="26306000" />
+      <workItem from="1603339338722" duration="21015000" />
     </task>
     <task id="LOCAL-00001" summary="jeas">
       <created>1602678611808</created>
@@ -247,10 +264,10 @@
     </state>
     <state x="586" y="125" width="1022" height="737" key="SettingsEditor/1920.0.1920.1080/0.27.1920.1053@0.27.1920.1053" timestamp="1603180515971" />
     <state x="636" y="125" key="SettingsEditor/72.27.1848.1053@72.27.1848.1053" timestamp="1602853089205" />
-    <state x="740" y="422" width="731" height="522" key="find.popup" timestamp="1603263874122">
+    <state x="740" y="422" width="731" height="522" key="find.popup" timestamp="1603359089001">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state x="740" y="422" width="731" height="522" key="find.popup/1920.0.1920.1080/0.27.1920.1053@0.27.1920.1053" timestamp="1603263874122" />
+    <state x="740" y="422" width="731" height="522" key="find.popup/1920.0.1920.1080/0.27.1920.1053@0.27.1920.1053" timestamp="1603359089001" />
     <state x="623" y="239" width="672" height="678" key="search.everywhere.popup" timestamp="1603183229870">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>

@@ -107,6 +107,11 @@ class User extends ActiveRecord implements IdentityInterface
         return static::findOne(['username' => $username, 'status' => self::STATUS_ACTIVE]);
     }
 
+    public static function findById($id)
+    {
+        $r = User::find()->select('id')->all();
+        return $r[$id]['id'];
+    }
     /**
      * Finds user by password reset token
      *
@@ -234,5 +239,21 @@ class User extends ActiveRecord implements IdentityInterface
     public function removePasswordResetToken()
     {
         $this->password_reset_token = null;
+    }
+
+    public function beforeSave($insert)
+    {
+        if (!empty($this->new_password)) {
+            $this->setPassword($this->new_password);
+        }
+
+        if (parent::beforeSave($insert)) {
+            if ($this->isNewRecord) {
+                $this->auth_key = \Yii::$app->security->generateRandomString();
+            }
+            return true;
+        }
+
+        return false;
     }
 }

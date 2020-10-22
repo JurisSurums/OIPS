@@ -11,11 +11,10 @@ use yii\widgets\LinkPager;
 //LANDING
 $this->title = Yii::t('frontend', 'Foruma sadaļa');
 ?>
-
 <div class="col-sm-8 post-index">
 
     <h1><?= Html::encode($this->title) ?></h1>
-
+    <hr>
     <?php
     foreach ($posts->models as $post) {
         echo $this->render('shortView', [
@@ -23,16 +22,15 @@ $this->title = Yii::t('frontend', 'Foruma sadaļa');
         ]);
     }
     ?>
-
     <div>
         <?= LinkPager::widget([
             'pagination' => $posts->getPagination()
         ]) ?>
     </div>
 </div>
-
 <div class="col-sm-3 col-sm-offset-1 blog-sidebar">
     <h1><?= Yii::t('frontend', 'Kategorijas') ?></h1>
+    <hr>
     <ul>
     <?php
     foreach ($categories->models as $category) {

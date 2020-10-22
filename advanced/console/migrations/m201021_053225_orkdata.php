@@ -11,8 +11,8 @@ class m201021_053225_orkdata extends Migration
     {
         $this->createTable('orkdata', [
             'id' => $this->primaryKey(),
-            'instrument' => $this->string(),
-            'participation' => $this->timestamp(),
+            'instrument' => $this->string()->notNull(),
+            'participation' => $this->date(),
             'user_id' => $this->integer()
         ]);
 
