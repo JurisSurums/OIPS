@@ -25,7 +25,6 @@ class CommentController extends Controller
         if (Yii::$app->user instanceof User) {
             $comment->author_id = Yii::$app->user->getIdentity()->getId();
         }
-
         if ($commentForm->save($comment, Yii::$app->request->post('CommentForm'))) {
             return $this->redirect(['post/view', 'id' => Yii::$app->request->get('id')]);
         }

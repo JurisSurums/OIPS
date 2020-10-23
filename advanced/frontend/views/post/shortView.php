@@ -9,12 +9,12 @@ use yii\helpers\Html;
 <h1><b><?= $model->title ?></b></h1>
 
 <div class="meta">
-    <p><?= Yii::t('frontend', 'Author') ?>: <?= $model->author->username ?>
+    <p><?= Yii::t('frontend', 'Autors') ?>: <?= $model->author->username ?>
         <br>
-        <?= Yii::t('frontend', 'Publish date') ?>:
+        <?= Yii::t('frontend', 'Izveides datums') ?>:
         <?= $model->publish_date ?>
         <br>
-        <?= Yii::t('frontend', 'Category') ?>:
+        <?= Yii::t('frontend', 'Kategorija') ?>:
         <?= Html::a($model->category->title, ['category/view', 'id' => $model->category->id]) ?></p>
 </div>
 <div class="content">
@@ -25,9 +25,13 @@ use yii\helpers\Html;
     $tags = [];
     foreach($model->getTagPost()->all() as $postTag) {
         $tag = $postTag->getTag()->one();
+        if ($postTag["tag_id"] != NULL)
+        {
         $tags[] = Html::a($tag->title, ['tag/view', 'id' => $tag->id]);
-    } ?>
-    <?= Yii::t('frontend', 'Tags') ?>: <?= implode($tags, ', ') ?>
+        }
+    }
+    ?>
+    <?= Yii::t('frontend', 'Tagi') ?>: <?= implode($tags, ', ') ?>
 </div>
 
 <?= Html::a('Apskatīt postu', ['post/view', 'id' => $model->id], ['class' => 'btn btn-success pull-right']) ?>

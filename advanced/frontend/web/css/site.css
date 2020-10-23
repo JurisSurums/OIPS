@@ -129,3 +129,12 @@ a.desc:after {
 .started{
     text-align: center;
 }
+.ListCategory{
+    list-style-type:none;
+}
+.allCategories{
+    padding: 5px;
+}
+.allCategories a{
+    color: purple;
+}

@@ -27,7 +27,7 @@ class m141018_161427_categories extends Migration
             'category_id' => $this->integer(),
             'author_id' => $this->integer(),
             'publish_status' => "enum('" . Post::STATUS_DRAFT . "','" . Post::STATUS_PUBLISH . "') NOT NULL DEFAULT '" . Post::STATUS_DRAFT . "'",
-            'publish_date' => $this->timestamp()->notNull(),
+            'publish_date' => $this->date()->notNull(),
         ], $tableOptions);
 
         $this->createIndex('FK_post_author', Post::tableName(), 'author_id');

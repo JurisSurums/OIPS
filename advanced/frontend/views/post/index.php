@@ -31,13 +31,15 @@ $this->title = Yii::t('frontend', 'Foruma sadaļa');
 <div class="col-sm-3 col-sm-offset-1 blog-sidebar">
     <h1><?= Yii::t('frontend', 'Kategorijas') ?></h1>
     <hr>
-    <ul>
-    <?php
-    foreach ($categories->models as $category) {
-        echo $this->render('//category/shortViewCategory', [
-            'model' => $category
-        ]);
-    }
-    ?>
+    <ul class="ListCategory">
+        <h3>
+        <?php
+        foreach ($categories->models as $category) {
+            echo $this->render('//category/shortViewCategory', [
+                'model' => $category
+            ]);
+        }
+        ?>
+        </h3>
     </ul>
 </div>
