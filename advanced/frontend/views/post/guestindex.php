@@ -19,7 +19,8 @@ $this->title = Yii::t('frontend', 'Orķestra Informācijas Pārvaldības Sistēm
     </div>
 </div>
 <div class="started">
-<h1><?= Html::encode($this->title) ?></h1>
+    <hr>
+    <h1><?= Html::encode($this->title) ?></h1>
     <hr>
 <?php echo Html::img('@web/images/home.jpg', [
         'alt' => 'pic not found',

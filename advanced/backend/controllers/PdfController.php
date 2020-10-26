@@ -27,6 +27,8 @@ class PdfController extends Controller
             $selectedValue = $y["namo"];
             $diro = $model->dirfind($selectedValue, $allFiles);
         }
+/*        var_dump("aaa");
+        exit();*/
         $allFiles2 = FileHelper::findDirectories($diro.'/', ['recursive' => false]);
         return $this->render('/pdf/upload', ['model' => $model, 'allFiles' => $allFiles2, 'prefix' => $diro]);
     }
@@ -44,7 +46,8 @@ class PdfController extends Controller
         $model->pdfFile = UploadedFile::getInstances($model, 'pdfFile');
         if ($model->upload($diro)) {
             // file is uploaded successfully
-            return $this->render('/site/index');
+            Yii::$app->session->setFlash('success', 'Notis tika pievienotas.');
+            return $this->render('/pdf/beigas', ['namo' => $y['namo']]);
         }
     }
 }

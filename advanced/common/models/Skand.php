@@ -15,11 +15,10 @@ class Skand extends Model
      */
     public $description;
     public $name_field;
+    public $alreadyExists;
 
     public function upload($allFiles, $posto) // vajag parbaudīt vai jau neeksistē
     {
-        /*var_dump($allFiles);
-        exit;*/
         $dir = $posto["Skand"]["name_field"];
         foreach ($allFiles as $a)
         {
@@ -47,5 +46,6 @@ class Skand extends Model
         $my_file = ('uploads/'.$dir.'/' . $dir . ' info.txt');
         $handle = fopen($my_file, 'w') or die('Cannot open file:  '.$my_file); //implicitly creates file
         file_put_contents('uploads/'.$dir.'/' . $dir . ' info.txt', $posto["Skand"]["description"]);
+        return true;
     }
 }

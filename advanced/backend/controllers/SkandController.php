@@ -12,21 +12,23 @@ class SkandController extends Controller
 {
     public function actionUpload()
     {
-/*        var_dump($model);
-        exit;*/
+        $model = new Skand();
+        return $this->render('upload', ['model' => $model]);
+    }
+    public function actionFinal()
+    {
         $model = new Skand();
         $allFiles = FileHelper::findDirectories('uploads/', ['recursive' => false]);
         if (Yii::$app->request->isPost) { // pressed the button
             $post = Yii::$app->request->post();
             if ($model->upload($allFiles, $post)) {
-                // file is uploaded successfully
                 return $this->render('sucess');
             }
             else
             {
+                Yii::$app->session->setFlash('error', 'Eksistē skaņdarbs ar šādu nosaukumu.');
                 return $this->render('upload', ['model' => $model]);
             }
         }
-        return $this->render('upload', ['model' => $model]);
     }
 }

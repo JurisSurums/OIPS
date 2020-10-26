@@ -14,5 +14,10 @@ use yii\base\model;
 <?php $form = ActiveForm::begin(); ?>
 <?= $form->field($model, 'name_field')->textInput() ?>
 <?= $form->field($model, 'description')->textarea(['rows' => '6']) ?>
-<button>Pievienot</button>
+<?= Html::a(Yii::t('frontend', 'Pievienot skaņdarbu'), ['final'], [
+    'class' => 'btn btn-success',
+    'data' => [
+        'method' => 'post',
+    ],
+]) ?>
 <?php ActiveForm::end(); ?>
