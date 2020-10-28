@@ -14,31 +14,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="77e549de-f6ad-4a4c-aaf2-c67442ce7595" name="Default Changelist" comment="jeas">
+      <change afterPath="$PROJECT_DIR$/advanced/console/migrations/m211213_134420_skandarbi.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/advanced/console/migrations/m212021_053225_instrumenti.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/advanced/console/migrations/m223021_053225_notis.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/advanced/backend/controllers/PdfController.php" beforeDir="false" afterPath="$PROJECT_DIR$/advanced/backend/controllers/PdfController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/advanced/backend/controllers/SkandController.php" beforeDir="false" afterPath="$PROJECT_DIR$/advanced/backend/controllers/SkandController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/advanced/backend/views/category/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/advanced/backend/views/category/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/advanced/backend/views/pdf/beigas.php" beforeDir="false" afterPath="$PROJECT_DIR$/advanced/backend/views/pdf/beigas.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/advanced/backend/views/skand/sucess.php" beforeDir="false" afterPath="$PROJECT_DIR$/advanced/backend/views/skand/sucess.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/advanced/backend/views/skand/upload.php" beforeDir="false" afterPath="$PROJECT_DIR$/advanced/backend/views/skand/upload.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/advanced/backend/web/uploads/Otrā simfonija/Otrā simfonija info.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/advanced/backend/web/uploads/Otrā simfonija/fagoti/2020OctTue_dummy.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/advanced/backend/web/uploads/Otrā simfonija/fagoti/2020OctTue_funny.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/advanced/backend/web/uploads/Otrā simfonija/timpāni/2020OctThu_dummy.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/advanced/backend/web/uploads/Otrā simfonija/timpāni/2020OctThu_funny.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/advanced/backend/web/uploads/Pirmā simfonija/Pirmā simfonija info.txt" beforeDir="false" afterPath="$PROJECT_DIR$/advanced/backend/web/uploads/Pirmā simfonija/Pirmā simfonija info.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/advanced/backend/web/uploads/Svētku uvertīre/Svētku uvertīre info.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/advanced/backend/web/uploads/Svētku uvertīre/fagoti/test1.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/advanced/backend/web/uploads/Svētku uvertīre/fagoti/test2.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/advanced/backend/web/uploads/Svētku uvertīre/fagoti/test3.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/advanced/backend/web/uploads/Svētku uvertīre/čelli/2020OctMon_dummy.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/advanced/backend/web/uploads/Svētku uvertīre/šķīvji un zvani/2020OctMon_funny.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/advanced/backend/web/uploads/TestSkand/TestSkand info.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/advanced/common/models/Skand.php" beforeDir="false" afterPath="$PROJECT_DIR$/advanced/common/models/Skand.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/advanced/frontend/views/layouts/main.php" beforeDir="false" afterPath="$PROJECT_DIR$/advanced/frontend/views/layouts/main.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/advanced/frontend/views/post/guestindex.php" beforeDir="false" afterPath="$PROJECT_DIR$/advanced/frontend/views/post/guestindex.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/advanced/frontend/views/post/view.php" beforeDir="false" afterPath="$PROJECT_DIR$/advanced/frontend/views/post/view.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/advanced/frontend/views/site/about.php" beforeDir="false" afterPath="$PROJECT_DIR$/advanced/frontend/views/site/about.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -159,7 +138,7 @@
     <property name="DatabaseDriversLRU" value="mysql" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/advanced/frontend/views/post" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/advanced/console/migrations" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -172,17 +151,17 @@
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/advanced/frontend/views/post" />
-      <recent name="$PROJECT_DIR$/advanced/console/migrations" />
-      <recent name="$PROJECT_DIR$/advanced/backend/controllers" />
-      <recent name="$PROJECT_DIR$/advanced/backend/views" />
-      <recent name="$PROJECT_DIR$/advanced/backend/views/DelSkand" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/advanced/frontend/web/images" />
       <recent name="$PROJECT_DIR$/advanced/frontend/web" />
       <recent name="$PROJECT_DIR$/advanced/frontend/web/asd" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/advanced/console/migrations" />
+      <recent name="$PROJECT_DIR$/advanced/frontend/views/post" />
+      <recent name="$PROJECT_DIR$/advanced/backend/controllers" />
+      <recent name="$PROJECT_DIR$/advanced/backend/views" />
+      <recent name="$PROJECT_DIR$/advanced/backend/views/DelSkand" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -209,7 +188,8 @@
       <workItem from="1603339338722" duration="21541000" />
       <workItem from="1603426449775" duration="10012000" />
       <workItem from="1603444332399" duration="645000" />
-      <workItem from="1603690223459" duration="15331000" />
+      <workItem from="1603690223459" duration="15510000" />
+      <workItem from="1603864998444" duration="10992000" />
     </task>
     <task id="LOCAL-00001" summary="jeas">
       <created>1602678611808</created>
