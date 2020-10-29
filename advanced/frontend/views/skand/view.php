@@ -11,10 +11,10 @@ use yii\base\model;
 use yii\helpers\Url;
 
 ?>
-<h1>Izvēlies skaņdarbu</h1>
+<h1>Izvēlies instrumentu</h1>
 
 <?php
-$dirnum = 0;
+/*$dirnum = 0;
 
 foreach ($allFiles as $filo)
 {
@@ -22,7 +22,8 @@ foreach ($allFiles as $filo)
         $allFiles[$dirnum] = substr($filo, strlen($selected));
     }
     $dirnum = $dirnum + 1;
-}
+}*/
+
 ?>
 <?php $form = ActiveForm::begin(['options' => ['enctype' => 'multipart/form-data']]) ?>
 <?= Html::DropDownList('namo', 'formo', $allFiles) ?>

@@ -12,7 +12,7 @@ use yii\widgets\ActiveForm;
 
     <?php $form = ActiveForm::begin(); ?>
 
-    <?= $form->field($model, 'instrument')->textInput() ?>
+    <?= $form->field($model, 'instrument')->radioList($items, ['class' => 'yolo']) ?>
 
     <?= $form->field($model, 'participation')->textInput() ?>
 

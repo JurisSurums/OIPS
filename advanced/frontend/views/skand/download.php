@@ -11,7 +11,7 @@ use yii\base\model;
 use yii\helpers\Url;
 
 ?>
-<h1>Izvēlies skaņdarbu</h1>
+<h1>Izvēlies skaņdarbuu</h1>
 
 <?php
 $dirnum = 0;

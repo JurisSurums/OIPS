@@ -13,12 +13,12 @@ class m223021_053225_notis extends Migration
             'id' => $this->primaryKey(),
             'title' => $this->string()->notNull(),
             'create_date' => $this->date(),
-            'instr' => $this->string()
+            'notes_instr' => $this->integer()
         ]);
 
-        $this->createIndex('FK_instdata', 'notis', 'instr');
+        $this->createIndex('FK_instdata', 'notis', 'notes_instr');
         $this->addForeignKey(
-            'FK_instdata', 'notis', 'instr', 'instruments', 'instrument', 'SET NULL', 'CASCADE'
+            'FK_instdata', 'notis', 'notes_instr', 'instruments', 'id', 'SET NULL', 'CASCADE'
         );
     }
     public function down()

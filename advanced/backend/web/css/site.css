@@ -139,3 +139,9 @@ a.desc:after {
 .backendVirsraksts{
     margin-bottom: 25px;
 }
+.yolo{
+    padding: 10px;
+}
+input[type="radio"]{
+    margin: 0 10px 0 10px;
+}

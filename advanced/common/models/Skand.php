@@ -30,7 +30,7 @@ class Skand extends Model
         FileHelper::createDirectory(('uploads/'.$dir.'/trompetes'));
         FileHelper::createDirectory(('uploads/'.$dir.'/mežragi'));
         FileHelper::createDirectory(('uploads/'.$dir.'/tromboni'));
-        FileHelper::createDirectory(('uploads/'.$dir.'/tuba'));
+        FileHelper::createDirectory(('uploads/'.$dir.'/tubas'));
         FileHelper::createDirectory(('uploads/'.$dir.'/vijoles'));
         FileHelper::createDirectory(('uploads/'.$dir.'/alti'));
         FileHelper::createDirectory(('uploads/'.$dir.'/čelli'));

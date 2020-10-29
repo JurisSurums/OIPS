@@ -58,4 +58,19 @@ class Orkdata extends \yii\db\ActiveRecord
     {
         return $this->hasOne(User::className(), ['id' => 'user_id']);
     }
+
+    public function getUsersInstruments($userID)
+    {
+        $r = Orkdata::find()->select(['instrument', 'user_id'])->all();
+        $data = array();
+        $iter = 0;
+        foreach ($r as $d) {
+            if($d['user_id'] == $userID)
+            {
+                $data[$iter] = $d['instrument'];
+                $iter++;
+            }
+        }
+        return $data;
+    }
 }

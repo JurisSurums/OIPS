@@ -68,11 +68,16 @@ class OrkdataController extends Controller
         $model = new Orkdata();
         $users = new User();
         $d = $users->findAllUsernames();
+        $items = array("trompetes", "mežragi", "tromboni", "tubas", "vijoles", "alti",
+        "čelli", "kontrabasi", "flautas", "obojas", "klarnetes",
+        "fagoti", "flautas", "timpāni", "bungas", "šķīvji un zvani"
+        );
         if(Yii::$app->request->post())
         {
             $back = Yii::$app->request->post();
-            //var_dump($back['namo']);
+            $instrId = $back["Orkdata"]["instrument"];
             $val = (int)$back['namo'];
+            $back["Orkdata"]["instrument"] = $items[$instrId];
             $UserId = $users->findById($val);
             $back["Orkdata"]["user_id"] = (string)$UserId;
             if ($model->load($back) && $model->save()) {
@@ -82,7 +87,8 @@ class OrkdataController extends Controller
 
         return $this->render('create', [
             'model' => $model,
-            'names' => $d
+            'names' => $d,
+            'items' => $items
         ]);
     }
 

@@ -14,10 +14,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="77e549de-f6ad-4a4c-aaf2-c67442ce7595" name="Default Changelist" comment="jeas">
-      <change afterPath="$PROJECT_DIR$/advanced/console/migrations/m211213_134420_skandarbi.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/advanced/console/migrations/m212021_053225_instrumenti.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/advanced/console/migrations/m223021_053225_notis.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/advanced/backend/controllers/OrkdataController.php" beforeDir="false" afterPath="$PROJECT_DIR$/advanced/backend/controllers/OrkdataController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/advanced/backend/views/orkdata/_form.php" beforeDir="false" afterPath="$PROJECT_DIR$/advanced/backend/views/orkdata/_form.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/advanced/backend/views/orkdata/create.php" beforeDir="false" afterPath="$PROJECT_DIR$/advanced/backend/views/orkdata/create.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/advanced/backend/web/css/site.css" beforeDir="false" afterPath="$PROJECT_DIR$/advanced/backend/web/css/site.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/advanced/common/models/Orkdata.php" beforeDir="false" afterPath="$PROJECT_DIR$/advanced/common/models/Orkdata.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/advanced/common/models/Skand.php" beforeDir="false" afterPath="$PROJECT_DIR$/advanced/common/models/Skand.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/advanced/console/migrations/m223021_053225_notis.php" beforeDir="false" afterPath="$PROJECT_DIR$/advanced/console/migrations/m223021_053225_notis.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/advanced/frontend/controllers/SkandController.php" beforeDir="false" afterPath="$PROJECT_DIR$/advanced/frontend/controllers/SkandController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/advanced/frontend/views/skand/download.php" beforeDir="false" afterPath="$PROJECT_DIR$/advanced/frontend/views/skand/download.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/advanced/frontend/views/skand/view.php" beforeDir="false" afterPath="$PROJECT_DIR$/advanced/frontend/views/skand/view.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -189,7 +196,8 @@
       <workItem from="1603426449775" duration="10012000" />
       <workItem from="1603444332399" duration="645000" />
       <workItem from="1603690223459" duration="15510000" />
-      <workItem from="1603864998444" duration="10992000" />
+      <workItem from="1603864998444" duration="11090000" />
+      <workItem from="1603952118836" duration="19665000" />
     </task>
     <task id="LOCAL-00001" summary="jeas">
       <created>1602678611808</created>
@@ -229,10 +237,10 @@
       <screen x="72" y="27" width="1848" height="1053" />
     </state>
     <state x="591" y="215" width="800" height="684" key="#com.intellij.execution.impl.EditConfigurationsDialog/72.27.1848.1053@72.27.1848.1053" timestamp="1601502231833" />
-    <state x="693" y="298" width="524" height="491" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1603184668748">
+    <state x="693" y="298" width="524" height="491" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1603968953640">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state x="693" y="298" width="524" height="491" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/1920.0.1920.1080/0.27.1920.1053@0.27.1920.1053" timestamp="1603184668748" />
+    <state x="693" y="298" width="524" height="491" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/1920.0.1920.1080/0.27.1920.1053@0.27.1920.1053" timestamp="1603968953640" />
     <state x="735" y="311" width="424" height="491" key="FileChooserDialogImpl" timestamp="1602584072902">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
