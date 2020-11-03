@@ -20,10 +20,20 @@ class m212021_053225_instrumenti extends Migration
             'FK_skandata', 'instruments', 'instr_skand', 'skandarbi', 'id', 'SET NULL', 'CASCADE'
         );
     }
-
     public function down()
     {
         $this->dropForeignKey('FK_skandata', 'instruments');
         $this->dropTable("instruments");
     }
 }
+/*
+
+CREATE TABLE users(
+    user_id    int,
+    name       varchar(100)
+);
+
+CREATE TABLE instruments(OrderID int NOT NULL, instr_skand int, PRIMARY KEY (OrderID));
+
+ALTER TABLE instruments ADD CONSTRAINT FK_skandata FOREIGN KEY (instr_skand) REFERENCES skandarbi(id);
+*/

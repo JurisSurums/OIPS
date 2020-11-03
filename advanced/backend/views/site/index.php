@@ -16,7 +16,7 @@ use yii\helpers\Url;
             <li class="list-group-item"><a href="<?= Url::toRoute('tags/index'); ?>"><?= 'Tagi' ?></a></li>
             <li class="list-group-item"><a href="<?= Url::toRoute('comment/index'); ?>"><?= 'Komentāri' ?></a></li>
             <li class="list-group-item"><a href="<?= Url::toRoute('user/index'); ?>"><?= 'Lietotāji' ?></a></li>
-            <li class="list-group-item"><a href="<?= Url::toRoute('pdf/sucess'); ?>"><?= 'Ielādēt notis' ?></a></li>
+            <li class="list-group-item"><a href="<?= Url::toRoute('pdf/sucess'); ?>"><?= 'Ielādēt vai dzēst notis' ?></a></li>
             <li class="list-group-item"><a href="<?= Url::toRoute('skand/upload'); ?>"><?= 'Pievieno skaņdarbu' ?></a></li>
             <li class="list-group-item"><a href="<?= Url::toRoute('delskand/delete'); ?>"><?= 'Dzēst skaņdarbu' ?></a></li>
             <li class="list-group-item"><a href="<?= Url::toRoute('mail/upload'); ?>"><?= 'Nosūtīt epastu visiem lietotājiem' ?></a></li>

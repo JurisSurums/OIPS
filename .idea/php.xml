@@ -35,7 +35,6 @@
       <path value="$PROJECT_DIR$/advanced/vendor/codeception/module-filesystem" />
       <path value="$PROJECT_DIR$/advanced/vendor/codeception/phpunit-wrapper" />
       <path value="$PROJECT_DIR$/advanced/vendor/codeception/codeception" />
-      <path value="$PROJECT_DIR$/advanced/vendor/paragonie/random_compat" />
       <path value="$PROJECT_DIR$/advanced/vendor/theseer/tokenizer" />
       <path value="$PROJECT_DIR$/advanced/vendor/swiftmailer/swiftmailer" />
       <path value="$PROJECT_DIR$/advanced/vendor/psr/event-dispatcher" />
@@ -45,7 +44,6 @@
       <path value="$PROJECT_DIR$/advanced/vendor/symfony/polyfill-php72" />
       <path value="$PROJECT_DIR$/advanced/vendor/ralouphie/getallheaders" />
       <path value="$PROJECT_DIR$/advanced/vendor/symfony/polyfill-intl-grapheme" />
-      <path value="$PROJECT_DIR$/advanced/vendor/symfony/polyfill-php70" />
       <path value="$PROJECT_DIR$/advanced/vendor/symfony/polyfill-ctype" />
       <path value="$PROJECT_DIR$/advanced/vendor/symfony/event-dispatcher" />
       <path value="$PROJECT_DIR$/advanced/vendor/symfony/polyfill-intl-idn" />
