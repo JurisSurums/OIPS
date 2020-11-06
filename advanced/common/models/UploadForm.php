@@ -46,4 +46,18 @@ class UploadForm extends Model
             }
             return $pieurl;
     }
+    public function dirfindOrder($dirname, $allDirnames) // vajag mainigo no view input, kur norāda skaņdarbu
+    {
+        $o = 0;
+        $dirname = substr($dirname, 0, -1);
+        var_dump($dirname);
+        var_dump($allDirnames);
+        foreach ($allDirnames as $i) {
+            if ($i == $dirname) {
+                return $o;
+            }
+            $o = $o + 1;
+        }
+        return true;
+    }
 }

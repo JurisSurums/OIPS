@@ -25,7 +25,7 @@ use yii\helpers\Url;
 ]) ?>
 <br>
 <br>
-<?= Html::a(Yii::t('backend', 'Pievienot notis citam skaņdarbam'), [''], [
+<?= Html::a(Yii::t('backend', 'Pievienot notis citam skaņdarbam'), ['sucess'], [
     'data' => [
         'method' => 'post',
     ],

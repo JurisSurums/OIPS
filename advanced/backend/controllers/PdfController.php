@@ -26,10 +26,11 @@ class PdfController extends Controller
             $y = Yii::$app->request->post();
             $allFiles = FileHelper::findDirectories('uploads/', ['recursive' => false]);
             $selectedValue = $y["namo"];
+            var_dump($selectedValue, $allFiles);
             $diro = $model->dirfind($selectedValue, $allFiles);
         }
-/*        var_dump("aaa");
-        exit();*/
+       var_dump($diro);
+        //exit();
         $allFiles2 = FileHelper::findDirectories($diro.'/', ['recursive' => false]);
         return $this->render('/pdf/upload', ['model' => $model, 'allFiles' => $allFiles2, 'prefix' => $diro]);
     }
@@ -44,7 +45,7 @@ class PdfController extends Controller
             $selectedValue = $y["namoDel"];
             $diro = $model->dirfind($selectedValue, $allFiles);
         }
-        /*        var_dump("aaa");
+                /*var_dump("aaa");
                 exit();*/
         $allFiles2 = FileHelper::findDirectories($diro.'/', ['recursive' => false]);
         return $this->render('/pdf/deleto', ['model' => $model, 'allFiles' => $allFiles2, 'prefix' => $diro]);
@@ -72,10 +73,14 @@ class PdfController extends Controller
         $skandID = $instro->getSkandIDByName($into2);
         $InstrID = $instro->getInstrID($skandID, $into);
         $instro->Notis($model->pdfFile, $InstrID, $skandID); // MAKE ARRAY
+
+        $allFiles2 = FileHelper::findDirectories('uploads/', ['recursive' => false]);
+        $again = $model->dirfindOrder($fullDir, $allFiles2);
+
         if ($model->upload($diro)) {
             // file is uploaded successfully
             Yii::$app->session->setFlash('success', 'Notis tika pievienotas.');
-            return $this->render('/pdf/beigas', ['namo' => $y['namo']]);
+            return $this->render('/pdf/beigas', ['namo' => $again]);
         }
     }
     public function actionFinald()

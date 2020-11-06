@@ -14,27 +14,27 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="77e549de-f6ad-4a4c-aaf2-c67442ce7595" name="Default Changelist" comment="jeas">
-      <change afterPath="$PROJECT_DIR$/advanced/backend/views/pdf/deleto.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/advanced/backend/web/uploads/Otrā simfonija/Otrā simfonija info.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/advanced/backend/web/uploads/Svētku uvertīre/Svētku uvertīre info.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/advanced/backend/web/uploads/TestInstr/TestInstr info.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/advanced/backend/web/uploads/qq/qq info.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/advanced/backend/web/uploads/whatever/whatever info.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/advanced/common/models/Instruments.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/advanced/common/models/Notis.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/advanced/common/models/Skandarbi.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/advanced/backend/controllers/DelskandController.php" beforeDir="false" afterPath="$PROJECT_DIR$/advanced/backend/controllers/DelskandController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/advanced/backend/controllers/CommentController.php" beforeDir="false" afterPath="$PROJECT_DIR$/advanced/backend/controllers/CommentController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/advanced/backend/controllers/PdfController.php" beforeDir="false" afterPath="$PROJECT_DIR$/advanced/backend/controllers/PdfController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/advanced/backend/controllers/SkandController.php" beforeDir="false" afterPath="$PROJECT_DIR$/advanced/backend/controllers/SkandController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/advanced/backend/views/pdf/sucess.php" beforeDir="false" afterPath="$PROJECT_DIR$/advanced/backend/views/pdf/sucess.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/advanced/backend/views/site/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/advanced/backend/views/site/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/advanced/common/models/Orkdata.php" beforeDir="false" afterPath="$PROJECT_DIR$/advanced/common/models/Orkdata.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/advanced/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/advanced/composer.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/advanced/console/migrations/m201021_053225_orkdata.php" beforeDir="false" afterPath="$PROJECT_DIR$/advanced/console/migrations/m231021_053225_orkdata.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/advanced/console/migrations/m212021_053225_instrumenti.php" beforeDir="false" afterPath="$PROJECT_DIR$/advanced/console/migrations/m212021_053225_instrumenti.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/advanced/console/migrations/m223021_053225_notis.php" beforeDir="false" afterPath="$PROJECT_DIR$/advanced/console/migrations/m223021_053225_notis.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/advanced/backend/views/pdf/beigas.php" beforeDir="false" afterPath="$PROJECT_DIR$/advanced/backend/views/pdf/beigas.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/advanced/backend/web/uploads/Otrā simfonija/Otrā simfonija info.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/advanced/backend/web/uploads/Pirmā simfonija/Pirmā simfonija info.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/advanced/backend/web/uploads/Pirmā simfonija/fagoti/2020OctMon_dummy.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/advanced/backend/web/uploads/Pirmā simfonija/fagoti/2020OctMon_funny.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/advanced/backend/web/uploads/Pirmā simfonija/tromboni/2020OctMon_dummy.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/advanced/backend/web/uploads/Pirmā simfonija/trompetes/2020OctThu_302-71169-Lapina_Alise.Rasa_al17143.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/advanced/backend/web/uploads/Pirmā simfonija/tuba/2020OctMon_dummy.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/advanced/backend/web/uploads/Svētku uvertīre/Svētku uvertīre info.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/advanced/backend/web/uploads/TestDelete/TestDelete info.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/advanced/backend/web/uploads/TestInstr/TestInstr info.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/advanced/backend/web/uploads/qq/fagoti/2020NovTue_302-59066-Zalans_Matiss_mz15012.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/advanced/backend/web/uploads/qq/fagoti/2020NovTue_funny.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/advanced/backend/web/uploads/qq/qq info.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/advanced/backend/web/uploads/whatever/fagoti/2020NovTue_302-59066-Zalans_Matiss_mz15012.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/advanced/backend/web/uploads/whatever/fagoti/2020NovTue_funny.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/advanced/backend/web/uploads/whatever/whatever info.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/advanced/common/models/UploadForm.php" beforeDir="false" afterPath="$PROJECT_DIR$/advanced/common/models/UploadForm.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -207,7 +207,10 @@
       <workItem from="1603864998444" duration="11090000" />
       <workItem from="1603952118836" duration="20266000" />
       <workItem from="1604293851116" duration="23907000" />
-      <workItem from="1604387616475" duration="13458000" />
+      <workItem from="1604387616475" duration="14725000" />
+      <workItem from="1604472632694" duration="12298000" />
+      <workItem from="1604640100984" duration="1196000" />
+      <workItem from="1604661210512" duration="3942000" />
     </task>
     <task id="LOCAL-00001" summary="jeas">
       <created>1602678611808</created>
@@ -269,10 +272,10 @@
     </state>
     <state x="586" y="125" width="1022" height="737" key="SettingsEditor/1920.0.1920.1080/0.27.1920.1053@0.27.1920.1053" timestamp="1603180515971" />
     <state x="636" y="125" key="SettingsEditor/72.27.1848.1053@72.27.1848.1053" timestamp="1602853089205" />
-    <state x="883" y="418" width="731" height="522" key="find.popup" timestamp="1604307428830">
+    <state x="883" y="418" width="731" height="522" key="find.popup" timestamp="1604475505444">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state x="883" y="418" width="731" height="522" key="find.popup/1920.0.1920.1080/0.27.1920.1053@0.27.1920.1053" timestamp="1604307428830" />
+    <state x="883" y="418" width="731" height="522" key="find.popup/1920.0.1920.1080/0.27.1920.1053@0.27.1920.1053" timestamp="1604475505444" />
     <state x="624" y="245" key="run.anything.popup" timestamp="1604315833699">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>

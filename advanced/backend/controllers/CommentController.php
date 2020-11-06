@@ -88,7 +88,6 @@ class CommentController extends Controller
     public function actionDelete(int $id): Response
     {
         Comment::findById($id, true)->delete();
-
         return $this->redirect(['index']);
     }
 }
