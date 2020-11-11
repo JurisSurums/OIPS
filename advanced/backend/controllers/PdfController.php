@@ -44,8 +44,6 @@ class PdfController extends Controller
             $selectedValue = $y["namoDel"];
             $diro = $model->dirfind($selectedValue, $allFiles);
         }
-                /*var_dump("aaa");
-                exit();*/
         $allFiles2 = FileHelper::findDirectories($diro.'/', ['recursive' => false]);
         return $this->render('/pdf/deleto', ['model' => $model, 'allFiles' => $allFiles2, 'prefix' => $diro]);
     }
@@ -86,11 +84,12 @@ class PdfController extends Controller
     {
         $model = new UploadForm();
         $y = Yii::$app->request->post();
+
         $dir = $y['namoDel'];
         $fullDir = $y['dire'];
         $allFiles = FileHelper::findDirectories($fullDir, ['recursive' => false]);
         $diro = $model->dirfind($dir, $allFiles);
-
+        var_dump($diro);
         $into = str_replace($fullDir, "", $diro);
         $temp = str_replace('uploads/', "", $diro);
         $into2 = str_replace("/".$into, "", $temp);
@@ -99,9 +98,11 @@ class PdfController extends Controller
 
         $skandID = $instro->getSkandIDByName($into2);
         $InstrID = $instro->getInstrID($skandID, $into);
-        $instro->NotisD($InstrID, $skandID); // MAKE ARRAY
 
-        //exit();
+        FileHelper::removeDirectory($diro);
+        FileHelper::createDirectory($diro);
+
+        $instro->NotisD($InstrID, $skandID); // MAKE ARRAY
         //vajag citu
         Yii::$app->session->setFlash('success', 'Notis tika dzēstas.');
         return $this->render('/pdf/beigas', ['namo' => $y['namoDel']]);

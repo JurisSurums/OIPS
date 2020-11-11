@@ -105,8 +105,11 @@ class Instruments extends \yii\db\ActiveRecord
             $intialize->save();
         }
     }
-    public function NotisD($instrID, $skandID) // pievieno jaunus nošu ierakstus
+    public function NotisD($instrID, $skandID) // dzēš nošu ierakstus
     {
+/*        var_dump($instrID);
+        var_dump($skandID);
+        exit();*/
         Notis::deleteAll(["notes_instr"=>$instrID, "skand_id"=>$skandID]);
     }
 }

@@ -21,12 +21,9 @@ class SkandController extends Controller
         $instrModel = new Orkdata();
         $instruments = $instrModel->getUsersInstruments(Yii::$app->user->id);
         $model = new UploadForm();
-        //var_dump($id);
         $allFiles = FileHelper::findDirectories('./uploads', ['recursive' => false]);
-        $diro = $model->dirfind($id, $allFiles).'/';
+        $diro = './uploads/'.$id.'/';
         //$allFiles2 = FileHelper::findDirectories($diro . '/', ['recursive' => false]);
-        //var_dump($diro);
-        //exit();
         return $this->render('view', ['allFiles' => $instruments, 'selected' => $diro]);
     }
     public function actionData()
@@ -37,7 +34,10 @@ class SkandController extends Controller
         $rez = (int)$y["namo"];
         $end = $ending[$rez];
         $diro = $y["dire"].$end;
+
         $files=\yii\helpers\FileHelper::findFiles($diro);
+        //var_dump($diro);
+        //exit();
         $diro = $diro . '/';
         return $this->render('download', ['allFiles' => $files, 'selected' => $diro]);
     }
