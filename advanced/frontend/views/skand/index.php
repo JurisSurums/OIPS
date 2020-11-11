@@ -25,14 +25,18 @@ foreach ($allFiles as $filo)
 }
 ?>
 <?php $form = ActiveForm::begin(['options' => ['enctype' => 'multipart/form-data']]) ?>
-<?= Html::DropDownList('namo', 'formo', $allFiles) ?>
 <?= Html::tag('p', "", ['class' => 'username']) ?>
-<?= Html::a(Yii::t('backend', 'Izvēlēties skaņdarbu'), ['select'], [
-    'class' => 'btn btn-success',
-    'data' => [
-        'method' => 'post',
-    ],
-]) ?>
+
+<?php foreach ($allFiles as $resourceMember): ?>
+    <p></p>
+    <?= Html::a(Yii::t('backend', $resourceMember), ['select', 'id' => $resourceMember],
+        [
+            'data' => [
+            'method' => 'post' ],
+        ]);
+
+    ?>
+<?php endforeach; ?>
 
 <?php ActiveForm::end() ?>
 

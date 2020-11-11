@@ -9,6 +9,7 @@ use common\models\UploadForm;
 use common\models\Instruments;
 use yii\web\UploadedFile;
 use yii\widgets\ActiveForm;
+use function Sodium\add;
 
 class PdfController extends Controller
 {
@@ -26,11 +27,9 @@ class PdfController extends Controller
             $y = Yii::$app->request->post();
             $allFiles = FileHelper::findDirectories('uploads/', ['recursive' => false]);
             $selectedValue = $y["namo"];
-            var_dump($selectedValue, $allFiles);
+            //var_dump($selectedValue, $allFiles);
             $diro = $model->dirfind($selectedValue, $allFiles);
         }
-       var_dump($diro);
-        //exit();
         $allFiles2 = FileHelper::findDirectories($diro.'/', ['recursive' => false]);
         return $this->render('/pdf/upload', ['model' => $model, 'allFiles' => $allFiles2, 'prefix' => $diro]);
     }

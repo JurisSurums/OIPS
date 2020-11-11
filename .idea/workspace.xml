@@ -14,27 +14,34 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="77e549de-f6ad-4a4c-aaf2-c67442ce7595" name="Default Changelist" comment="jeas">
+      <change beforePath="$PROJECT_DIR$/.idea/OIPS.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/OIPS.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/advanced/backend/controllers/CommentController.php" beforeDir="false" afterPath="$PROJECT_DIR$/advanced/backend/controllers/CommentController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/advanced/backend/controllers/PdfController.php" beforeDir="false" afterPath="$PROJECT_DIR$/advanced/backend/controllers/PdfController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/advanced/backend/views/pdf/beigas.php" beforeDir="false" afterPath="$PROJECT_DIR$/advanced/backend/views/pdf/beigas.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/advanced/backend/web/uploads/Otrā simfonija/Otrā simfonija info.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/advanced/backend/web/uploads/Pirmā simfonija/Pirmā simfonija info.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/advanced/backend/web/uploads/Pirmā simfonija/fagoti/2020OctMon_dummy.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/advanced/backend/web/uploads/Pirmā simfonija/fagoti/2020OctMon_funny.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/advanced/backend/web/uploads/Pirmā simfonija/tromboni/2020OctMon_dummy.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/advanced/backend/web/uploads/Pirmā simfonija/trompetes/2020OctThu_302-71169-Lapina_Alise.Rasa_al17143.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/advanced/backend/web/uploads/Pirmā simfonija/tuba/2020OctMon_dummy.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/advanced/backend/web/uploads/Svētku uvertīre/Svētku uvertīre info.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/advanced/backend/web/uploads/TestDelete/TestDelete info.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/advanced/backend/web/uploads/TestInstr/TestInstr info.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/advanced/backend/web/uploads/qq/fagoti/2020NovTue_302-59066-Zalans_Matiss_mz15012.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/advanced/backend/web/uploads/qq/fagoti/2020NovTue_funny.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/advanced/backend/web/uploads/qq/qq info.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/advanced/backend/web/uploads/whatever/fagoti/2020NovTue_302-59066-Zalans_Matiss_mz15012.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/advanced/backend/web/uploads/whatever/fagoti/2020NovTue_funny.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/advanced/backend/web/uploads/whatever/whatever info.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/advanced/common/models/UploadForm.php" beforeDir="false" afterPath="$PROJECT_DIR$/advanced/common/models/UploadForm.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/advanced/backend/views/category/_form.php" beforeDir="false" afterPath="$PROJECT_DIR$/advanced/backend/views/category/_form.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/advanced/backend/web/uploads/Test1/Test1 info.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/advanced/backend/web/uploads/Test1/fagoti/2020NovFri_js18061_IESN_progr_mainaProGR.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/advanced/backend/web/uploads/Test1/mežragi/2020NovFri_dummy.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/advanced/backend/web/uploads/Test1/timpāni/2020NovFri_score - Trumpet 3 in Bb.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/advanced/backend/web/uploads/Test1/vijoles/2020NovFri_score - Trumpet 3 in Bb.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/advanced/backend/web/uploads/Test1/čelli/2020NovFri_funny.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/advanced/backend/web/uploads/Test2/Test2 info.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/advanced/backend/web/uploads/Test2/fagoti/2020NovFri_302-59066-Zalans_Matiss_mz15012.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/advanced/backend/web/uploads/Test2/fagoti/2020NovFri_IESN_progr_mainaProGR.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/advanced/backend/web/uploads/Test2/fagoti/2020NovFri_Padrino ok tromba 2020 ok.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/advanced/backend/web/uploads/Test2/fagoti/2020NovFri_dummy.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/advanced/backend/web/uploads/Test2/fagoti/2020NovFri_js18061_IESN_progr_mainaProGR.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/advanced/backend/web/uploads/Test2/flautas/2020NovFri_dummy.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/advanced/backend/web/uploads/Test2/mežragi/2020NovFri_funny.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/advanced/backend/web/uploads/Test2/vijoles/2020NovFri_IESN_progr_mainaProGR.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/advanced/backend/web/uploads/test3/test3 info.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/advanced/backend/web/uploads/test3/čelli/2020NovFri_score - Trumpet 3 in Bb.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/advanced/backend/web/uploads/test4/fagoti/2020NovFri_Padrino ok tromba 2020 ok.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/advanced/backend/web/uploads/test4/test4 info.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/advanced/common/models/Orkdata.php" beforeDir="false" afterPath="$PROJECT_DIR$/advanced/common/models/Orkdata.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/advanced/console/migrations/m160307_190535_default_user.php" beforeDir="false" afterPath="$PROJECT_DIR$/advanced/console/migrations/m160307_190535_default_user.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/advanced/frontend/controllers/SkandController.php" beforeDir="false" afterPath="$PROJECT_DIR$/advanced/frontend/controllers/SkandController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/advanced/frontend/views/skand/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/advanced/frontend/views/skand/index.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -142,6 +149,8 @@
       <path value="$PROJECT_DIR$/advanced/vendor/phpdocumentor/reflection-common" />
       <path value="$PROJECT_DIR$/advanced/vendor/guzzlehttp/psr7" />
       <path value="$PROJECT_DIR$/advanced/vendor/cebe/markdown" />
+      <path value="$PROJECT_DIR$/advanced/vendor/paragonie/random_compat" />
+      <path value="$PROJECT_DIR$/advanced/vendor/symfony/polyfill-php70" />
     </include_path>
   </component>
   <component name="ProjectId" id="1iMXlFyCzl7F6E1zKn6kzqBSEAb" />
@@ -211,6 +220,7 @@
       <workItem from="1604472632694" duration="12298000" />
       <workItem from="1604640100984" duration="1196000" />
       <workItem from="1604661210512" duration="3942000" />
+      <workItem from="1605023473174" duration="5087000" />
     </task>
     <task id="LOCAL-00001" summary="jeas">
       <created>1602678611808</created>
@@ -284,11 +294,11 @@
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
     <state x="623" y="239" width="672" height="678" key="search.everywhere.popup/1920.0.1920.1080/0.27.1920.1053@0.27.1920.1053" timestamp="1604313984167" />
-    <state x="626" y="462" width="540" height="179" key="vcs.readOnlyHandler.ReadOnlyStatusDialog" timestamp="1603079605970">
-      <screen x="0" y="27" width="1920" height="1053" />
+    <state x="675" y="462" width="540" height="179" key="vcs.readOnlyHandler.ReadOnlyStatusDialog" timestamp="1604931423296">
+      <screen x="72" y="27" width="1848" height="1053" />
     </state>
     <state x="626" y="462" width="540" height="179" key="vcs.readOnlyHandler.ReadOnlyStatusDialog/1920.0.1920.1080/0.27.1920.1053@0.27.1920.1053" timestamp="1603079605970" />
-    <state x="675" y="462" width="540" height="179" key="vcs.readOnlyHandler.ReadOnlyStatusDialog/72.27.1848.1053@72.27.1848.1053" timestamp="1602853097308" />
+    <state x="675" y="462" width="540" height="179" key="vcs.readOnlyHandler.ReadOnlyStatusDialog/72.27.1848.1053@72.27.1848.1053" timestamp="1604931423296" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

@@ -16,17 +16,17 @@ class SkandController extends Controller
         $allFiles = FileHelper::findDirectories('./uploads', ['recursive' => false]);
         return $this->render('index', ['allFiles' => $allFiles]);
     }
-    public function actionSelect()
+    public function actionSelect($id)
     {
         $instrModel = new Orkdata();
         $instruments = $instrModel->getUsersInstruments(Yii::$app->user->id);
         $model = new UploadForm();
-        if(Yii::$app->request->isPost) {
-            $y = Yii::$app->request->post();
-        }
-        $allFiles1 = FileHelper::findDirectories('./uploads', ['recursive' => false]);
-        $diro = $model->dirfind($y ["namo"], $allFiles1).'/';
+        //var_dump($id);
+        $allFiles = FileHelper::findDirectories('./uploads', ['recursive' => false]);
+        $diro = $model->dirfind($id, $allFiles).'/';
         //$allFiles2 = FileHelper::findDirectories($diro . '/', ['recursive' => false]);
+        //var_dump($diro);
+        //exit();
         return $this->render('view', ['allFiles' => $instruments, 'selected' => $diro]);
     }
     public function actionData()
