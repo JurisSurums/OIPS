@@ -37,7 +37,7 @@ foreach ($allFiles as $filo)
 <h1>Izvēlies, kuram skaņdarbarm dzēst notis</h1>
 <?= Html::DropDownList('namoDel', 'formo', $allFiles) ?>
 <?= Html::tag('p', "", ['class' => 'username']) ?>
-<?= Html::a(Yii::t('backend', 'Dzēst skaņdarbam notis'), ['deleto'], [
+<?= Html::a(Yii::t('backend', 'Dzēst skaņdarbam notis'), ['delete'], [
     'class' => 'btn btn-danger',
     'data' => [
         'method' => 'post',

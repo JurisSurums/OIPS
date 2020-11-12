@@ -6,7 +6,7 @@ use yii\helpers\Html;
 /* @var TagPost $postTag */
 ?>
 
-<h1><b><?= $model->title ?></b></h1>
+<h1><b><?= Html::a($model->title, ['post/view', 'id' => $model->id]) ?></b></h1>
 
 <div class="meta">
     <p><?= Yii::t('frontend', 'Autors') ?>: <?= $model->author->username ?>
@@ -33,5 +33,3 @@ use yii\helpers\Html;
     ?>
     <?= Yii::t('frontend', 'Tagi') ?>: <?= implode($tags, ', ') ?>
 </div>
-
-<?= Html::a('Apskatīt postu', ['post/view', 'id' => $model->id], ['class' => 'btn btn-success pull-right']) ?>

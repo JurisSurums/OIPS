@@ -18,7 +18,6 @@ class PdfController extends Controller
         $allFiles = FileHelper::findDirectories('uploads/', ['recursive' => false]);
         return $this->render('sucess', ['allFiles' => $allFiles]);
     }
-
     public function actionUpload()
     {
         $model = new UploadForm();
@@ -31,10 +30,19 @@ class PdfController extends Controller
             $diro = $model->dirfind($selectedValue, $allFiles);
         }
         $allFiles2 = FileHelper::findDirectories($diro.'/', ['recursive' => false]);
-        return $this->render('/pdf/upload', ['model' => $model, 'allFiles' => $allFiles2, 'prefix' => $diro]);
+        $emptyOnes = array();
+        foreach ($allFiles2 as $af)
+        {
+            if(FileHelper::findFiles($af)!=null)
+            {
+                array_push($emptyOnes, $af);
+            }
+        }
+        //
+        return $this->render('/pdf/upload', ['model' => $model, 'allFiles' => $allFiles2, 'prefix' => $diro, 'fullOnes' => $emptyOnes]);
     }
 
-    public function actionDeleto()
+    public function actionDelete()
     {
         $model = new UploadForm();
         $diro = null;
@@ -45,7 +53,7 @@ class PdfController extends Controller
             $diro = $model->dirfind($selectedValue, $allFiles);
         }
         $allFiles2 = FileHelper::findDirectories($diro.'/', ['recursive' => false]);
-        return $this->render('/pdf/deleto', ['model' => $model, 'allFiles' => $allFiles2, 'prefix' => $diro]);
+        return $this->render('/pdf/delete', ['model' => $model, 'allFiles' => $allFiles2, 'prefix' => $diro]);
     }
 
     public function actionFinal()
@@ -105,6 +113,6 @@ class PdfController extends Controller
         $instro->NotisD($InstrID, $skandID); // MAKE ARRAY
         //vajag citu
         Yii::$app->session->setFlash('success', 'Notis tika dzēstas.');
-        return $this->render('/pdf/beigas', ['namo' => $y['namoDel']]);
+        return $this->render('/pdf/beigasDelete', ['namo' => $y['namoDel']]);
     }
 }
