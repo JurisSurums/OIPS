@@ -138,3 +138,15 @@ a.desc:after {
 .allCategories a{
     color: purple;
 }
+.posting a{
+    color: purple;
+}
+.posting a:hover{
+    color: #800200;
+}
+hr.commentHr {
+    background-color: purple;
+    width: 120%;
+    height: 12px;
+    border-top: 1px solid black
+}

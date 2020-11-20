@@ -12,29 +12,38 @@ $this->params['breadcrumbs'][] = ['label' => Yii::t('frontend', 'Posts'), 'url' 
 $this->params['breadcrumbs'][] = $this->title;
 ?>
 
-<h1><?= $model->title ?></h1>
-
-<div class="meta">
-    <p><?= Yii::t('frontend', 'Author')?>: <?= $model->author->username ?> <?= Yii::t('frontend', 'Publish date')?>: <?= $model->publish_date ?> <?= Yii::t('frontend', 'Category') ?>: <?= Html::a($model->category->title, ['category/view', 'id' => $model->category->id]) ?></p>
+<h1><b><?= $model->title ?></b></h1>
+    <div class="meta">
+    <p><?= Yii::t('frontend', 'Author')?>:
+        <?= $model->author->username ?>
+    <p></p>
+        <?= Yii::t('frontend', 'Publish date')?>:
+        <?= $model->publish_date ?>
+    <p></p>
+        <?= Yii::t('frontend', 'Category') ?>:
+        <?= Html::a($model->category->title, ['category/view', 'id' => $model->category->id]) ?>
+    <p></p>
+    <div class="tags">
+        <?php
+        $tags = [];
+        foreach($model->getTagPost()->all() as $postTag) {
+            $tag = $postTag->getTag()->one();
+            if($tag != null)
+            {
+                $tags[] = Html::a($tag->title, ['tag/view', 'id' => $tag->id]);
+            }
+        }?>
+        <?= Yii::t('frontend', 'Tags') ?>: <?= implode($tags, ', ') ?>
+    </div>
 </div>
-
+<hr>
+<b>
 <div>
     <?= $model->content ?>
 </div>
-
-<div class="tags">
-    <?php
-    $tags = [];
-    foreach($model->getTagPost()->all() as $postTag) {
-        $tag = $postTag->getTag()->one();
-        if($tag != null)
-        {
-            $tags[] = Html::a($tag->title, ['tag/view', 'id' => $tag->id]);
-        }
-    }?>
-    <?= Yii::t('frontend', 'Tags') ?>: <?= implode($tags, ', ') ?>
-</div>
-
+</b>
+<hr class="commentHr">
+<h1>Komentāri</h1>
 <div class="comments">
     <?php /** @var Comment $comment */ ?>
     <?php foreach($model->getPublishedComments()->models as $comment) : ?>
@@ -45,7 +54,7 @@ $this->params['breadcrumbs'][] = $this->title;
         </div>
     <?php endforeach; ?>
 </div>
-
+<br>
 <?= $this->render('../comment/_form', [
     'model' => $commentForm
 ]) ?>

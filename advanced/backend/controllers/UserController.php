@@ -86,6 +86,7 @@ class UserController extends Controller
         $model = $this->findModel($id);
 
         if ($model->load(Yii::$app->request->post()) && $model->save()) {
+            Yii::$app->session->setFlash('success', 'Lietotāja dati tika atjaunoti.');
             return $this->redirect(['view', 'id' => $model->id]);
         }
 

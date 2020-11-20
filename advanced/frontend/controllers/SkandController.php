@@ -20,13 +20,22 @@ class SkandController extends Controller
     {
         $instrModel = new Orkdata();
         $instruments = $instrModel->getUsersInstruments(Yii::$app->user->id);
-        $model = new UploadForm();
-        $allFiles = FileHelper::findDirectories('./uploads', ['recursive' => false]);
         $diro = './uploads/'.$id.'/';
         //$allFiles2 = FileHelper::findDirectories($diro . '/', ['recursive' => false]);
-        return $this->render('view', ['allFiles' => $instruments, 'selected' => $diro]);
+        $masive = array();
+        foreach ($instruments as $i)
+        {
+            $temp = $diro.$i.'/';
+            array_push($masive, $temp);
+        }
+        $files = array();
+        foreach ($masive as $m)
+        {
+            array_push($files, \yii\helpers\FileHelper::findFiles($m));
+        }
+        return $this->render('download', ['allInstruments' => $instruments, 'locations' => $files, 'skand' => $id]);
     }
-    public function actionData()
+/*    public function actionData()
     {
         $instrModel = new Orkdata();
         $y = Yii::$app->request->post();
@@ -40,18 +49,15 @@ class SkandController extends Controller
         //exit();
         $diro = $diro . '/';
         return $this->render('download', ['allFiles' => $files, 'selected' => $diro]);
-    }
-    public function actionDownload()
+    }*/
+    public function actionDownload($id)
     {
-        $y = Yii::$app->request->post();
-        $files=\yii\helpers\FileHelper::findFiles($y["dire"]);
-        $downloadFile = $files[$y["namo"]];
-        var_dump($downloadFile);
+        $id = "./uploads/".$id;
 
-        if (file_exists($downloadFile)) {
-        return Yii::$app->response->sendFile($downloadFile);
+        if (file_exists($id)) {
+        return Yii::$app->response->sendFile($id);
         } else {
-            var_dump("rip");
+            var_dump("Neizdevās faila lejupielāde");
             exit();
         }
     }

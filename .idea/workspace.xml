@@ -14,13 +14,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="77e549de-f6ad-4a4c-aaf2-c67442ce7595" name="Default Changelist" comment="jeas">
-      <change afterPath="$PROJECT_DIR$/advanced/backend/views/pdf/beigasDelete.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/advanced/backend/controllers/PdfController.php" beforeDir="false" afterPath="$PROJECT_DIR$/advanced/backend/controllers/PdfController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/advanced/backend/views/pdf/deleto.php" beforeDir="false" afterPath="$PROJECT_DIR$/advanced/backend/views/pdf/delete.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/advanced/backend/views/pdf/sucess.php" beforeDir="false" afterPath="$PROJECT_DIR$/advanced/backend/views/pdf/sucess.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/advanced/backend/controllers/UserController.php" beforeDir="false" afterPath="$PROJECT_DIR$/advanced/backend/controllers/UserController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/advanced/backend/views/pdf/upload.php" beforeDir="false" afterPath="$PROJECT_DIR$/advanced/backend/views/pdf/upload.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/advanced/backend/views/user/update.php" beforeDir="false" afterPath="$PROJECT_DIR$/advanced/backend/views/user/update.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/advanced/backend/web/uploads/Pirmā simfonija/fagoti/2020NovThu_dummy.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/advanced/frontend/controllers/SkandController.php" beforeDir="false" afterPath="$PROJECT_DIR$/advanced/frontend/controllers/SkandController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/advanced/frontend/views/post/shortView.php" beforeDir="false" afterPath="$PROJECT_DIR$/advanced/frontend/views/post/shortView.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/advanced/frontend/views/post/view.php" beforeDir="false" afterPath="$PROJECT_DIR$/advanced/frontend/views/post/view.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/advanced/frontend/views/skand/download.php" beforeDir="false" afterPath="$PROJECT_DIR$/advanced/frontend/views/skand/download.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/advanced/frontend/web/css/site.css" beforeDir="false" afterPath="$PROJECT_DIR$/advanced/frontend/web/css/site.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -200,7 +203,10 @@
       <workItem from="1604640100984" duration="1196000" />
       <workItem from="1604661210512" duration="3942000" />
       <workItem from="1605023473174" duration="5087000" />
-      <workItem from="1605164914726" duration="11940000" />
+      <workItem from="1605164914726" duration="12001000" />
+      <workItem from="1605513144867" duration="2070000" />
+      <workItem from="1605590302712" duration="2761000" />
+      <workItem from="1605847675872" duration="12459000" />
     </task>
     <task id="LOCAL-00001" summary="jeas">
       <created>1602678611808</created>
@@ -262,10 +268,10 @@
     </state>
     <state x="586" y="125" width="1022" height="737" key="SettingsEditor/1920.0.1920.1080/0.27.1920.1053@0.27.1920.1053" timestamp="1603180515971" />
     <state x="636" y="125" key="SettingsEditor/72.27.1848.1053@72.27.1848.1053" timestamp="1602853089205" />
-    <state x="585" y="296" width="731" height="522" key="find.popup" timestamp="1605175382005">
+    <state x="585" y="296" width="731" height="522" key="find.popup" timestamp="1605603814376">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state x="585" y="296" width="731" height="522" key="find.popup/1920.0.1920.1080/0.27.1920.1053@0.27.1920.1053" timestamp="1605175382005" />
+    <state x="585" y="296" width="731" height="522" key="find.popup/1920.0.1920.1080/0.27.1920.1053@0.27.1920.1053" timestamp="1605603814376" />
     <state x="624" y="245" key="run.anything.popup" timestamp="1604315833699">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>

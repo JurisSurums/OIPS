@@ -49,14 +49,14 @@ exit();*/
 <?php ActiveForm::end() ?>
 <hr>
     <div class="col-sm-7 post-index">
-        <h2>Instrumenti ar notīm</h2>
+        <h2 class="text-success">Instrumenti ar notīm</h2>
         <p></p>
         <br>
         <?= html::ul($fullOnes) ?>
     </div>
 
 <div class="col-sm-4 col-sm-offset-1 blog-sidebar">
-    <h2>Instrumenti bez notīm</h2>
+    <h2 class="text-danger">Instrumenti bez notīm</h2>
     <p></p>
     <br>
     <?php

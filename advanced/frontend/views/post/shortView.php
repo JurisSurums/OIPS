@@ -6,7 +6,9 @@ use yii\helpers\Html;
 /* @var TagPost $postTag */
 ?>
 
-<h1><b><?= Html::a($model->title, ['post/view', 'id' => $model->id]) ?></b></h1>
+<div class="posting">
+    <h1><b><?= Html::a($model->title, ['post/view', 'id' => $model->id]) ?></b></h1>
+</div>
 
 <div class="meta">
     <p><?= Yii::t('frontend', 'Autors') ?>: <?= $model->author->username ?>
@@ -15,7 +17,7 @@ use yii\helpers\Html;
         <?= $model->publish_date ?>
         <br>
         <?= Yii::t('frontend', 'Kategorija') ?>:
-        <?= Html::a($model->category->title, ['category/view', 'id' => $model->category->id]) ?></p>
+    <?= Html::a($model->category->title, ['category/view', 'id' => $model->category->id]) ?></p>
 </div>
 <div class="content">
     <i><?= $model->anons ?></i>

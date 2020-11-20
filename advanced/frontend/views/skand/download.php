@@ -11,29 +11,31 @@ use yii\base\model;
 use yii\helpers\Url;
 
 ?>
+
 <h1>Izvēlies skaņdarbuu</h1>
-
-<?php
-$dirnum = 0;
-
-foreach ($allFiles as $filo)
-{
-    if (substr($filo, 0, strlen($selected)) == $selected) {
-        $allFiles[$dirnum] = substr($filo, strlen($selected));
-    }
-    $dirnum = $dirnum + 1;
-}
-?>
+<hr>
 <?php $form = ActiveForm::begin(['options' => ['enctype' => 'multipart/form-data']]) ?>
-<?= Html::DropDownList('namo', 'formo', $allFiles) ?>
-<?= Html::tag('p', "", ['class' => 'username']) ?>
-<?= Html::hiddenInput('dire', $selected) ?>
-<?= Html::a(Yii::t('backend', 'Izvēlies failu'), ['download'], [
-    'class' => 'btn btn-success',
-    'data' => [
-        'method' => 'post',
-    ],
-]) ?>
+<?php $count = 0; ?>
+<?php foreach ($allInstruments as $instrument): ?>
+    <p></p>
+    <h2><?= html::encode($instrument) ?></h2>
+    <?php foreach ($locations[$count] as $f): ?>
+        <p></p>
+        <?php
+        $remove = "./uploads"."/".$skand."/".$instrument."/";
+        $temp = str_replace($remove, "", $f);
+        ?>
+
+        <?=
+        Html::a(Yii::t('backend', $temp), ['download', 'id' => $skand."/".$instrument."/".$temp],
+            [
+                'data' => [
+                    'method' => 'post' ],
+            ]);
+        ?>
+    <?php endforeach; ?>
+    <?php $count++; ?>
+<?php endforeach; ?>
 
 <?php ActiveForm::end() ?>
 
