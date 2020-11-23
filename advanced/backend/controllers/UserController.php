@@ -97,9 +97,16 @@ class UserController extends Controller
 
     public function actionDelete(int $id): Response
     {
-        $this->findModel($id)->delete();
-
-        return $this->redirect(['index']);
+        if(Yii::$app->user->getId()!=$id)
+        {
+            $this->findModel($id)->delete();
+            Yii::$app->session->setFlash('success', 'Lietotājs tika veiksmīgi dzēsts.');
+            return $this->redirect(['index']);
+        }
+        else
+        {
+            throw new NotFoundHttpException('Lietotāju nevarēja izdzēst.');
+        }
     }
 
     protected function findModel(int $id): User

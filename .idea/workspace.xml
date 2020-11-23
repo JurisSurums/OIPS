@@ -16,14 +16,7 @@
     <list default="true" id="77e549de-f6ad-4a4c-aaf2-c67442ce7595" name="Default Changelist" comment="jeas">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/advanced/backend/controllers/UserController.php" beforeDir="false" afterPath="$PROJECT_DIR$/advanced/backend/controllers/UserController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/advanced/backend/views/pdf/upload.php" beforeDir="false" afterPath="$PROJECT_DIR$/advanced/backend/views/pdf/upload.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/advanced/backend/views/user/update.php" beforeDir="false" afterPath="$PROJECT_DIR$/advanced/backend/views/user/update.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/advanced/backend/web/uploads/Pirmā simfonija/fagoti/2020NovThu_dummy.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/advanced/frontend/controllers/SkandController.php" beforeDir="false" afterPath="$PROJECT_DIR$/advanced/frontend/controllers/SkandController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/advanced/frontend/views/post/shortView.php" beforeDir="false" afterPath="$PROJECT_DIR$/advanced/frontend/views/post/shortView.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/advanced/frontend/views/post/view.php" beforeDir="false" afterPath="$PROJECT_DIR$/advanced/frontend/views/post/view.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/advanced/frontend/views/skand/download.php" beforeDir="false" afterPath="$PROJECT_DIR$/advanced/frontend/views/skand/download.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/advanced/frontend/web/css/site.css" beforeDir="false" afterPath="$PROJECT_DIR$/advanced/frontend/web/css/site.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/advanced/backend/views/category/_form.php" beforeDir="false" afterPath="$PROJECT_DIR$/advanced/backend/views/category/_form.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -206,7 +199,9 @@
       <workItem from="1605164914726" duration="12001000" />
       <workItem from="1605513144867" duration="2070000" />
       <workItem from="1605590302712" duration="2761000" />
-      <workItem from="1605847675872" duration="12459000" />
+      <workItem from="1605847675872" duration="12531000" />
+      <workItem from="1605865362470" duration="1885000" />
+      <workItem from="1606110649665" duration="2332000" />
     </task>
     <task id="LOCAL-00001" summary="jeas">
       <created>1602678611808</created>
@@ -268,10 +263,10 @@
     </state>
     <state x="586" y="125" width="1022" height="737" key="SettingsEditor/1920.0.1920.1080/0.27.1920.1053@0.27.1920.1053" timestamp="1603180515971" />
     <state x="636" y="125" key="SettingsEditor/72.27.1848.1053@72.27.1848.1053" timestamp="1602853089205" />
-    <state x="585" y="296" width="731" height="522" key="find.popup" timestamp="1605603814376">
+    <state x="585" y="296" width="731" height="522" key="find.popup" timestamp="1606112073479">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state x="585" y="296" width="731" height="522" key="find.popup/1920.0.1920.1080/0.27.1920.1053@0.27.1920.1053" timestamp="1605603814376" />
+    <state x="585" y="296" width="731" height="522" key="find.popup/1920.0.1920.1080/0.27.1920.1053@0.27.1920.1053" timestamp="1606112073479" />
     <state x="624" y="245" key="run.anything.popup" timestamp="1604315833699">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
@@ -293,6 +288,10 @@
           <url>file://$PROJECT_DIR$/advanced/backend/views/pdf/upload.php</url>
           <line>15</line>
           <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/advanced/backend/views/category/update.php</url>
+          <option name="timeStamp" value="2" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
