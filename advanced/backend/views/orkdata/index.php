@@ -22,7 +22,6 @@ $this->params['breadcrumbs'][] = $this->title;
         'dataProvider' => $dataProvider,
         'columns' => [
             ['class' => 'yii\grid\SerialColumn'],
-
             'id',
             'instrument',
             'participation',
@@ -31,7 +30,8 @@ $this->params['breadcrumbs'][] = $this->title;
                 'label' => Yii::t('backend', 'user'),
                 'value' => 'user.username'
             ],
-            ['class' => 'yii\grid\ActionColumn'],
+            ['class' => 'yii\grid\ActionColumn',
+                'template' => '{view} {delete}'],
         ],
     ]); ?>
 

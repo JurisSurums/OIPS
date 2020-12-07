@@ -4,6 +4,7 @@ use common\models\Post;
 use yii\helpers\ArrayHelper;
 use yii\helpers\Html;
 use yii\widgets\ActiveForm;
+use yii\jui\DatePicker;
 
 /* @var $this yii\web\View */
 /* @var $model common\models\Post */
@@ -12,7 +13,7 @@ use yii\widgets\ActiveForm;
 /* @var $category yii\db\ActiveRecord[] */
 /* @var $tags yii\db\ActiveRecord[] */
 ?>
-
+<!--composer require --prefer-dist yiisoft/yii2-jui-->
 <div class="post-form">
 
     <?php $form = ActiveForm::begin(); ?>
@@ -27,9 +28,9 @@ use yii\widgets\ActiveForm;
         ArrayHelper::map($authors, 'id', 'username')
     ) ?>
 
-    <?= $form->field($model, 'anons')->textarea(['rows' => 6]) ?>
+    <?= $form->field($model, 'anons')->textarea(['rows' => 6, 'maxlength' => 500]) ?>
 
-    <?= $form->field($model, 'content')->textarea(['rows' => 6]) ?>
+    <?= $form->field($model, 'content')->textarea(['rows' => 6, 'maxlength' => 3000]) ?>
 
     <?= $form->field($model, 'publish_status')->dropDownList(
         [Post::STATUS_DRAFT => Yii::t('backend', 'Draft'), Post::STATUS_PUBLISH => Yii::t('backend', 'Published')]
@@ -39,7 +40,7 @@ use yii\widgets\ActiveForm;
         ArrayHelper::map($tags, 'id', 'title')
     ) ?>
 
-    <?= $form->field($model, 'publish_date')->textInput() ?>
+    <?= $form->field($model, 'publish_date')->widget(DatePicker::className(),['dateFormat' => 'yyyy-MM-dd', 'options' => ['readonly' => true], 'clientOptions' => [ 'changeMonth' => true, 'changeYear' => true, 'yearRange' => '1980:'.date('Y'), 'maxDate' => '+0d']])?>
 
     <div class="form-group">
         <?= Html::submitButton($model->isNewRecord ? Yii::t('backend', 'Create') : Yii::t('backend', 'Update'), ['class' => $model->isNewRecord ? 'btn btn-success' : 'btn btn-primary']) ?>

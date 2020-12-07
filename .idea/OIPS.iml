@@ -2,8 +2,12 @@
 <module type="WEB_MODULE" version="4">
   <component name="NewModuleRootManager">
     <content url="file://$MODULE_DIR$">
+      <excludeFolder url="file://$MODULE_DIR$/advanced/vendor/bower-asset/jquery-ui" />
+      <excludeFolder url="file://$MODULE_DIR$/advanced/vendor/fakerphp/faker" />
       <excludeFolder url="file://$MODULE_DIR$/advanced/vendor/paragonie/random_compat" />
       <excludeFolder url="file://$MODULE_DIR$/advanced/vendor/symfony/polyfill-php70" />
+      <excludeFolder url="file://$MODULE_DIR$/advanced/vendor/yiisoft/yii2-jui" />
+      <excludeFolder url="file://$MODULE_DIR$/advanced/vendor/yiisoft/yii2-jui-master" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />

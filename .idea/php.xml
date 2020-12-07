@@ -11,7 +11,6 @@
       <path value="$PROJECT_DIR$/advanced/vendor/phar-io/version" />
       <path value="$PROJECT_DIR$/advanced/vendor/bower-asset/inputmask" />
       <path value="$PROJECT_DIR$/advanced/vendor/phar-io/manifest" />
-      <path value="$PROJECT_DIR$/advanced/vendor/fzaninotto/faker" />
       <path value="$PROJECT_DIR$/advanced/vendor/egulias/email-validator" />
       <path value="$PROJECT_DIR$/advanced/vendor/doctrine/instantiator" />
       <path value="$PROJECT_DIR$/advanced/vendor/doctrine/lexer" />
@@ -88,6 +87,10 @@
       <path value="$PROJECT_DIR$/advanced/vendor/cebe/markdown" />
       <path value="$PROJECT_DIR$/advanced/vendor/paragonie/random_compat" />
       <path value="$PROJECT_DIR$/advanced/vendor/symfony/polyfill-php70" />
+      <path value="$PROJECT_DIR$/advanced/vendor/yiisoft/yii2-jui-master" />
+      <path value="$PROJECT_DIR$/advanced/vendor/bower-asset/jquery-ui" />
+      <path value="$PROJECT_DIR$/advanced/vendor/yiisoft/yii2-jui" />
+      <path value="$PROJECT_DIR$/advanced/vendor/fakerphp/faker" />
     </include_path>
   </component>
 </project>

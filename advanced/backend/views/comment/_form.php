@@ -12,11 +12,9 @@ use yii\widgets\ActiveForm;
 
     <?php $form = ActiveForm::begin(); ?>
 
-    <?= $form->field($model, 'pid')->textInput() ?>
-
     <?= $form->field($model, 'title')->textInput(['maxlength' => 255]) ?>
 
-    <?= $form->field($model, 'content')->textInput(['maxlength' => 255]) ?>
+    <?= $form->field($model, 'content')->textarea(['rows' => 6, 'maxlength' => 3000]) ?>
 
     <?= $form->field($model, 'publish_status')->dropDownList([ 'moderate' => Yii::t('backend', 'Moderate'), 'publish' => Yii::t('backend', 'Publish'), ], ['prompt' => '']) ?>
 

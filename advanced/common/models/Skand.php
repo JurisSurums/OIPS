@@ -2,17 +2,27 @@
 namespace common\models;
 
 use yii\base\Model;
+use yii\db\ActiveQuery;
+use yii\db\ActiveRecord;
 use yii\helpers\FileHelper;
 use yii\web\UploadedFile;
 
 /**
  * UploadForm is the model behind the upload form.
  */
-class Skand extends Model
+class Skand extends ActiveRecord
 {
     /**
      * @var UploadedFile
      */
+    public function rules()
+    {
+        return [
+            [['name_field'], 'required'],
+            [['description'], 'required']
+        ];
+    }
+
     public $description;
     public $name_field;
     public $alreadyExists;
