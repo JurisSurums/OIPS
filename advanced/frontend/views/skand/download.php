@@ -12,10 +12,21 @@ use yii\helpers\Url;
 
 ?>
 
-<h1>Izvēlies skaņdarbuu</h1>
+<h1>Izvēlies notis</h1>
 <hr>
 <?php $form = ActiveForm::begin(['options' => ['enctype' => 'multipart/form-data']]) ?>
 <?php $count = 0; ?>
+<?php
+    $readFiles = $remove = "./uploads"."/".$skand;
+    $files = scandir($readFiles);
+?>
+<?=
+Html::a(Yii::t('backend', $files[2]), ['download', 'id' => $skand."/".$files[2]],
+    [
+        'data' => [
+            'method' => 'post' ],
+    ]);
+?>
 <?php foreach ($allInstruments as $instrument): ?>
     <p></p>
     <h2><?= html::encode($instrument) ?></h2>
@@ -25,7 +36,6 @@ use yii\helpers\Url;
         $remove = "./uploads"."/".$skand."/".$instrument."/";
         $temp = str_replace($remove, "", $f);
         ?>
-
         <?=
         Html::a(Yii::t('backend', $temp), ['download', 'id' => $skand."/".$instrument."/".$temp],
             [

@@ -14,41 +14,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="77e549de-f6ad-4a4c-aaf2-c67442ce7595" name="Default Changelist" comment="jeas">
-      <change beforePath="$PROJECT_DIR$/.idea/OIPS.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/OIPS.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/advanced/backend/controllers/OrkdataController.php" beforeDir="false" afterPath="$PROJECT_DIR$/advanced/backend/controllers/OrkdataController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/advanced/backend/views/comment/_form.php" beforeDir="false" afterPath="$PROJECT_DIR$/advanced/backend/views/comment/_form.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/advanced/backend/views/comment/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/advanced/backend/views/comment/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/advanced/backend/views/orkdata/_form.php" beforeDir="false" afterPath="$PROJECT_DIR$/advanced/backend/views/orkdata/_form.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/advanced/backend/views/orkdata/create.php" beforeDir="false" afterPath="$PROJECT_DIR$/advanced/backend/views/orkdata/create.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/advanced/backend/views/orkdata/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/advanced/backend/views/orkdata/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/advanced/backend/views/orkdata/update.php" beforeDir="false" afterPath="$PROJECT_DIR$/advanced/backend/views/orkdata/update.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/advanced/backend/views/orkdata/view.php" beforeDir="false" afterPath="$PROJECT_DIR$/advanced/backend/views/orkdata/view.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/advanced/backend/views/post/_form.php" beforeDir="false" afterPath="$PROJECT_DIR$/advanced/backend/views/post/_form.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/advanced/backend/views/post/create.php" beforeDir="false" afterPath="$PROJECT_DIR$/advanced/backend/views/post/create.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/advanced/backend/views/skand/upload.php" beforeDir="false" afterPath="$PROJECT_DIR$/advanced/backend/views/skand/upload.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/advanced/backend/web/emails/JureisMan saņēmi?.php" beforeDir="false" afterPath="$PROJECT_DIR$/advanced/backend/web/emails/JureisMan saņēmi?.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/advanced/backend/web/emails/otraisepasts.php" beforeDir="false" afterPath="$PROJECT_DIR$/advanced/backend/web/emails/otraisepasts.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/advanced/backend/web/uploads/Otrā simfonija/Otrā simfonija info.txt" beforeDir="false" afterPath="$PROJECT_DIR$/advanced/backend/web/uploads/Otrā simfonija/Otrā simfonija info.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/advanced/backend/web/uploads/Otrā simfonija/mežragi/2020NovFri_dummy (copy).pdf" beforeDir="false" afterPath="$PROJECT_DIR$/advanced/backend/web/uploads/Otrā simfonija/mežragi/2020NovFri_dummy (copy).pdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/advanced/backend/web/uploads/Pirmā simfonija/Pirmā simfonija info.txt" beforeDir="false" afterPath="$PROJECT_DIR$/advanced/backend/web/uploads/Pirmā simfonija/Pirmā simfonija info.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/advanced/backend/web/uploads/Pirmā simfonija/timpāni/2020NovMon_dummy.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/advanced/backend/web/uploads/Pirmā simfonija/timpāni/2020NovMon_dummy.pdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/advanced/backend/web/uploads/Treso simfony/Treso simfony info.txt" beforeDir="false" afterPath="$PROJECT_DIR$/advanced/backend/web/uploads/Treso simfony/Treso simfony info.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/advanced/backend/web/uploads/Treso simfony/fagoti/2020NovThu_funny.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/advanced/backend/web/uploads/Treso simfony/fagoti/2020NovThu_funny.pdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/advanced/backend/web/uploads/home.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/advanced/backend/web/uploads/home.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/advanced/common/models/Instruments.php" beforeDir="false" afterPath="$PROJECT_DIR$/advanced/common/models/Instruments.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/advanced/common/models/Notis.php" beforeDir="false" afterPath="$PROJECT_DIR$/advanced/common/models/Notis.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/advanced/common/models/Orkdata.php" beforeDir="false" afterPath="$PROJECT_DIR$/advanced/common/models/Orkdata.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/advanced/common/models/Skand.php" beforeDir="false" afterPath="$PROJECT_DIR$/advanced/common/models/Skand.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/advanced/common/models/Skandarbi.php" beforeDir="false" afterPath="$PROJECT_DIR$/advanced/common/models/Skandarbi.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/advanced/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/advanced/composer.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/advanced/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/advanced/composer.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/advanced/console/migrations/m212021_053225_instrumenti.php" beforeDir="false" afterPath="$PROJECT_DIR$/advanced/console/migrations/m212021_053225_instrumenti.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/advanced/console/migrations/m223021_053225_notis.php" beforeDir="false" afterPath="$PROJECT_DIR$/advanced/console/migrations/m223021_053225_notis.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/advanced/console/migrations/m231021_053225_orkdata.php" beforeDir="false" afterPath="$PROJECT_DIR$/advanced/console/migrations/m231021_053225_orkdata.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/advanced/frontend/models/Orkdata.php" beforeDir="false" afterPath="$PROJECT_DIR$/advanced/frontend/models/Orkdata.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/advanced/frontend/web/images/home.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/advanced/frontend/web/images/home.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/advanced/backend/views/user/view.php" beforeDir="false" afterPath="$PROJECT_DIR$/advanced/backend/views/user/view.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/advanced/common/models/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/advanced/common/models/User.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/advanced/frontend/views/skand/download.php" beforeDir="false" afterPath="$PROJECT_DIR$/advanced/frontend/views/skand/download.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -239,7 +208,7 @@
       <workItem from="1606110649665" duration="2564000" />
       <workItem from="1606801108609" duration="9660000" />
       <workItem from="1606982558923" duration="605000" />
-      <workItem from="1607317424801" duration="7355000" />
+      <workItem from="1607317424801" duration="19801000" />
     </task>
     <task id="LOCAL-00001" summary="jeas">
       <created>1602678611808</created>

@@ -16,13 +16,22 @@ $this->params['breadcrumbs'][] = $this->title;
 
     <p>
         <?= Html::a(Yii::t('backend', 'Update'), ['update', 'id' => $model->id], ['class' => 'btn btn-primary']) ?>
-        <?= Html::a(Yii::t('backend', 'Delete'), ['delete', 'id' => $model->id], [
-            'class' => 'btn btn-danger',
-            'data' => [
-                'confirm' => Yii::t('backend', 'Are you sure you want to delete this item?'),
-                'method' => 'USER',
-            ],
-        ]) ?>
+        <?php
+            $role = $model->getRole($model->id);
+        ?>
+        <?php if ($role == 10): ?>
+            <?= Html::a(Yii::t('backend', 'Delete'), ['delete', 'id' => $model->id], [
+                'class' => 'btn btn-danger',
+                'data' => [
+                    'confirm' => Yii::t('backend', 'Are you sure you want to delete this item?'),
+                    'method' => 'USER',
+                ],
+            ]) ?>
+        <?php else: ?>
+    <li class="text-danger">Administratoru nevar izdzēst</li>
+    <?php endif; ?>
+
+
     </p>
 
     <?= DetailView::widget([

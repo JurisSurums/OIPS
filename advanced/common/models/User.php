@@ -168,6 +168,13 @@ class User extends ActiveRecord implements IdentityInterface
         return $timestamp + $expire >= time();
     }
 
+    public function getRole($id)
+    {
+        $r = User::find()->select('role')->where(['id'=>$id])->one();
+        $role = $r->role;
+        return $role;
+    }
+
     /**
      * {@inheritdoc}
      */
