@@ -73,18 +73,14 @@ class Comment extends ActiveRecord
         return $this->hasOne(User::class, ['id' => 'author_id']);
     }
 
-    /**
-     * @throws NotFoundHttpException
-     */
-    public static function findById(int $id, bool $ignorePublishStatus = false): Comment
+    public static function findById(int $id, bool $ignorePubStat = false): Comment // ignorepubstat, ja nav svarīgs statuss
     {
         if (($model = Comment::findOne($id)) !== null) {
-            if ($model->isPublished() || $ignorePublishStatus){
+            if ($model->isPublished() || $ignorePubStat){
                 return $model;
             }
         }
-
-        throw new NotFoundHttpException('The requested post does not exist.');
+        throw new NotFoundHttpException('Komentārs neeksistē.');
     }
 
     protected function isPublished(): bool

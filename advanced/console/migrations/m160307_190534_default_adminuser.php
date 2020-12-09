@@ -3,7 +3,7 @@
 use common\models\User;
 use yii\db\Migration;
 
-class m160307_190534_default_user extends Migration
+class m160307_190534_default_adminuser extends Migration
 {
     public function up()
     {

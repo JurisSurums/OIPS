@@ -97,7 +97,7 @@ class Post extends ActiveRecord
     {
         return new ActiveDataProvider([
             'query' => $this->getComments()
-                ->where(['publish_status' => Comment::STATUS_PUBLISH])
+                ->where(['publish_status' => Comment::STATUS_PUBLISH]) // atrod komentārus, kuri published
         ]);
     }
 

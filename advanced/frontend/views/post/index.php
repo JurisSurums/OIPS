@@ -37,6 +37,7 @@ $this->title = Yii::t('frontend', 'Foruma sadaļa');
         foreach ($categories->models as $category) {
             echo $this->render('//category/shortViewCategory', [
                 'model' => $category
+                // padod kategoriju kā mainīgo $model us shortViewCategory
             ]);
         }
         ?>

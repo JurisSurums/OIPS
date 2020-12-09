@@ -35,8 +35,8 @@ AppAsset::register($this);
             ]);
             if (Yii::$app->user->isGuest) {
                 $menuItems[] = ['label' => Yii::t('frontend', 'par OIPS'), 'url' => ['/site/about']];
-                $menuItems[] = ['label' => Yii::t('frontend', 'Sign up'), 'url' => ['/site/signup']];
-                $menuItems[] = ['label' => Yii::t('frontend', 'Login'), 'url' => ['/site/login']];
+                $menuItems[] = ['label' => Yii::t('frontend', 'REĢISTRĒTIES'), 'url' => ['/site/signup']];
+                $menuItems[] = ['label' => Yii::t('frontend', 'IEIET'), 'url' => ['/site/login']];
             } else {
                 $menuItems[] = ['label' => Yii::t('frontend', 'par OIPS'), 'url' => ['/site/about']];
                 $menuItems[] = ['label' => Yii::t('frontend', 'Notis'), 'url' => ['/skand/index']];

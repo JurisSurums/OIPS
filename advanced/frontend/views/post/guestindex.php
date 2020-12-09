@@ -9,6 +9,8 @@ use yii\widgets\LinkPager;
 /* @var $post common\models\Post */
 
 //LANDING FOR UNREGISTERED
+// Sākuma lapai jānomaina Home
+// 'label' => Yii::t('yii', 'Sākums'), => yii2/widgets/Breadcrumbs.php
 $this->title = Yii::t('frontend', 'Orķestra Informācijas Pārvaldības Sistēma');
 ?>
 <div class="col-sm-8 post-index">

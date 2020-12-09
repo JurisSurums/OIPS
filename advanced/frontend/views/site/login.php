@@ -12,16 +12,16 @@ $this->params['breadcrumbs'][] = $this->title;
 <div class="site-login">
     <h1><?= Html::encode($this->title) ?></h1>
 
-    <p><?= Yii::t('frontend', 'Please fill out the following fields to login') ?>:</p>
+    <p><?= Yii::t('frontend', 'Aizpildi sekojošos laukus, lai ielagotos') ?>:</p>
 
     <div class="row">
         <div class="col-lg-5">
             <?php $form = ActiveForm::begin(['enableClientValidation'=>false]); ?>
-                <?= $form->field($model, 'username') ?>
+                <?= $form->field($model, 'lietotājvārds') ?>
                 <?= $form->field($model, 'password')->passwordInput() ?>
                 <?= $form->field($model, 'rememberMe')->checkbox() ?>
                 <div class="form-group">
-                    <?= Html::submitButton(Yii::t('frontend', 'Login'), ['class' => 'btn btn-primary', 'name' => 'login-button']) ?>
+                    <?= Html::submitButton(Yii::t('frontend', 'Ielagoties'), ['class' => 'btn btn-primary', 'name' => 'login-button']) ?>
                 </div>
             <?php ActiveForm::end(); ?>
         </div>

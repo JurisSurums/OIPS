@@ -18,7 +18,7 @@ class m141213_134307_comments extends Migration
             'id' => $this->primaryKey(),
             'pid' => $this->integer(),
             'title' => $this->string()->notNull(),
-            'content' => $this->string()->notNull(),
+            'content' => $this->text()->notNull(),
             'publish_status' => "enum('" . Comment::STATUS_MODERATE . "','" . Comment::STATUS_PUBLISH . "') NOT NULL DEFAULT '" . Comment::STATUS_PUBLISH . "'",
             'post_id' => $this->integer(),
             'author_id' => $this->integer()

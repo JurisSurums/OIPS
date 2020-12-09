@@ -6,20 +6,20 @@ use yii\widgets\ActiveForm;
 /* @var $form yii\widgets\ActiveForm */
 /* @var $model \frontend\models\SignupForm */
 
-$this->title = Yii::t('frontend', 'Sign up');
+$this->title = Yii::t('frontend', 'Reģistrējies');
 $this->params['breadcrumbs'][] = $this->title;
 ?>
 <div class="site-signup">
     <h1><?= Html::encode($this->title) ?></h1>
 
-    <p><?= Yii::t('frontend', 'Please fill out the following fields to signup') ?>:</p>
+    <p><?= Yii::t('frontend', 'Aizpildi sekojošos laukus, lai reģistrētos') ?>:</p>
 
     <div class="row">
         <div class="col-lg-5">
             <?php $form = ActiveForm::begin(['id' => 'form-signup']); ?>
                 <?= $form->field($model, 'username') ?>
                 <?= $form->field($model, 'email') ?>
-                <?= $form->field($model, 'password')->passwordInput() ?>
+                <?= $form->field($model, 'parole')->passwordInput() ?>
                 <div class="form-group">
                     <?= Html::submitButton('Signup', ['class' => 'btn btn-primary', 'name' => 'signup-button']) ?>
                 </div>
