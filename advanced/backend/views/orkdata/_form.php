@@ -2,6 +2,7 @@
 
 use yii\helpers\Html;
 use yii\widgets\ActiveForm;
+use yii\jui\DatePicker;
 
 /* @var $this yii\web\View */
 /* @var $model common\models\Orkdata */
@@ -14,7 +15,7 @@ use yii\widgets\ActiveForm;
 
     <?= $form->field($model, 'instrument')->radioList($items, ['class' => 'yolo']) ?>
 
-    <?= $form->field($model, 'participation')->textInput() ?>
+    <?= $form->field($model, 'participation')->widget(DatePicker::className(),['dateFormat' => 'yyyy-MM-dd', 'options' => ['readonly' => true], 'clientOptions' => [ 'changeMonth' => true, 'changeYear' => true, 'yearRange' => '1980:'.date('Y'), 'maxDate' => '+0d']])?>
 
     <?= $form->field($model, 'user_id')->hiddenInput()->label(false); ?>
 

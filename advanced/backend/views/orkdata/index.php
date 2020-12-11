@@ -6,7 +6,7 @@ use yii\grid\GridView;
 /* @var $this yii\web\View */
 /* @var $dataProvider yii\data\ActiveDataProvider */
 
-$this->title = 'Orkdatas';
+$this->title = 'Instrumentu piešķiršana lietotājam';
 $this->params['breadcrumbs'][] = $this->title;
 ?>
 <div class="orkdata-index">
@@ -14,7 +14,7 @@ $this->params['breadcrumbs'][] = $this->title;
     <h1><?= Html::encode($this->title) ?></h1>
 
     <p>
-        <?= Html::a('Create Orkdata', ['create'], ['class' => 'btn btn-success']) ?>
+        <?= Html::a('Piešķirt instrumentu', ['create'], ['class' => 'btn btn-success']) ?>
     </p>
 
 
@@ -23,11 +23,19 @@ $this->params['breadcrumbs'][] = $this->title;
         'columns' => [
             ['class' => 'yii\grid\SerialColumn'],
             'id',
-            'instrument',
-            'participation',
+            [
+                'label' => 'Instruments',
+                'attribute' => 'instrument',
+                'format' => 'text',
+            ],
+            [
+                'label' => 'Reģistrācijas datums',
+                'attribute' => 'participation',
+                'format' => 'text',
+            ],
             //'user_id',
             [
-                'label' => Yii::t('backend', 'user'),
+                'label' => Yii::t('backend', 'Lietotājs'),
                 'value' => 'user.username'
             ],
             ['class' => 'yii\grid\ActionColumn',

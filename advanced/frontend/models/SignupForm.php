@@ -12,8 +12,7 @@ class SignupForm extends Model
 {
     public $username;
     public $email;
-    public $parole;
-
+    public $password;
 
     /**
      * {@inheritdoc}
@@ -33,8 +32,8 @@ class SignupForm extends Model
             ['email', 'string', 'max' => 255],
             ['email', 'unique', 'targetClass' => '\common\models\User', 'message' => 'Šis epasts jau tiek izmantots.'],
 
-            ['parole', 'required'],
-            ['parole', 'string', 'min' => Yii::$app->params['user.passwordMinLength']],
+            ['password', 'required'],
+            ['password', 'string', 'min' => Yii::$app->params['user.passwordMinLength']],
         ];
     }
 
@@ -48,11 +47,11 @@ class SignupForm extends Model
         if (!$this->validate()) {
             return null;
         }
-
+        $this->fields();
         $user = new User();
         $user->username = $this->username;
         $user->email = $this->email;
-        $user->setPassword($this->parole);
+        $user->setPassword($this->password);
         $user->generateAuthKey();
         return $user->save() && $this->sendEmail($user);
     }

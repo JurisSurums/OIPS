@@ -6,7 +6,7 @@ use yii\grid\GridView;
 /* @var $this yii\web\View */
 /* @var $dataProvider yii\data\ActiveDataProvider */
 
-$this->title = Yii::t('backend', 'Comments');
+$this->title = Yii::t('backend', 'Komentāri');
 $this->params['breadcrumbs'][] = $this->title;
 ?>
 <div class="comment-index">
@@ -14,7 +14,7 @@ $this->params['breadcrumbs'][] = $this->title;
     <h1><?= Html::encode($this->title) ?></h1>
 
     <p>
-        <?= Html::a(Yii::t('backend', 'Create Comment'), ['create'], ['class' => 'btn btn-success']) ?>
+        <?= Html::a(Yii::t('backend', 'Izveidot komentāru'), ['create'], ['class' => 'btn btn-success']) ?>
     </p>
 
     <?= GridView::widget([
@@ -22,11 +22,31 @@ $this->params['breadcrumbs'][] = $this->title;
         'columns' => [
             ['class' => 'yii\grid\SerialColumn'],
             'id',
-            'title',
-            'content',
-            'publish_status',
-            'post_id',
-            'author_id',
+            [
+                'label' => 'Nosaukums',
+                'attribute' => 'title',
+                'format' => 'text',
+            ],
+            [
+                'label' => 'Saturs',
+                'attribute' => 'content',
+                'format' => 'text',
+            ],
+            [
+                'label' => 'Publikācijas statuss',
+                'attribute' => 'publish_status',
+                'format' => 'text',
+            ],
+            [
+                'label' => 'Komentāra posts',
+                'attribute' => 'post_id',
+                'format' => 'text',
+            ],
+            [
+                'label' => 'Autora ID',
+                'attribute' => 'author_id',
+                'format' => 'text',
+            ],
             ['class' => 'yii\grid\ActionColumn'],
         ],
     ]) ?>

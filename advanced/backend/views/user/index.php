@@ -22,10 +22,26 @@ $this->params['breadcrumbs'][] = $this->title;
         'columns' => [
             ['class' => 'yii\grid\SerialColumn'],
             'id',
-            'username',
-            'email:email',
-            'role',
-            'status',
+            [
+                'label' => 'Lietotājvārds',
+                'attribute' => 'username',
+                'format' => 'text',
+            ],
+            [
+                'label' => 'Epasts',
+                'attribute' => 'email',
+                'format' => 'text',
+            ],
+            [
+                'label' => 'Loma',
+                'attribute' => 'role',
+                'format' => 'text',
+            ],
+            [
+                'label' => 'Statuss',
+                'attribute' => 'status',
+                'format' => 'text',
+            ],
             ['class' => 'yii\grid\ActionColumn',
              'template' => '{view}'
             ],

@@ -157,7 +157,6 @@ class SiteController extends Controller
             Yii::$app->session->setFlash('success', 'Paldies par reģistrāciju.');
             return $this->goHome();
         }
-
         return $this->render('signup', [
             'model' => $model,
         ]);
