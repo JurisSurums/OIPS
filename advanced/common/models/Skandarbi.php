@@ -64,6 +64,8 @@ class Skandarbi extends \yii\db\ActiveRecord
     public function SkandByName($namo)
     {
         $r = Skandarbi::find()->select(['id', 'title'])->where(['title'=>$namo])->all();
+/*        var_dump($namo);
+        exit();*/
         return $r[0]["id"];
     }
 

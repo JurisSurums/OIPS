@@ -15,7 +15,9 @@ class SkandController extends Controller
     public function actionUpload()
     {
         $model = new Skand();
-        return $this->render('upload', ['model' => $model]);
+        $model2 = new UploadForm();
+        $allFiles = FileHelper::findDirectories('uploads/', ['recursive' => false]);
+        return $this->render('upload', ['model' => $model, 'model2' => $model2, "allFiles" => $allFiles]);
     }
     public function actionFinal()
     {
@@ -33,13 +35,28 @@ class SkandController extends Controller
                 $skandarbs->create_date = $currDate;
                 $skandarbs->save();
                 $skandarbs->createInst($skandarbs->id);
-                return $this->render('sucess');
+                return $this->render('uploadEnd');
             }
             else
             {
                 Yii::$app->session->setFlash('error', 'Eksistē skaņdarbs ar šādu nosaukumu.');
                 return $this->render('upload', ['model' => $model]);
             }
+        }
+    }
+    public function actionDelete()
+    {
+        $model = new UploadForm();
+        $allFiles = FileHelper::findDirectories('uploads/', ['recursive' => false]);
+        if (Yii::$app->request->isPost) { // pressed the button
+            $post = Yii::$app->request->post();
+            $id  = (int)$post["namo"];
+            $searcher = str_replace("uploads/" , "",$allFiles[$id]);
+            $sk = new Skandarbi();
+            $sk->DeleteSkand($searcher);
+            $diro = $model->dirfind($post["namo"], $allFiles);
+            FileHelper::removeDirectory($diro, ['recursive' => true]);
+            return $this->render('deleteEnd');
         }
     }
 }

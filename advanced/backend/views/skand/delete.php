@@ -11,7 +11,7 @@ use yii\base\model;
 use yii\helpers\Url;
 
 ?>
-<h1>Izvēlies, kuru skaņdarbu dzēst</h1>
+    <h1>Izvēlies, kuru skaņdarbu dzēst</h1>
 
 <?php
 $prefix = 'uploads/';

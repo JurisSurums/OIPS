@@ -13,10 +13,10 @@ use function Sodium\add;
 
 class PdfController extends Controller
 {
-    public function actionSucess()
+    public function actionBegin()
     {
         $allFiles = FileHelper::findDirectories('uploads/', ['recursive' => false]);
-        return $this->render('sucess', ['allFiles' => $allFiles]);
+        return $this->render('beginUpload', ['allFiles' => $allFiles]);
     }
     public function actionUpload()
     {
@@ -85,7 +85,7 @@ class PdfController extends Controller
         if ($model->upload($diro)) {
             // file is uploaded successfully
             Yii::$app->session->setFlash('success', 'Notis tika pievienotas.');
-            return $this->render('/pdf/beigas', ['namo' => $again]);
+            return $this->render('/pdf/ending', ['namo' => $again]);
         }
     }
     public function actionFinald()
@@ -113,6 +113,6 @@ class PdfController extends Controller
         $instro->NotisD($InstrID, $skandID); // MAKE ARRAY
         //vajag citu
         Yii::$app->session->setFlash('success', 'Notis tika dzēstas.');
-        return $this->render('/pdf/beigasDelete', ['namo' => $y['namoDel']]);
+        return $this->render('/pdf/endingDelete', ['namo' => $y['namoDel']]);
     }
 }
