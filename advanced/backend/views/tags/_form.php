@@ -12,7 +12,7 @@ use yii\widgets\ActiveForm;
 
     <?php $form = ActiveForm::begin(); ?>
 
-    <?= $form->field($model, 'title')->textInput(['maxlength' => 255]) ?>
+    <?= $form->field($model, 'title')->textInput(['maxlength' => 255])->label('Nosaukums') ?>
 
     <div class="form-group">
         <?= Html::submitButton($model->isNewRecord ? 'Create' : 'Nomaini taga nosaukumu', ['class' => $model->isNewRecord ? 'btn btn-success' : 'btn btn-primary']) ?>

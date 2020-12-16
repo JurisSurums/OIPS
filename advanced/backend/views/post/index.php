@@ -7,7 +7,7 @@ use yii\grid\GridView;
 /* @var $dataProvider yii\data\ActiveDataProvider */
 
 $this->title = Yii::t('backend', 'Posti');
-$this->params['breadcrumbs'][] = $this->title;
+$this->params['breadcrumbs'][] = $this->title; //navigational line
 //postu skats
 ?>
 <div class="post-index">
@@ -31,16 +31,18 @@ $this->params['breadcrumbs'][] = $this->title;
             ],
             [
                 'label' => 'Saturs',
-                'attribute' => 'anons:ntext',
+                'attribute' => 'anons',
                 'format' => 'text',
             ],
             [
-                'label' => Yii::t('backend', 'Category'),
-                'value' => 'category.title'
+                'label' => Yii::t('backend', 'Kategorija'),
+                'value' => 'category.title',
+                'format' => 'text',
             ],
             [
-                'label' => Yii::t('backend', 'Author'),
+                'label' => Yii::t('backend', 'Autors'),
                 'value' => 'author.username',
+                'format' => 'text',
             ],
             [
                 'label' => 'Publikācijas statuss',

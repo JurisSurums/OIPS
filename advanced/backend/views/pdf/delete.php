@@ -3,7 +3,7 @@
 /* @var $this yii\web\View */
 $this->title = 'pdf upload';
 ?>
-    <h1>Upload pdf file</h1>
+    <h1>Izvēlies instrumentu, kuram dzēst notis</h1>
 
 <?php
 use yii\bootstrap\ActiveForm;

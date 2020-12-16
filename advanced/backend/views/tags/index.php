@@ -14,7 +14,7 @@ $this->params['breadcrumbs'][] = $this->title;
     <h1><?= Html::encode($this->title) ?></h1>
 
     <p>
-        <?= Html::a('Create tag', ['create'], ['class' => 'btn btn-success']) ?>
+        <?= Html::a('Izveidot tagu', ['create'], ['class' => 'btn btn-success']) ?>
     </p>
 
     <?= GridView::widget([

@@ -8,8 +8,8 @@ use yii\helpers\Html;
 /* @var $tags yii\db\ActiveRecord[] */
 /* @var $category yii\db\ActiveRecord[] */
 
-$this->title = Yii::t('backend', 'Update Post:') . ' ' . $model->title;
-$this->params['breadcrumbs'][] = ['label' => Yii::t('backend', 'Posts'), 'url' => ['index']];
+$this->title = Yii::t('backend', 'Rediģēt Postu:') . ' ' . $model->title;
+$this->params['breadcrumbs'][] = ['label' => Yii::t('backend', 'Posti'), 'url' => ['index']];
 $this->params['breadcrumbs'][] = ['label' => $model->title, 'url' => ['view', 'id' => $model->id]];
 $this->params['breadcrumbs'][] = Yii::t('backend', 'Update');
 ?>

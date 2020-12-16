@@ -5,7 +5,7 @@ use yii\helpers\Html;
 /* @var $this yii\web\View */
 /* @var $model common\models\Tag */
 
-$this->title = 'Update tag: ' . ' ' . $model->title;
+$this->title = 'Rediģēt tagu: ' . ' ' . $model->title;
 $this->params['breadcrumbs'][] = ['label' => 'Tagi', 'url' => ['index']];
 $this->params['breadcrumbs'][] = ['label' => $model->title, 'url' => ['view', 'id' => $model->id]];
 $this->params['breadcrumbs'][] = 'Rediģēt';

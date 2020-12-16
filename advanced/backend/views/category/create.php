@@ -6,7 +6,7 @@ use yii\helpers\Html;
 /* @var $model common\models\Category */
 
 $this->title = Yii::t('backend', 'Izveidot Kategoriju');
-$this->params['breadcrumbs'][] = ['label' => Yii::t('backend', 'Categories'), 'url' => ['index']];
+$this->params['breadcrumbs'][] = ['label' => Yii::t('backend', 'Kategorijas'), 'url' => ['index']];
 $this->params['breadcrumbs'][] = $this->title;
 ?>
 <div class="category-create">

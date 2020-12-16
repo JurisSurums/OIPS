@@ -15,33 +15,54 @@ $this->params['breadcrumbs'][] = $this->title;
     <h1><?= Html::encode($this->title) ?></h1>
 
     <p>
-        <?= Html::a(Yii::t('backend', 'Update'), ['update', 'id' => $model->id], ['class' => 'btn btn-primary']) ?>
-        <?= Html::a(Yii::t('backend', 'Delete'), ['delete', 'id' => $model->id], [
+        <?= Html::a(Yii::t('backend', 'Rediģēt'), ['update', 'id' => $model->id], ['class' => 'btn btn-primary']) ?>
+        <?= Html::a(Yii::t('backend', 'Dzēst'), ['delete', 'id' => $model->id], [
             'class' => 'btn btn-danger',
             'data' => [
-                'confirm' => Yii::t('backend', 'Are you sure you want to delete this item?'),
+                'confirm' => Yii::t('backend', 'Vai tiešām vēlaties dzēst postu?'),
                 'method' => 'post',
             ],
         ]) ?>
     </p>
 
+    <?php
+/*    var_dump($model);
+    exit();
+    */?>
     <?= DetailView::widget([
         'model' => $model,
         'attributes' => [
             'id',
-            'title',
-            'anons:ntext',
-            'content:ntext',
             [
-                'label' => Yii::t('backend', 'Category'),
-                'value' => 'category.title'
+                'label' => 'Nosaukums',
+                'attribute' => 'title',
+                'format' => 'text',
             ],
             [
-                'label' => Yii::t('backend', 'Author'),
-                'value' => 'author.username',
+                'label' => 'Zemraksts',
+                'attribute' => 'anons',
             ],
-            'publish_status',
-            'publish_date',
+            [
+                'label' => 'Saturs',
+                'attribute' => 'content',
+                'format' => 'text',
+            ],
+            [
+                'label' => 'Kategorija',
+                'attribute' => 'category.title'
+            ],
+            [
+                'label' => 'Kategorija',
+                'attribute' => 'author.username',
+            ],
+            [
+                'label' => 'Publikācijas statuss',
+                'attribute' => 'publish_status',
+            ],
+            [
+                'label' => 'Publikācijas datums',
+                'attribute' => 'publish_date',
+            ],
         ],
     ]) ?>
 

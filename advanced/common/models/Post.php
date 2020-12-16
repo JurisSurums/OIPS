@@ -51,6 +51,9 @@ class Post extends ActiveRecord
     {
         return [
             [['title'], 'required'],
+            [['anons'], 'required'],
+            [['content'], 'required'],
+            [['publish_date'], 'required'],
             [['category_id', 'author_id'], 'integer'],
             [['anons', 'content', 'publish_status'], 'string'],
             [['publish_date', 'tags'], 'safe'],

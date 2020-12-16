@@ -8,7 +8,7 @@ use yii\helpers\Html;
 /* @var $category yii\db\ActiveRecord[] */
 /* @var $tags yii\db\ActiveRecord[] */
 
-$this->title = Yii::t('backend', 'Create Post');
+$this->title = Yii::t('backend', 'Izveidot Postu');
 $this->params['breadcrumbs'][] = ['label' => Yii::t('backend', 'Posts'), 'url' => ['index']];
 $this->params['breadcrumbs'][] = $this->title;
 ?>

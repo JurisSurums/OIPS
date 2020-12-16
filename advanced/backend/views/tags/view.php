@@ -15,9 +15,9 @@ $this->params['breadcrumbs'][] = $this->title;
     <h1><?= Html::encode($this->title) ?></h1>
 
     <p>
-        <?= Html::a('Update', ['update', 'id' => $model->id], ['class' => 'btn btn-primary']) ?>
+        <?= Html::a('Rediģēt', ['update', 'id' => $model->id], ['class' => 'btn btn-primary']) ?>
 
-        <?php echo Html::a(Yii::t('backend', 'Delete'), ['delete', 'id' => $model->id], [
+        <?php echo Html::a(Yii::t('backend', 'Dzēst'), ['delete', 'id' => $model->id], [
             'class' => 'btn btn-danger',
             'data' => [
                 'confirm' => Yii::t('backend', 'Vai tiešā vēlaties dzēst tagu?'),
@@ -30,7 +30,10 @@ $this->params['breadcrumbs'][] = $this->title;
         'model' => $model,
         'attributes' => [
             'id',
-            'title',
+            [
+                'label' => 'Nosaukums',
+                'attribute' => 'title',
+            ],
         ],
     ]) ?>
 

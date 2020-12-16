@@ -14,20 +14,27 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="77e549de-f6ad-4a4c-aaf2-c67442ce7595" name="Default Changelist" comment="jeas">
-      <change afterPath="$PROJECT_DIR$/advanced/backend/views/skand/delete.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/advanced/backend/controllers/DelskandController.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/advanced/backend/controllers/PdfController.php" beforeDir="false" afterPath="$PROJECT_DIR$/advanced/backend/controllers/PdfController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/advanced/backend/controllers/SkandController.php" beforeDir="false" afterPath="$PROJECT_DIR$/advanced/backend/controllers/SkandController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/advanced/backend/views/delskand/delete.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/advanced/backend/views/delskand/sucess.php" beforeDir="false" afterPath="$PROJECT_DIR$/advanced/backend/views/skand/deleteEnd.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/advanced/backend/views/pdf/beigas.php" beforeDir="false" afterPath="$PROJECT_DIR$/advanced/backend/views/pdf/ending.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/advanced/backend/views/pdf/beigasDelete.php" beforeDir="false" afterPath="$PROJECT_DIR$/advanced/backend/views/pdf/endingDelete.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/advanced/backend/views/pdf/sucess.php" beforeDir="false" afterPath="$PROJECT_DIR$/advanced/backend/views/pdf/beginUpload.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/advanced/backend/views/site/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/advanced/backend/views/site/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/advanced/backend/views/skand/sucess.php" beforeDir="false" afterPath="$PROJECT_DIR$/advanced/backend/views/skand/uploadEnd.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/advanced/backend/views/skand/upload.php" beforeDir="false" afterPath="$PROJECT_DIR$/advanced/backend/views/skand/upload.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/advanced/common/models/Skandarbi.php" beforeDir="false" afterPath="$PROJECT_DIR$/advanced/common/models/Skandarbi.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/advanced/backend/views/category/create.php" beforeDir="false" afterPath="$PROJECT_DIR$/advanced/backend/views/category/create.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/advanced/backend/views/comment/_form.php" beforeDir="false" afterPath="$PROJECT_DIR$/advanced/backend/views/comment/_form.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/advanced/backend/views/comment/create.php" beforeDir="false" afterPath="$PROJECT_DIR$/advanced/backend/views/comment/create.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/advanced/backend/views/comment/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/advanced/backend/views/comment/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/advanced/backend/views/comment/update.php" beforeDir="false" afterPath="$PROJECT_DIR$/advanced/backend/views/comment/update.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/advanced/backend/views/comment/view.php" beforeDir="false" afterPath="$PROJECT_DIR$/advanced/backend/views/comment/view.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/advanced/backend/views/pdf/delete.php" beforeDir="false" afterPath="$PROJECT_DIR$/advanced/backend/views/pdf/delete.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/advanced/backend/views/post/create.php" beforeDir="false" afterPath="$PROJECT_DIR$/advanced/backend/views/post/create.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/advanced/backend/views/post/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/advanced/backend/views/post/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/advanced/backend/views/post/update.php" beforeDir="false" afterPath="$PROJECT_DIR$/advanced/backend/views/post/update.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/advanced/backend/views/post/view.php" beforeDir="false" afterPath="$PROJECT_DIR$/advanced/backend/views/post/view.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/advanced/backend/views/tags/_form.php" beforeDir="false" afterPath="$PROJECT_DIR$/advanced/backend/views/tags/_form.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/advanced/backend/views/tags/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/advanced/backend/views/tags/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/advanced/backend/views/tags/update.php" beforeDir="false" afterPath="$PROJECT_DIR$/advanced/backend/views/tags/update.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/advanced/backend/views/tags/view.php" beforeDir="false" afterPath="$PROJECT_DIR$/advanced/backend/views/tags/view.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/advanced/backend/views/user/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/advanced/backend/views/user/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/advanced/backend/views/user/view.php" beforeDir="false" afterPath="$PROJECT_DIR$/advanced/backend/views/user/view.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/advanced/common/models/Post.php" beforeDir="false" afterPath="$PROJECT_DIR$/advanced/common/models/Post.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/advanced/frontend/tests/acceptance/HomeCest.php" beforeDir="false" afterPath="$PROJECT_DIR$/advanced/frontend/tests/acceptance/HomeCest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/advanced/frontend/tests/functional/HomeCest.php" beforeDir="false" afterPath="$PROJECT_DIR$/advanced/frontend/tests/functional/HomeCest.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -220,7 +227,8 @@
       <workItem from="1606982558923" duration="605000" />
       <workItem from="1607317424801" duration="20064000" />
       <workItem from="1607662520613" duration="17408000" />
-      <workItem from="1607922171406" duration="8593000" />
+      <workItem from="1607922171406" duration="8723000" />
+      <workItem from="1608095989859" duration="19665000" />
     </task>
     <task id="LOCAL-00001" summary="jeas">
       <created>1602678611808</created>
@@ -282,10 +290,10 @@
     </state>
     <state x="586" y="125" width="1022" height="737" key="SettingsEditor/1920.0.1920.1080/0.27.1920.1053@0.27.1920.1053" timestamp="1603180515971" />
     <state x="636" y="125" key="SettingsEditor/72.27.1848.1053@72.27.1848.1053" timestamp="1602853089205" />
-    <state x="533" y="339" width="1112" height="620" key="find.popup" timestamp="1607923887919">
+    <state x="505" y="141" width="1112" height="620" key="find.popup" timestamp="1608099947387">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state x="533" y="339" width="1112" height="620" key="find.popup/1920.0.1920.1080/0.27.1920.1053@0.27.1920.1053" timestamp="1607923887919" />
+    <state x="505" y="141" width="1112" height="620" key="find.popup/1920.0.1920.1080/0.27.1920.1053@0.27.1920.1053" timestamp="1608099947387" />
     <state x="624" y="245" key="run.anything.popup" timestamp="1604315833699">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
@@ -294,10 +302,10 @@
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
     <state x="623" y="239" width="672" height="678" key="search.everywhere.popup/1920.0.1920.1080/0.27.1920.1053@0.27.1920.1053" timestamp="1605077598943" />
-    <state x="626" y="462" width="540" height="179" key="vcs.readOnlyHandler.ReadOnlyStatusDialog" timestamp="1607672607470">
+    <state x="626" y="462" width="540" height="179" key="vcs.readOnlyHandler.ReadOnlyStatusDialog" timestamp="1608099772901">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state x="626" y="462" width="540" height="179" key="vcs.readOnlyHandler.ReadOnlyStatusDialog/1920.0.1920.1080/0.27.1920.1053@0.27.1920.1053" timestamp="1607672607470" />
+    <state x="626" y="462" width="540" height="179" key="vcs.readOnlyHandler.ReadOnlyStatusDialog/1920.0.1920.1080/0.27.1920.1053@0.27.1920.1053" timestamp="1608099772901" />
     <state x="675" y="462" width="540" height="179" key="vcs.readOnlyHandler.ReadOnlyStatusDialog/72.27.1848.1053@72.27.1848.1053" timestamp="1604931423296" />
   </component>
   <component name="XDebuggerManager">

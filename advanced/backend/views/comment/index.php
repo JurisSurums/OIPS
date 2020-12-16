@@ -39,12 +39,12 @@ $this->params['breadcrumbs'][] = $this->title;
             ],
             [
                 'label' => 'Komentāra posts',
-                'attribute' => 'post_id',
+                'attribute' => 'post.title',
                 'format' => 'text',
             ],
             [
                 'label' => 'Autora ID',
-                'attribute' => 'author_id',
+                'attribute' => 'author.username',
                 'format' => 'text',
             ],
             ['class' => 'yii\grid\ActionColumn'],

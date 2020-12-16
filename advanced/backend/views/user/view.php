@@ -7,7 +7,7 @@ use yii\widgets\DetailView;
 /* @var $model common\models\User */
 
 $this->title = $model->username;
-$this->params['breadcrumbs'][] = ['label' => Yii::t('backend', 'Users'), 'url' => ['index']];
+$this->params['breadcrumbs'][] = ['label' => Yii::t('backend', 'Lietotāji'), 'url' => ['index']];
 $this->params['breadcrumbs'][] = $this->title;
 ?>
 <div class="user-view">
@@ -15,15 +15,15 @@ $this->params['breadcrumbs'][] = $this->title;
     <h1><?= Html::encode($this->title) ?></h1>
 
     <p>
-        <?= Html::a(Yii::t('backend', 'Update'), ['update', 'id' => $model->id], ['class' => 'btn btn-primary']) ?>
+        <?= Html::a(Yii::t('backend', 'Rediģēt'), ['update', 'id' => $model->id], ['class' => 'btn btn-primary']) ?>
         <?php
             $role = $model->getRole($model->id);
         ?>
         <?php if ($role == 10): ?>
-            <?= Html::a(Yii::t('backend', 'Delete'), ['delete', 'id' => $model->id], [
+            <?= Html::a(Yii::t('backend', 'Dzēst'), ['delete', 'id' => $model->id], [
                 'class' => 'btn btn-danger',
                 'data' => [
-                    'confirm' => Yii::t('backend', 'Are you sure you want to delete this item?'),
+                    'confirm' => Yii::t('backend', 'Vai tiešām vēlaties dzēst šo lietotāju?'),
                     'method' => 'USER',
                 ],
             ]) ?>
@@ -38,12 +38,30 @@ $this->params['breadcrumbs'][] = $this->title;
         'model' => $model,
         'attributes' => [
             'id',
-            'username',
-            'email:email',
-            'role',
-            'status',
-            'created_at',
-            'updated_at',
+            [
+                'label' => 'lietotājvārds',
+                'attribute' => 'username',
+            ],
+            [
+                'label' => 'epasts',
+                'attribute' => 'email:email',
+            ],
+            [
+                'label' => 'loma',
+                'attribute' => 'role',
+            ],
+            [
+                'label' => 'statuss',
+                'attribute' => 'status',
+            ],
+            [
+                'label' => 'Izveides datums',
+                'attribute' => 'created_at',
+            ],
+            [
+                'label' => 'Rediģēšanas datums',
+                'attribute' => 'updated_at',
+            ],
         ],
     ]) ?>
 
