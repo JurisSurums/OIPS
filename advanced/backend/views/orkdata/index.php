@@ -28,11 +28,6 @@ $this->params['breadcrumbs'][] = $this->title;
                 'attribute' => 'instrument',
                 'format' => 'text',
             ],
-            [
-                'label' => 'Reģistrācijas datums',
-                'attribute' => 'participation',
-                'format' => 'text',
-            ],
             //'user_id',
             [
                 'label' => Yii::t('backend', 'Lietotājs'),

@@ -5,8 +5,8 @@ use yii\helpers\Html;
 /* @var $this yii\web\View */
 /* @var $model common\models\User */
 
-$this->title = Yii::t('backend', 'Update User:') . ' ' . $model->username;
-$this->params['breadcrumbs'][] = ['label' => Yii::t('backend', 'Users'), 'url' => ['index']];
+$this->title = Yii::t('backend', 'Rediģēt lietotāju:') . ' ' . $model->username;
+$this->params['breadcrumbs'][] = ['label' => Yii::t('backend', 'Lietotāji'), 'url' => ['index']];
 $this->params['breadcrumbs'][] = ['label' => $model->username, 'url' => ['view', 'id' => $model->id]];
 $this->params['breadcrumbs'][] = Yii::t('backend', 'Update');
 ?>

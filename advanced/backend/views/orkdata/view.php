@@ -6,8 +6,8 @@ use yii\widgets\DetailView;
 /* @var $this yii\web\View */
 /* @var $model common\models\Orkdata */
 
-$this->title = $model->id;
-$this->params['breadcrumbs'][] = ['label' => 'Orkdatas', 'url' => ['index']];
+$this->title = $model->instrument;
+$this->params['breadcrumbs'][] = ['label' => 'Lietotāja instrumenti', 'url' => ['index']];
 $this->params['breadcrumbs'][] = $this->title;
 \yii\web\YiiAsset::register($this);
 ?>
@@ -16,10 +16,10 @@ $this->params['breadcrumbs'][] = $this->title;
     <h1><?= Html::encode($this->title) ?></h1>
 
     <p>
-        <?= Html::a('Delete', ['delete', 'id' => $model->id], [
+        <?= Html::a('Dzēst', ['delete', 'id' => $model->id], [
             'class' => 'btn btn-danger',
             'data' => [
-                'confirm' => 'Are you sure you want to delete this item?',
+                'confirm' => 'Vai tiešām vēlaties dzēst šos lietotāja instrumenta datus?',
                 'method' => 'post',
             ],
         ]) ?>
@@ -29,9 +29,18 @@ $this->params['breadcrumbs'][] = $this->title;
         'model' => $model,
         'attributes' => [
             'id',
-            'instrument',
-            'participation',
-            'user_id',
+            [
+                'label' => 'Lieotāja instruments',
+                'attribute' => 'instrument',
+            ],
+            [
+                'label' => 'Instrumentu uzsāka spēlēt',
+                'attribute' => 'participation',
+            ],
+            [
+                'label' => 'Lietotājs',
+                'attribute' => 'user.username',
+            ],
         ],
     ]) ?>
 

@@ -5,8 +5,8 @@ use yii\helpers\Html;
 /* @var $this yii\web\View */
 /* @var $model common\models\Orkdata */
 
-$this->title = 'Create Orkdata';
-$this->params['breadcrumbs'][] = ['label' => 'Orkdatas', 'url' => ['index']];
+$this->title = 'Piešķirt lietotājam instrumentu';
+$this->params['breadcrumbs'][] = ['label' => 'Lietotāju instrumenti', 'url' => ['index']];
 $this->params['breadcrumbs'][] = $this->title;
 ?>
 <div class="orkdata-create">

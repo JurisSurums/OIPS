@@ -13,13 +13,15 @@ use yii\jui\DatePicker;
 
     <?php $form = ActiveForm::begin(); ?>
 
-    <?= $form->field($model, 'instrument')->radioList($items, ['class' => 'yolo']) ?>
+    <?= $form->field($model, 'instrument')->radioList($items, ['class' => 'yolo'])->label('Izvēlies instrumentu') ?>
 
-    <?= $form->field($model, 'participation')->widget(DatePicker::className(),['dateFormat' => 'yyyy-MM-dd', 'options' => ['readonly' => true], 'clientOptions' => [ 'changeMonth' => true, 'changeYear' => true, 'yearRange' => '1980:'.date('Y'), 'maxDate' => '+0d']])?>
+    <?= $form->field($model, 'participation')->widget(DatePicker::className(),['dateFormat' => 'yyyy-MM-dd', 'options' => ['readonly' => true], 'clientOptions' => [ 'changeMonth' => true, 'changeYear' => true, 'yearRange' => '1980:'.date('Y'), 'maxDate' => '+0d']])->label('Uzsākšanas datums: ')?>
 
     <?= $form->field($model, 'user_id')->hiddenInput()->label(false); ?>
 
-    <?= Html::DropDownList('namo', 'formo', $names) ?>
+    <p><b>Lietotājs:</b><p>
+
+    <?= Html::DropDownList('Lietotāji', 'formo', $names) ?>
     <p></p>
     <div class="form-group">
         <?= Html::submitButton('Save', ['class' => 'btn btn-success']) ?>
