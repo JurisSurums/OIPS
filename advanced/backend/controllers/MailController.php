@@ -44,12 +44,16 @@ Yii::$app->mailer->compose($type, ['data' => $data])
             exit;*/
             foreach ($recepiants as $r)
             {
-                Yii::$app->mailer->compose('@backend/web/emails/'.$post['Mailo']['temats'])
-                    ->setFrom($this->from)
-                    ->setTo($r["email"])
-                    ->setSubject($post['Mailo']['temats'])
-                    ->send();
+                if ($r['status']==10)
+                {
+                    Yii::$app->mailer->compose('@backend/web/emails/'.$post['Mailo']['temats'])
+                        ->setFrom($this->from)
+                        ->setTo($r["email"])
+                        ->setSubject($post['Mailo']['temats'])
+                        ->send();
+                }
             }
+            Yii::$app->session->setFlash('success', 'Epasts tika nosūtīts.');
         }
         return $this->render('upload', ['model' => $model]);
     }

@@ -16,6 +16,7 @@ use yii\web\Response;
 
 class PostController extends Controller
 {
+    // CRUD funkcionalitāte un piekļuve adminam, kā arī šeit tiek delete definēts ar post metodi
     public function behaviors(): array
     {
         return [

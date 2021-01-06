@@ -76,7 +76,9 @@ class OrkdataController extends Controller
         {
             $back = Yii::$app->request->post();
             $instrId = $back["Orkdata"]["instrument"];
-            $val = (int)$back['namo'];
+            /*var_dump($back);
+            exit();*/
+            $val = (int)$back['Lietotāji'];
             $back["Orkdata"]["instrument"] = $items[$instrId];
             $UserId = $users->findById($val);
             $back["Orkdata"]["user_id"] = (string)$UserId;

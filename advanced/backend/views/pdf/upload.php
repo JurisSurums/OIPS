@@ -3,7 +3,7 @@
 /* @var $this yii\web\View */
 $this->title = 'pdf upload';
 ?>
-    <h1>Upload pdf file</h1>
+    <h1>Augšupielādēt pdf failu</h1>
 
 <?php
 use yii\bootstrap\ActiveForm;
@@ -36,7 +36,7 @@ exit();*/
 
 <?php $form = ActiveForm::begin(['options' => ['enctype' => 'multipart/form-data']]) ?>
 
-<?= $form->field($model, 'pdfFile[]')->fileInput(['multiple' => true]); ?>
+<?= $form->field($model, 'pdfFile[]')->fileInput(['multiple' => true])->label("Spied pogu apakš, lai augšupielādētu failu sistēmā"); ?>
 
 <?= Html::DropDownList('namo', 'formo', $allFiles) ?>
 <?= Html::hiddenInput('dire', $prefix) ?>
