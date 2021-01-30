@@ -1,14 +1,12 @@
 <h2>The system uses:</h2>
 
-<b>
-Ubuntu 20_04
+<b>Ubuntu 20_04</b>
         
-apache2
+<b>apache2</b>
 
-Mysql 8
+<b>Mysql 8</b>
 
-PHP 7.4
-</b>
+<b>PHP 7.4</b>
 
 <br>
 1. Download this git repository from: https://github.com/JurisSurums/OIPS and place it in the web root directory (var/www/)
