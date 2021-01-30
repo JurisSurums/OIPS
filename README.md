@@ -49,7 +49,9 @@ VirtualHost:
     </VirtualHost>
 
 in "host" file:
+
 127.0.0.1	OIPS.ork
+
 127.0.0.1	dev.OIPS.ork
 
 from Yii2 documentation:
