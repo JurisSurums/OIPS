@@ -1,8 +1,11 @@
 <h2>The system uses:</h2>
 
 <b>Ubuntu 20_04</b>
+
 <b>Apache2</b>
+
 <b>Mysql 8</b>
+
 <b>PHP 7.4</b>
 
 <br>
