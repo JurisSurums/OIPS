@@ -61,7 +61,7 @@ in "host" file:
 
 127.0.0.1	dev.OIPS.ork
 
-from Yii2 documentation: https://www.yiiframework.com/extension/yiisoft/yii2-app-advanced/doc/guide/2.0/en/start-installation
+Yii2 setup documentation: https://www.yiiframework.com/extension/yiisoft/yii2-app-advanced/doc/guide/2.0/en/start-installation
 
 3. Run the command "composer update" in the project root directory (var/www/advanced/OIPS)
 
