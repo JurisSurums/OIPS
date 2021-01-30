@@ -2,7 +2,9 @@
 <b>Ubuntu 20_04
         
 apache2
+
 Mysql 8
+
 PHP 7.4
 </b>
 <br>
