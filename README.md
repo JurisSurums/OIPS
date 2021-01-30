@@ -9,7 +9,8 @@
 
 <li><b>PHP 7.4</b></li>
 </ul>
-1. Download git repository from: https://github.com/JurisSurums/OIPS and place it in the web root directory (var/www/)
+
+  1. Download git repository from: https://github.com/JurisSurums/OIPS and place it in the web root directory (var/www/)
         
 2. Create a virtual host .conf file (books.conf) in etc/apache2/sites-available and change the "host" file in /etc after that run the command a2ensite and restart apache2 (sudo systemctl restart apache2)
 
