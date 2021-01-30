@@ -55,10 +55,15 @@ in "host" file:
 127.0.0.1	dev.OIPS.ork
 
 from Yii2 documentation:
+
 https://www.yiiframework.com/extension/yiisoft/yii2-app-advanced/doc/guide/2.0/en/start-installation
-4. Restartēt apache
-5. Palaist "composer update" sistēmas root direktorijā
-6. Palaist komandu "php init" sistēmas root direktorijā
-7. Izveidot symlinku no OIPS->advanced->backend->web->uploads uz OIPS->advanced->frontend->web
-8. palaist komandu "composer require --prefer-dist yiisoft/yii2-jui" sistēmas root direktorijā
-9. palaist komandu "php yii migrate"
+
+3. Run the command "composer update" in the project root directory (var/www/advanced/OIPS)
+
+4. Palaist komandu "php init" sistēmas root direktorijā
+
+5. Izveidot symlinku no OIPS->advanced->backend->web->uploads uz OIPS->advanced->frontend->web
+
+6. palaist komandu "composer require --prefer-dist yiisoft/yii2-jui" sistēmas root direktorijā
+
+<b> 7. palaist komandu "php yii migrate" </b>
