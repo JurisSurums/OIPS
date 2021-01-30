@@ -1,5 +1,6 @@
 <h2>The system uses:</h2>
-<b>Ubuntu 20_04
+<b>
+Ubuntu 20_04
         
 apache2
 
