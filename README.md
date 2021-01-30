@@ -8,7 +8,7 @@
 <li><b>Mysql 8</b></li>
 
 <li><b>PHP 7.4</b></li>
-<ul>
+</ul>
 <br>
 1. Download git repository from: https://github.com/JurisSurums/OIPS and place it in the web root directory (var/www/)
         
